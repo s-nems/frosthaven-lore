@@ -24,10 +24,7 @@
         body::before {
             content: '';
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            top: 0; left: 0; right: 0; bottom: 0;
             background:
                 url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0 L60 30 L30 60 L0 30Z' fill='none' stroke='rgba(100,140,180,0.03)' stroke-width='0.5'/%3E%3C/svg%3E") repeat;
             pointer-events: none;
@@ -42,10 +39,7 @@
             z-index: 1;
         }
 
-        header {
-            text-align: center;
-            margin-bottom: 2.5rem;
-        }
+        header { text-align: center; margin-bottom: 2.5rem; }
 
         .logo-frame {
             display: inline-block;
@@ -55,180 +49,175 @@
             position: relative;
             background: linear-gradient(135deg, rgba(15, 25, 40, 0.8), rgba(10, 15, 25, 0.9));
         }
-
-        .logo-frame::before,
-        .logo-frame::after {
-            content: '◆';
-            position: absolute;
-            color: rgba(100, 140, 180, 0.3);
-            font-size: 0.7rem;
+        .logo-frame::before, .logo-frame::after {
+            content: '◆'; position: absolute;
+            color: rgba(100, 140, 180, 0.3); font-size: 0.7rem;
         }
-
         .logo-frame::before { top: -0.4rem; left: 50%; transform: translateX(-50%); }
         .logo-frame::after { bottom: -0.4rem; left: 50%; transform: translateX(-50%); }
 
         h1 {
             font-family: 'Cinzel Decorative', serif;
-            font-size: 2rem;
-            font-weight: 700;
-            color: #8eb8d8;
-            letter-spacing: 0.15em;
+            font-size: 2rem; font-weight: 700;
+            color: #8eb8d8; letter-spacing: 0.15em;
             text-shadow: 0 0 30px rgba(100, 160, 220, 0.15);
         }
-
         .subtitle {
-            font-family: 'Cinzel', serif;
-            color: #5a6a7a;
-            font-size: 0.8rem;
-            letter-spacing: 0.3em;
-            text-transform: uppercase;
-            margin-top: 0.5rem;
+            font-family: 'Cinzel', serif; color: #5a6a7a;
+            font-size: 0.8rem; letter-spacing: 0.3em;
+            text-transform: uppercase; margin-top: 0.5rem;
         }
-
-        /* Snowflake decorations */
         .snowflakes {
             color: rgba(100, 140, 180, 0.15);
-            font-size: 0.6rem;
-            letter-spacing: 1em;
-            text-align: center;
-            margin: 1.5rem 0;
+            font-size: 0.6rem; letter-spacing: 1em;
+            text-align: center; margin: 1.5rem 0;
         }
 
         /* Tabs */
         .tabs {
-            display: flex;
-            gap: 0;
-            margin-bottom: 0;
+            display: flex; gap: 0; margin-bottom: 0;
             border-bottom: 1px solid rgba(100, 140, 180, 0.15);
         }
-
         .tab {
-            flex: 1;
-            padding: 1rem 1.5rem;
-            text-align: center;
-            font-family: 'Cinzel', serif;
-            font-size: 0.95rem;
-            letter-spacing: 0.1em;
-            color: #5a6a7a;
-            cursor: pointer;
-            border: 1px solid transparent;
-            border-bottom: none;
-            border-radius: 6px 6px 0 0;
-            transition: all 0.3s ease;
-            background: transparent;
-            user-select: none;
+            flex: 1; padding: 1rem 1.5rem; text-align: center;
+            font-family: 'Cinzel', serif; font-size: 0.95rem;
+            letter-spacing: 0.1em; color: #5a6a7a; cursor: pointer;
+            border: 1px solid transparent; border-bottom: none;
+            border-radius: 6px 6px 0 0; transition: all 0.3s ease;
+            background: transparent; user-select: none;
         }
-
-        .tab:hover {
-            color: #8eb8d8;
-            background: rgba(40, 70, 100, 0.1);
-        }
-
+        .tab:hover { color: #8eb8d8; background: rgba(40, 70, 100, 0.1); }
         .tab.active {
-            color: #a8d0f0;
-            background: rgba(20, 35, 55, 0.6);
+            color: #a8d0f0; background: rgba(20, 35, 55, 0.6);
             border-color: rgba(100, 140, 180, 0.15);
             border-bottom-color: #0d1117;
-            position: relative;
-            bottom: -1px;
+            position: relative; bottom: -1px;
         }
-
-        .tab-icon {
-            display: block;
-            font-size: 1.3rem;
-            margin-bottom: 0.3rem;
-        }
-
-        .tab-content {
-            display: none;
-            padding-top: 2rem;
-            animation: fadeIn 0.4s ease;
-        }
-
-        .tab-content.active {
-            display: block;
-        }
+        .tab-icon { display: block; font-size: 1.3rem; margin-bottom: 0.3rem; }
+        .tab-content { display: none; padding-top: 2rem; animation: fadeIn 0.4s ease; }
+        .tab-content.active { display: block; }
 
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(8px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
+        /* Timeline */
+        .timeline { position: relative; padding-left: 2rem; }
+        .timeline::before {
+            content: ''; position: absolute;
+            left: 0.45rem; top: 0.5rem; bottom: 0.5rem;
+            width: 2px;
+            background: linear-gradient(to bottom, rgba(100, 140, 180, 0.3), rgba(100, 140, 180, 0.05));
+        }
+        .timeline-marker {
+            position: absolute; left: -1.65rem; top: 1.6rem;
+            width: 12px; height: 12px; border-radius: 50%;
+            background: #1a3a5a; border: 2px solid #4a8ab8; z-index: 2;
+        }
+        .timeline-date {
+            font-family: 'Cinzel', serif; font-size: 0.8rem;
+            color: #5a8aaa; letter-spacing: 0.08em; margin-bottom: 0.3rem;
+        }
+
         /* Scenarios */
         .scenario {
-            margin-bottom: 2rem;
-            padding: 1.5rem 1.8rem;
+            margin-bottom: 2.5rem; padding: 1.5rem 1.8rem;
             border-radius: 6px;
             background: linear-gradient(135deg, rgba(18, 28, 42, 0.7), rgba(12, 18, 28, 0.8));
             border: 1px solid rgba(100, 140, 180, 0.08);
-            position: relative;
-            transition: border-color 0.3s ease;
+            position: relative; transition: border-color 0.3s ease;
+        }
+        .scenario:hover { border-color: rgba(100, 140, 180, 0.2); }
+        .scenario.available {
+            background: linear-gradient(135deg, rgba(28, 22, 18, 0.7), rgba(18, 14, 12, 0.8));
+            border-color: rgba(180, 120, 80, 0.1);
+        }
+        .scenario.available:hover { border-color: rgba(180, 120, 80, 0.25); }
+
+        .scenario-header {
+            display: flex; align-items: center; justify-content: space-between;
+            margin-bottom: 1rem; padding-bottom: 0.6rem;
+            border-bottom: 1px solid rgba(100, 140, 180, 0.08);
+            flex-wrap: wrap; gap: 0.5rem;
+        }
+        .scenario h3 {
+            font-family: 'Cinzel', serif; font-size: 1.15rem;
+            font-weight: 700; color: #b8a878; margin: 0;
+        }
+        .scenario-meta {
+            display: flex; gap: 0.5rem; align-items: center;
         }
 
-        .scenario:hover {
-            border-color: rgba(100, 140, 180, 0.2);
+        .difficulty-badge {
+            font-family: 'Cinzel', serif; font-size: 0.7rem;
+            padding: 0.2rem 0.6rem; border-radius: 3px;
+            letter-spacing: 0.08em; white-space: nowrap;
+        }
+        .difficulty-badge.easy {
+            color: #7aaa7a; background: rgba(80, 140, 80, 0.12);
+            border: 1px solid rgba(80, 140, 80, 0.2);
+        }
+        .difficulty-badge.medium {
+            color: #aaaa5a; background: rgba(140, 140, 60, 0.12);
+            border: 1px solid rgba(140, 140, 60, 0.2);
+        }
+        .difficulty-badge.hard {
+            color: #aa6a5a; background: rgba(160, 80, 60, 0.12);
+            border: 1px solid rgba(160, 80, 60, 0.2);
         }
 
-        .scenario-number {
-            position: absolute;
-            top: 1rem;
-            right: 1.2rem;
-            font-family: 'Cinzel', serif;
-            font-size: 0.75rem;
-            color: rgba(100, 140, 180, 0.25);
+        .location {
+            font-family: 'Cinzel', serif; font-size: 0.7rem;
+            padding: 0.2rem 0.6rem; border-radius: 3px;
+            color: #7a8aaa; background: rgba(80, 100, 140, 0.12);
+            border: 1px solid rgba(80, 100, 140, 0.2);
+            letter-spacing: 0.08em; white-space: nowrap;
+        }
+
+        .narrative h4 {
+            font-family: 'Cinzel', serif; font-size: 0.9rem;
+            color: #8a9aaa; margin: 1.2rem 0 0.5rem 0;
             letter-spacing: 0.05em;
         }
-
-        .scenario h3 {
-            font-family: 'Cinzel', serif;
-            font-size: 1.15rem;
-            font-weight: 700;
-            color: #b8a878;
-            margin-bottom: 1rem;
-            padding-bottom: 0.6rem;
-            border-bottom: 1px solid rgba(180, 160, 120, 0.1);
-        }
+        .narrative h4:first-child { margin-top: 0; }
 
         .narrative p {
-            margin-bottom: 0.9rem;
-            text-align: justify;
-            hyphens: auto;
+            margin-bottom: 0.9rem; text-align: justify; hyphens: auto;
+        }
+        .narrative p:last-child { margin-bottom: 0; }
+
+        .narrative ul {
+            margin: 0.5rem 0 0.9rem 1.2rem;
+            list-style: none;
+        }
+        .narrative ul li {
+            position: relative; padding-left: 1rem; margin-bottom: 0.3rem;
+        }
+        .narrative ul li::before {
+            content: '›'; position: absolute; left: 0;
+            color: #5a7a9a; font-weight: bold;
         }
 
-        .narrative p:last-child {
-            margin-bottom: 0;
+        .scenario-image {
+            margin-top: 1.2rem; border-radius: 6px; overflow: hidden;
+            border: 1px solid rgba(100, 140, 180, 0.1);
         }
+        .scenario-image img {
+            width: 100%; height: auto; display: block;
+            opacity: 0.9; transition: opacity 0.3s ease;
+        }
+        .scenario-image img:hover { opacity: 1; }
 
         .empty {
-            color: #4a5a6a;
-            font-style: italic;
-            text-align: center;
-            padding: 2rem;
-        }
-
-        /* Divider between scenarios */
-        .scenario + .scenario::before {
-            content: '· · ·';
-            display: block;
-            text-align: center;
-            color: rgba(100, 140, 180, 0.15);
-            font-size: 0.8rem;
-            letter-spacing: 0.5em;
-            position: absolute;
-            top: -1.2rem;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #0d1117;
-            padding: 0 1rem;
+            color: #4a5a6a; font-style: italic;
+            text-align: center; padding: 2rem;
         }
 
         footer {
-            text-align: center;
-            color: #2a3a4a;
-            font-family: 'Cinzel', serif;
-            font-size: 0.7rem;
-            letter-spacing: 0.15em;
-            margin-top: 3rem;
+            text-align: center; color: #2a3a4a;
+            font-family: 'Cinzel', serif; font-size: 0.7rem;
+            letter-spacing: 0.15em; margin-top: 3rem;
             padding-top: 1.5rem;
             border-top: 1px solid rgba(100, 140, 180, 0.08);
         }
@@ -240,6 +229,8 @@
             .tab { padding: 0.8rem 0.5rem; font-size: 0.8rem; }
             .tab-icon { font-size: 1.1rem; }
             .scenario { padding: 1.2rem; }
+            .timeline { padding-left: 1.5rem; }
+            .timeline-marker { left: -1.15rem; }
         }
     </style>
 </head>
@@ -265,20 +256,44 @@
         </div>
 
         <div id="tab-lore" class="tab-content active">
-            
-            <article class="scenario">
-                <div class="scenario-number">#0</div>
-                <h3>Skowyt w śniegu</h3>
-                <div class="narrative"><p>Drużyna najemników dotarła do Frosthaven — odległej osady na krańcach północy. Powitanie nie było jednak spokojne. Zanim zdążyli rozgościć się w nowym miejscu, okolicę przeszył przejmujący skowyt. Z zamieci wyłoniło się stado wilków, wygłodniałych i agresywnych, atakujących bez wahania.</p><p>Walka w śnieżnej zawiei była brutalna. Wilki były desperackie — musiały być niesamowicie głodne, skoro przemierzyły tak długą drogę aż do Frosthaven. To nie był zwykły łowiecki rajd. Coś musiało wypędzić je z ich terytoriów.</p><p>Po odparciu stada drużyna odkryła w śniegu świeże ślady prowadzące na północ. Cokolwiek pędziło te bestie w stronę osady, wciąż tam było. Frosthaven przetrwało ten atak, ale mieszkańcy patrzyli na siebie z niepokojem — to był dopiero początek kłopotów.</p></div>
+            <div class="timeline">
+                
+            <article class="scenario completed">
+                <div class="timeline-marker"></div>
+                <div class="timeline-date">2 marca 2026</div>
+                <div class="scenario-header">
+                    <h3>#0 Skowyt w śniegu</h3>
+                    <span class="difficulty-badge easy">Łatwy</span>
+                </div>
+                <div class="narrative"><p>Maszerujecie przez Mroźne Pustkowia od dziesięciu dni. Wiatr wbija w was swoje szpony, śnieg sięga pasa, każdy oddech kosztuje. Jesteście najemnikami wynajętymi jako pierwsza grupa wsparcia wysłana do Frosthaven, małej osady na końcu świata, odciętej od imperium przez większość roku. Śnieg stopniał na tyle, by przejść przez Imperialną Przełęcz, a wasze sakiewki były puste. Więc oto jesteście.</p>
+<p>W nocy zaczęły wyć wilki. To był sygnał. Stado wiedziało, że jesteście blisko, i zebrało się, by śledzić karawanę i czekać na moment słabości. Najwolniejszych, najstarszych, tych miały zaatakować pierwsze.</p>
+<p>Nie daliście im tej szansy. Stanęliście do walki i pokazaliście bestiom, że nie jesteście zdobyczą. Walka w zamieci była brutalna, ale krótka.</p>
+<p>Gdy znaczna część stada padła, reszta wycofała się na białe pustkowia. Nikt nie świętuje, nie ma na to czasu ani sił. Niektórzy członkowie karawany kiwają głowami w milczącym podziękowaniu. Musicie jeszcze pokonać jeden grzbiet przed zmrokiem, a jesteście już potwornie zmęczeni. To brutalne miejsce nie wygrało dzisiaj, ale zawsze jest jeszcze jakieś jutro.</p>
+<p>Cel: wyeliminowanie wszystkich wrogów na planszy. Scenariusz wprowadzający, rozgrywany na drodze do Frosthaven.</p></div>
+                <div class="scenario-image"><img src="images/scenario_000.png" alt="Skowyt w śniegu" loading="lazy"></div>
             </article>
+            </div>
         </div>
 
         <div id="tab-available" class="tab-content">
             
-            <article class="scenario">
-                <div class="scenario-number">#1</div>
-                <h3>Miasto w płomieniach</h3>
-                <div class="narrative"><p>Frosthaven stoi w obliczu nowego zagrożenia. Na horyzoncie widać łuny ognia, a mieszkańcy donoszą o ataku na osadę. Drużyna musi stanąć w obronie miasta, zanim płomienie pochłoną to, co z takim trudem zbudowano na mroźnej północy.</p></div>
+            <article class="scenario available">
+                <div class="scenario-header">
+                    <h3>#1 Miasto w płomieniach</h3>
+                    <div class="scenario-meta"><span class="location">Frosthaven</span><span class="difficulty-badge easy">Łatwy</span></div>
+                </div>
+                <div class="narrative"><p>Dziesięć dni marszu przez Mroźne Pustkowia. Dziesięć dni głodu, wiatru i wilków. A na końcu drogi czeka was widok, którego nikt nie chciał zobaczyć. Frosthaven płonie. Przez zrujnowaną bramę uciekają przerażeni mieszkańcy, a za nimi majaczy sylwetka czegoś ogromnego, pokrytego białym futrem, z trzema rogami na głowie. Algoksy. Nie po to przeszliście Imperialną Przełęcz, żeby teraz się wycofać.</p>
+<h4>Cel</h4>
+<p>Wyeliminować wszystkich wrogów na planszy.</p>
+<h4>Przeciwnicy</h4>
+<p>Algoks Kapłan · Algoks Łucznik · Algoks Strażnik. Strażnicy Miejscy walczą po waszej stronie jako sojusznicy.</p>
+<h4>Zasady specjalne</h4>
+<ul>
+<li>Strażnicy Miejscy są sojusznikami graczy, nie wykonują tur, ale mają dodatkową obronę (🛡️2) i odwet (🗡️2), inicjatywa 50</li>
+</ul>
+<h4>Łupy</h4>
+<p>8 monet · 2 drewno · 2 metal · 2 skóra</p></div>
+                <div class="scenario-image"><img src="images/scenario_001.png" alt="Miasto w płomieniach" loading="lazy"></div>
             </article>
         </div>
 
@@ -291,7 +306,6 @@
         function switchTab(tab) {
             document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
             document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-
             if (tab === 'lore') {
                 document.querySelector('.tab:first-child').classList.add('active');
                 document.getElementById('tab-lore').classList.add('active');
