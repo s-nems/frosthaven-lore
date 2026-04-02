@@ -1,289 +1,511 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kronika Frosthaven</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kronika Frosthaven</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg: #090d13;
+      --bg-card: rgba(14, 22, 34, 0.85);
+      --bg-card-warm: rgba(24, 18, 14, 0.85);
+      --text: #d0c8b8;
+      --text-muted: #5a6a7a;
+      --accent-ice: #6ab4e8;
+      --accent-gold: #d4a857;
+      --accent-warm: #c48a5a;
+      --border: rgba(100, 140, 180, 0.1);
+      --border-warm: rgba(180, 120, 80, 0.12);
+      --radius: 10px;
+      --font-display: 'Cinzel Decorative', serif;
+      --font-ui: 'Cinzel', serif;
+      --font-body: 'Crimson Text', Georgia, serif;
+    }
 
-        body {
-            background-color: #0d1117;
-            color: #d4cbb8;
-            font-family: 'Crimson Text', Georgia, serif;
-            font-size: 1.05rem;
-            line-height: 1.75;
-            min-height: 100vh;
-            background-image:
-                radial-gradient(ellipse at top, rgba(40, 80, 120, 0.15) 0%, transparent 60%),
-                radial-gradient(ellipse at bottom, rgba(20, 40, 60, 0.1) 0%, transparent 60%);
-        }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 1.05rem;
+      line-height: 1.75;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
 
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background:
-                url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0 L60 30 L30 60 L0 30Z' fill='none' stroke='rgba(100,140,180,0.03)' stroke-width='0.5'/%3E%3C/svg%3E") repeat;
-            pointer-events: none;
-            z-index: 0;
-        }
+    /* Subtle background texture */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background:
+        radial-gradient(ellipse at 30% 0%, rgba(50, 100, 160, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 70% 100%, rgba(30, 60, 100, 0.06) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: 0;
+    }
 
-        .container {
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 2.5rem 1.5rem;
-            position: relative;
-            z-index: 1;
-        }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+      position: relative;
+      z-index: 1;
+    }
 
-        header { text-align: center; margin-bottom: 2.5rem; }
+    /* ── Header ── */
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding: 2rem 0;
+    }
 
-        .logo-frame {
-            display: inline-block;
-            padding: 1.5rem 3rem;
-            border: 1px solid rgba(100, 140, 180, 0.2);
-            border-radius: 4px;
-            position: relative;
-            background: linear-gradient(135deg, rgba(15, 25, 40, 0.8), rgba(10, 15, 25, 0.9));
-        }
-        .logo-frame::before, .logo-frame::after {
-            content: '◆'; position: absolute;
-            color: rgba(100, 140, 180, 0.3); font-size: 0.7rem;
-        }
-        .logo-frame::before { top: -0.4rem; left: 50%; transform: translateX(-50%); }
-        .logo-frame::after { bottom: -0.4rem; left: 50%; transform: translateX(-50%); }
+    .logo {
+      display: inline-block;
+      padding: 1.2rem 2.5rem;
+      border: 1px solid rgba(106, 180, 232, 0.15);
+      border-radius: 4px;
+      position: relative;
+      background: linear-gradient(135deg, rgba(12, 20, 35, 0.9), rgba(8, 12, 22, 0.95));
+      box-shadow: 0 0 40px rgba(106, 180, 232, 0.04);
+    }
+    .logo::before, .logo::after {
+      content: '◆'; position: absolute;
+      color: rgba(106, 180, 232, 0.2); font-size: 0.6rem;
+    }
+    .logo::before { top: -0.35rem; left: 50%; transform: translateX(-50%); }
+    .logo::after { bottom: -0.35rem; left: 50%; transform: translateX(-50%); }
 
-        h1 {
-            font-family: 'Cinzel Decorative', serif;
-            font-size: 2rem; font-weight: 700;
-            color: #8eb8d8; letter-spacing: 0.15em;
-            text-shadow: 0 0 30px rgba(100, 160, 220, 0.15);
-        }
-        .subtitle {
-            font-family: 'Cinzel', serif; color: #5a6a7a;
-            font-size: 0.8rem; letter-spacing: 0.3em;
-            text-transform: uppercase; margin-top: 0.5rem;
-        }
-        .snowflakes {
-            color: rgba(100, 140, 180, 0.15);
-            font-size: 0.6rem; letter-spacing: 1em;
-            text-align: center; margin: 1.5rem 0;
-        }
+    h1 {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--accent-ice);
+      letter-spacing: 0.18em;
+      text-shadow: 0 0 30px rgba(106, 180, 232, 0.12);
+    }
+    .subtitle {
+      font-family: var(--font-ui);
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      margin-top: 0.5rem;
+    }
 
-        /* Tabs */
-        .tabs {
-            display: flex; gap: 0; margin-bottom: 0;
-            border-bottom: 1px solid rgba(100, 140, 180, 0.15);
-        }
-        .tab {
-            flex: 1; padding: 1rem 1.5rem; text-align: center;
-            font-family: 'Cinzel', serif; font-size: 0.95rem;
-            letter-spacing: 0.1em; color: #5a6a7a; cursor: pointer;
-            border: 1px solid transparent; border-bottom: none;
-            border-radius: 6px 6px 0 0; transition: all 0.3s ease;
-            background: transparent; user-select: none;
-        }
-        .tab:hover { color: #8eb8d8; background: rgba(40, 70, 100, 0.1); }
-        .tab.active {
-            color: #a8d0f0; background: rgba(20, 35, 55, 0.6);
-            border-color: rgba(100, 140, 180, 0.15);
-            border-bottom-color: #0d1117;
-            position: relative; bottom: -1px;
-        }
-        .tab-icon { display: block; font-size: 1.3rem; margin-bottom: 0.3rem; }
-        .tab-content { display: none; padding-top: 2rem; animation: fadeIn 0.4s ease; }
-        .tab-content.active { display: block; }
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      gap: 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: var(--bg);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(8px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+    .tab {
+      flex: 1;
+      padding: 1rem 1rem;
+      text-align: center;
+      font-family: var(--font-ui);
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      cursor: pointer;
+      border: none;
+      border-bottom: 2px solid transparent;
+      background: transparent;
+      transition: color 0.25s, border-color 0.25s, background 0.25s;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .tab:hover { color: var(--accent-ice); }
+    .tab.active {
+      color: var(--accent-ice);
+      border-bottom-color: var(--accent-ice);
+      background: rgba(106, 180, 232, 0.04);
+    }
+    .tab__icon { margin-right: 0.5rem; }
 
-        /* Timeline */
-        .timeline { position: relative; padding-left: 2rem; }
-        .timeline::before {
-            content: ''; position: absolute;
-            left: 0.45rem; top: 0.5rem; bottom: 0.5rem;
-            width: 2px;
-            background: linear-gradient(to bottom, rgba(100, 140, 180, 0.3), rgba(100, 140, 180, 0.05));
-        }
-        .timeline-marker {
-            position: absolute; left: -1.65rem; top: 1.6rem;
-            width: 12px; height: 12px; border-radius: 50%;
-            background: #1a3a5a; border: 2px solid #4a8ab8; z-index: 2;
-        }
-        .timeline-date {
-            font-family: 'Cinzel', serif; font-size: 0.8rem;
-            color: #5a8aaa; letter-spacing: 0.08em; margin-bottom: 0.3rem;
-        }
+    .tab-content {
+      display: none;
+      padding-top: 2rem;
+    }
+    .tab-content.active {
+      display: block;
+      animation: fadeUp 0.35s ease-out;
+    }
 
-        /* Scenarios */
-        .scenario {
-            margin-bottom: 2.5rem; padding: 1.5rem 1.8rem;
-            border-radius: 6px;
-            background: linear-gradient(135deg, rgba(18, 28, 42, 0.7), rgba(12, 18, 28, 0.8));
-            border: 1px solid rgba(100, 140, 180, 0.08);
-            position: relative; transition: border-color 0.3s ease;
-        }
-        .scenario:hover { border-color: rgba(100, 140, 180, 0.2); }
-        .scenario.available {
-            background: linear-gradient(135deg, rgba(28, 22, 18, 0.7), rgba(18, 14, 12, 0.8));
-            border-color: rgba(180, 120, 80, 0.1);
-        }
-        .scenario.available:hover { border-color: rgba(180, 120, 80, 0.25); }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
 
-        .scenario-header {
-            display: flex; align-items: center; justify-content: space-between;
-            margin-bottom: 1rem; padding-bottom: 0.6rem;
-            border-bottom: 1px solid rgba(100, 140, 180, 0.08);
-            flex-wrap: wrap; gap: 0.5rem;
-        }
-        .scenario h3 {
-            font-family: 'Cinzel', serif; font-size: 1.15rem;
-            font-weight: 700; color: #b8a878; margin: 0;
-        }
-        .scenario-meta {
-            display: flex; gap: 0.5rem; align-items: center;
-        }
+    /* ── Cards (shared) ── */
+    .card {
+      margin-bottom: 2rem;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      border-color: rgba(106, 180, 232, 0.2);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    }
 
-        .difficulty-badge {
-            font-family: 'Cinzel', serif; font-size: 0.7rem;
-            padding: 0.2rem 0.6rem; border-radius: 3px;
-            letter-spacing: 0.08em; white-space: nowrap;
-        }
-        .difficulty-badge.easy {
-            color: #7aaa7a; background: rgba(80, 140, 80, 0.12);
-            border: 1px solid rgba(80, 140, 80, 0.2);
-        }
-        .difficulty-badge.medium {
-            color: #aaaa5a; background: rgba(140, 140, 60, 0.12);
-            border: 1px solid rgba(140, 140, 60, 0.2);
-        }
-        .difficulty-badge.hard {
-            color: #aa6a5a; background: rgba(160, 80, 60, 0.12);
-            border: 1px solid rgba(160, 80, 60, 0.2);
-        }
+    .card--available {
+      background: var(--bg-card-warm);
+      border-color: var(--border-warm);
+    }
+    .card--available:hover {
+      border-color: rgba(196, 138, 90, 0.3);
+    }
 
-        .location {
-            font-family: 'Cinzel', serif; font-size: 0.7rem;
-            padding: 0.2rem 0.6rem; border-radius: 3px;
-            color: #7a8aaa; background: rgba(80, 100, 140, 0.12);
-            border: 1px solid rgba(80, 100, 140, 0.2);
-            letter-spacing: 0.08em; white-space: nowrap;
-        }
+    /* ── Card hero image ── */
+    .card__hero {
+      position: relative;
+      overflow: hidden;
+      aspect-ratio: 16 / 9;
+    }
+    .card__hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+    .card:hover .card__hero img {
+      transform: scale(1.03);
+    }
+    .card__hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(9, 13, 19, 0.9) 0%, rgba(9, 13, 19, 0.2) 50%, transparent 100%);
+      display: flex;
+      align-items: flex-end;
+      padding: 1rem 1.5rem;
+      gap: 1rem;
+    }
+    .card__hero-number {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      color: var(--accent-gold);
+      font-weight: 700;
+    }
+    .card__date {
+      font-family: var(--font-ui);
+      font-size: 0.78rem;
+      color: rgba(208, 200, 184, 0.6);
+      letter-spacing: 0.06em;
+    }
 
-        .narrative h4 {
-            font-family: 'Cinzel', serif; font-size: 0.9rem;
-            color: #8a9aaa; margin: 1.2rem 0 0.5rem 0;
-            letter-spacing: 0.05em;
-        }
-        .narrative h4:first-child { margin-top: 0; }
+    /* ── Card body ── */
+    .card__body {
+      padding: 1.5rem 1.8rem;
+    }
 
-        .narrative p {
-            margin-bottom: 0.9rem; text-align: justify; hyphens: auto;
-        }
-        .narrative p:last-child { margin-bottom: 0; }
+    .card__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
 
-        .narrative ul {
-            margin: 0.5rem 0 0.9rem 1.2rem;
-            list-style: none;
-        }
-        .narrative ul li {
-            position: relative; padding-left: 1rem; margin-bottom: 0.3rem;
-        }
-        .narrative ul li::before {
-            content: '›'; position: absolute; left: 0;
-            color: #5a7a9a; font-weight: bold;
-        }
+    .card__title {
+      font-family: var(--font-ui);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--accent-gold);
+      margin: 0;
+    }
 
-        .scenario-image {
-            margin-top: 1.2rem; border-radius: 6px; overflow: hidden;
-            border: 1px solid rgba(100, 140, 180, 0.1);
-        }
-        .scenario-image img {
-            width: 100%; height: auto; display: block;
-            opacity: 0.9; transition: opacity 0.3s ease;
-        }
-        .scenario-image img:hover { opacity: 1; }
+    .card__badges {
+      display: flex;
+      gap: 0.4rem;
+      align-items: center;
+    }
 
-        .empty {
-            color: #4a5a6a; font-style: italic;
-            text-align: center; padding: 2rem;
-        }
+    .card__meta {
+      margin-bottom: 0.8rem;
+    }
 
-        footer {
-            text-align: center; color: #2a3a4a;
-            font-family: 'Cinzel', serif; font-size: 0.7rem;
-            letter-spacing: 0.15em; margin-top: 3rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid rgba(100, 140, 180, 0.08);
-        }
+    /* ── Badges ── */
+    .badge {
+      font-family: var(--font-ui);
+      font-size: 0.68rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+    .badge--easy {
+      color: #7ab87a;
+      background: rgba(80, 140, 80, 0.1);
+      border: 1px solid rgba(80, 140, 80, 0.2);
+    }
+    .badge--medium {
+      color: #b8b85a;
+      background: rgba(140, 140, 60, 0.1);
+      border: 1px solid rgba(140, 140, 60, 0.2);
+    }
+    .badge--hard {
+      color: #c86a5a;
+      background: rgba(180, 70, 50, 0.1);
+      border: 1px solid rgba(180, 70, 50, 0.2);
+    }
+    .badge--location {
+      color: #7a9aba;
+      background: rgba(80, 110, 150, 0.1);
+      border: 1px solid rgba(80, 110, 150, 0.2);
+    }
 
-        @media (max-width: 600px) {
-            .container { padding: 1.5rem 1rem; }
-            h1 { font-size: 1.4rem; letter-spacing: 0.1em; }
-            .logo-frame { padding: 1rem 1.5rem; }
-            .tab { padding: 0.8rem 0.5rem; font-size: 0.8rem; }
-            .tab-icon { font-size: 1.1rem; }
-            .scenario { padding: 1.2rem; }
-            .timeline { padding-left: 1.5rem; }
-            .timeline-marker { left: -1.15rem; }
-        }
-    </style>
+    /* ── Narrative text ── */
+    .narrative--lore p:first-of-type::first-letter {
+      font-family: var(--font-display);
+      font-size: 2.8em;
+      float: left;
+      line-height: 0.8;
+      margin: 0.05em 0.12em 0 0;
+      color: var(--accent-ice);
+    }
+
+    .card__narrative h4 {
+      font-family: var(--font-ui);
+      font-size: 0.85rem;
+      color: #8a9aaa;
+      letter-spacing: 0.05em;
+      margin: 1.2rem 0 0.4rem 0;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .card__narrative h4:first-child { margin-top: 0; }
+
+    .card__narrative p {
+      margin-bottom: 0.9rem;
+      text-align: justify;
+      hyphens: auto;
+    }
+    .card__narrative p:last-child { margin-bottom: 0; }
+
+    .card__narrative ul {
+      margin: 0.4rem 0 0.9rem 0;
+      list-style: none;
+      padding-left: 1rem;
+    }
+    .card__narrative ul li {
+      position: relative;
+      padding-left: 1rem;
+      margin-bottom: 0.25rem;
+    }
+    .card__narrative ul li::before {
+      content: '›';
+      position: absolute;
+      left: 0;
+      color: var(--accent-ice);
+      font-weight: bold;
+      opacity: 0.6;
+    }
+
+    /* ── Hook (available scenario intro) ── */
+    .card__hook {
+      margin-bottom: 0.8rem;
+    }
+    .card__hook p {
+      font-style: italic;
+      color: rgba(208, 200, 184, 0.85);
+    }
+
+    /* ── Details/expand for available scenarios ── */
+    .card__details {
+      border-top: 1px solid var(--border-warm);
+      margin-top: 0.5rem;
+    }
+    .card__details summary {
+      font-family: var(--font-ui);
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      color: var(--accent-warm);
+      cursor: pointer;
+      padding: 0.8rem 0 0.4rem;
+      user-select: none;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .card__details summary::before {
+      content: '▸';
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+    .card__details[open] summary::before {
+      transform: rotate(90deg);
+    }
+    .card__details summary::-webkit-details-marker { display: none; }
+
+    .card__technical {
+      padding-top: 0.4rem;
+    }
+    .card__technical h4 {
+      font-family: var(--font-ui);
+      font-size: 0.8rem;
+      color: #8a9aaa;
+      letter-spacing: 0.04em;
+      margin: 1rem 0 0.3rem;
+      text-transform: uppercase;
+    }
+    .card__technical h4:first-child { margin-top: 0.2rem; }
+    .card__technical p {
+      margin-bottom: 0.6rem;
+      font-size: 0.95rem;
+    }
+    .card__technical ul {
+      margin: 0.3rem 0 0.6rem 0;
+      list-style: none;
+      padding-left: 1rem;
+    }
+    .card__technical ul li {
+      position: relative;
+      padding-left: 1rem;
+      margin-bottom: 0.2rem;
+      font-size: 0.95rem;
+    }
+    .card__technical ul li::before {
+      content: '›';
+      position: absolute;
+      left: 0;
+      color: var(--accent-warm);
+      font-weight: bold;
+      opacity: 0.5;
+    }
+
+    /* ── Scroll reveal ── */
+    [data-reveal] {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+    [data-reveal].revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ── Empty state ── */
+    .empty {
+      color: var(--text-muted);
+      font-style: italic;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      color: #2a3644;
+      font-family: var(--font-ui);
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      margin-top: 3rem;
+      padding: 1.5rem 0;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Mobile ── */
+    @media (max-width: 680px) {
+      .container { padding: 1rem 0.8rem; }
+      h1 { font-size: 1.5rem; letter-spacing: 0.12em; }
+      .logo { padding: 1rem 1.5rem; }
+      .tab { padding: 0.8rem 0.5rem; font-size: 0.78rem; }
+      .card__body { padding: 1.2rem 1rem; }
+      .card__hero { aspect-ratio: 16 / 9; }
+      .card__hero-number { font-size: 1.1rem; }
+      .card__title { font-size: 1.05rem; }
+      .narrative--lore p:first-of-type::first-letter {
+        font-size: 2.4em;
+      }
+      .tabs {
+        position: sticky;
+        top: 0;
+      }
+    }
+
+    @media (max-width: 400px) {
+      h1 { font-size: 1.25rem; }
+      .card__body { padding: 1rem 0.8rem; }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="logo-frame">
-                <h1>FROSTHAVEN</h1>
-                <p class="subtitle">Kronika kampanii</p>
-            </div>
-            <div class="snowflakes">❄ ❄ ❄</div>
-        </header>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <h1>FROSTHAVEN</h1>
+        <p class="subtitle">Kronika kampanii</p>
+      </div>
+    </header>
 
-        <div class="tabs">
-            <div class="tab active" onclick="switchTab('lore')">
-                <span class="tab-icon">📜</span>
-                Historia
-            </div>
-            <div class="tab" onclick="switchTab('available')">
-                <span class="tab-icon">⚔️</span>
-                Dostępne scenariusze
-            </div>
+    <nav class="tabs">
+      <button class="tab active" onclick="switchTab('lore')">
+        <span class="tab__icon">📜</span>Historia
+      </button>
+      <button class="tab" onclick="switchTab('available')">
+        <span class="tab__icon">⚔️</span>Dostępne scenariusze
+      </button>
+    </nav>
+
+    <section id="tab-lore" class="tab-content active">
+      
+    <article class="card card--completed" data-reveal>
+      <div class="card__hero">
+        <img src="images/scenario_000.png" alt="Skowyt w śniegu" loading="lazy">
+        <div class="card__hero-overlay">
+          <span class="card__hero-number">#0</span>
+          <time class="card__date">2 marca 2026</time>
         </div>
-
-        <div id="tab-lore" class="tab-content active">
-            <div class="timeline">
-                
-            <article class="scenario completed">
-                <div class="timeline-marker"></div>
-                <div class="timeline-date">2 marca 2026</div>
-                <div class="scenario-header">
-                    <h3>#0 Skowyt w śniegu</h3>
-                    <span class="difficulty-badge easy">Łatwy</span>
-                </div>
-                <div class="narrative"><p>Maszerujecie przez Mroźne Pustkowia od dziesięciu dni. Wiatr wbija w was swoje szpony, śnieg sięga pasa, każdy oddech kosztuje. Jesteście najemnikami wynajętymi jako pierwsza grupa wsparcia wysłana do Frosthaven, małej osady na końcu świata, odciętej od imperium przez większość roku. Śnieg stopniał na tyle, by przejść przez Imperialną Przełęcz, a wasze sakiewki były puste. Więc oto jesteście.</p>
+      </div>
+      <div class="card__body">
+        <div class="card__header">
+          <h3 class="card__title">Skowyt w śniegu</h3>
+          <span class="badge badge--easy">Łatwy</span>
+        </div>
+        
+        <div class="card__narrative narrative--lore"><p>Maszerujecie przez Mroźne Pustkowia od dziesięciu dni. Wiatr wbija w was swoje szpony, śnieg sięga pasa, każdy oddech kosztuje. Jesteście najemnikami wynajętymi jako pierwsza grupa wsparcia wysłana do Frosthaven, małej osady na końcu świata, odciętej od imperium przez większość roku. Śnieg stopniał na tyle, by przejść przez Imperialną Przełęcz, a wasze sakiewki były puste. Więc oto jesteście.</p>
 <p>W nocy zaczęły wyć wilki. To był sygnał. Stado wiedziało, że jesteście blisko, i zebrało się, by śledzić karawanę i czekać na moment słabości. Najwolniejszych, najstarszych, tych miały zaatakować pierwsze.</p>
 <p>Nie daliście im tej szansy. Stanęliście do walki i pokazaliście bestiom, że nie jesteście zdobyczą. Walka w zamieci była brutalna, ale krótka.</p>
 <p>Gdy znaczna część stada padła, reszta wycofała się na białe pustkowia. Nikt nie świętuje, nie ma na to czasu ani sił. Niektórzy członkowie karawany kiwają głowami w milczącym podziękowaniu. Musicie jeszcze pokonać jeden grzbiet przed zmrokiem, a jesteście już potwornie zmęczeni. To brutalne miejsce nie wygrało dzisiaj, ale zawsze jest jeszcze jakieś jutro.</p>
 <p>Cel: wyeliminowanie wszystkich wrogów na planszy. Scenariusz wprowadzający, rozgrywany na drodze do Frosthaven.</p></div>
-                <div class="scenario-image"><img src="images/scenario_000.png" alt="Skowyt w śniegu" loading="lazy"></div>
-            </article>
-            </div>
-        </div>
+      </div>
+    </article>
+    </section>
 
-        <div id="tab-available" class="tab-content">
-            
-            <article class="scenario available">
-                <div class="scenario-header">
-                    <h3>#1 Miasto w płomieniach</h3>
-                    <div class="scenario-meta"><span class="location">Frosthaven</span><span class="difficulty-badge easy">Łatwy</span></div>
-                </div>
-                <div class="narrative"><p>Dziesięć dni marszu przez Mroźne Pustkowia. Dziesięć dni głodu, wiatru i wilków. A na końcu drogi czeka was widok, którego nikt nie chciał zobaczyć. Frosthaven płonie. Przez zrujnowaną bramę uciekają przerażeni mieszkańcy, a za nimi majaczy sylwetka czegoś ogromnego, pokrytego białym futrem, z trzema rogami na głowie. Algoksy. Nie po to przeszliście Imperialną Przełęcz, żeby teraz się wycofać.</p>
-<h4>Cel</h4>
+    <section id="tab-available" class="tab-content">
+      
+    <article class="card card--available" data-reveal>
+      <div class="card__hero">
+        <img src="images/scenario_001.png" alt="Miasto w płomieniach" loading="lazy">
+      </div>
+      <div class="card__body">
+        <div class="card__header">
+          <h3 class="card__title">#1 Miasto w płomieniach</h3>
+          <div class="card__badges"><span class="badge badge--location">Frosthaven</span><span class="badge badge--easy">Łatwy</span></div>
+        </div>
+        <div class="card__hook"><p>Dziesięć dni marszu przez Mroźne Pustkowia. Dziesięć dni głodu, wiatru i wilków. A na końcu drogi czeka was widok, którego nikt nie chciał zobaczyć. Frosthaven płonie. Przez zrujnowaną bramę uciekają przerażeni mieszkańcy, a za nimi majaczy sylwetka czegoś ogromnego, pokrytego białym futrem, z trzema rogami na głowie. Algoksy. Nie po to przeszliście Imperialną Przełęcz, żeby teraz się wycofać.</p></div>
+        
+        <details class="card__details" open>
+          <summary>Szczegóły scenariusza</summary>
+          <div class="card__technical"><h4>Cel</h4>
 <p>Wyeliminować wszystkich wrogów na planszy.</p>
 <h4>Przeciwnicy</h4>
 <p>Algoks Kapłan · Algoks Łucznik · Algoks Strażnik. Strażnicy Miejscy walczą po waszej stronie jako sojusznicy.</p>
@@ -293,27 +515,45 @@
 </ul>
 <h4>Łupy</h4>
 <p>8 monet · 2 drewno · 2 metal · 2 skóra</p></div>
-                <div class="scenario-image"><img src="images/scenario_001.png" alt="Miasto w płomieniach" loading="lazy"></div>
-            </article>
-        </div>
+        </details>
+      </div>
+    </article>
+    </section>
 
-        <footer>
-            Kronika Frosthaven
-        </footer>
-    </div>
+    <footer>Kronika Frosthaven</footer>
+  </div>
 
-    <script>
-        function switchTab(tab) {
-            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-            if (tab === 'lore') {
-                document.querySelector('.tab:first-child').classList.add('active');
-                document.getElementById('tab-lore').classList.add('active');
-            } else {
-                document.querySelector('.tab:last-child').classList.add('active');
-                document.getElementById('tab-available').classList.add('active');
-            }
+  <script>
+    function switchTab(tab) {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      const idx = tab === 'lore' ? 0 : 1;
+      document.querySelectorAll('.tab')[idx].classList.add('active');
+      document.getElementById('tab-' + tab).classList.add('active');
+      // Re-trigger reveal for newly visible cards
+      requestAnimationFrame(() => {
+        document.querySelectorAll('.tab-content.active [data-reveal]:not(.revealed)').forEach(el => {
+          observer.observe(el);
+        });
+      });
+    }
+
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
         }
-    </script>
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('[data-reveal]').forEach(el => {
+      // Reveal cards in active tab immediately or observe them
+      if (el.closest('.tab-content.active')) {
+        observer.observe(el);
+      }
+    });
+  </script>
 </body>
 </html>
