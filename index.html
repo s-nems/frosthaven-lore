@@ -19,8 +19,13 @@
       --accent-ice: #6ab4e8;
       --accent-gold: #d4a857;
       --accent-warm: #c48a5a;
+      --accent-amber: #c49a3a;
+      --accent-phase: #5a8a5a;
       --border: rgba(100, 140, 180, 0.1);
       --border-warm: rgba(180, 120, 80, 0.12);
+      --border-amber: rgba(196, 154, 58, 0.15);
+      --border-road: rgba(100, 130, 160, 0.15);
+      --border-phase: rgba(90, 138, 90, 0.15);
       --radius: 10px;
       --font-display: 'Cinzel Decorative', serif;
       --font-ui: 'Cinzel', serif;
@@ -37,7 +42,6 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    /* Subtle background texture */
     body::before {
       content: '';
       position: fixed; inset: 0;
@@ -171,6 +175,33 @@
       border-color: rgba(196, 138, 90, 0.3);
     }
 
+    .card--outpost-event {
+      border-color: var(--border-amber);
+    }
+    .card--outpost-event:hover {
+      border-color: rgba(196, 154, 58, 0.35);
+    }
+
+    .card--road-event {
+      border-color: var(--border-road);
+    }
+    .card--road-event:hover {
+      border-color: rgba(100, 130, 160, 0.3);
+    }
+
+    .card--outpost-phase {
+      border-color: var(--border-phase);
+      background: rgba(14, 24, 18, 0.7);
+    }
+    .card--outpost-phase:hover {
+      border-color: rgba(90, 138, 90, 0.3);
+    }
+
+    .card--session-notes {
+      border-color: var(--border);
+      background: rgba(14, 18, 26, 0.6);
+    }
+
     /* ── Card hero image ── */
     .card__hero {
       position: relative;
@@ -269,6 +300,26 @@
       color: #7a9aba;
       background: rgba(80, 110, 150, 0.1);
       border: 1px solid rgba(80, 110, 150, 0.2);
+    }
+    .badge--outpost {
+      color: var(--accent-amber);
+      background: rgba(196, 154, 58, 0.1);
+      border: 1px solid rgba(196, 154, 58, 0.2);
+    }
+    .badge--road {
+      color: #8aaabe;
+      background: rgba(100, 130, 160, 0.1);
+      border: 1px solid rgba(100, 130, 160, 0.2);
+    }
+    .badge--phase {
+      color: var(--accent-phase);
+      background: rgba(90, 138, 90, 0.1);
+      border: 1px solid rgba(90, 138, 90, 0.2);
+    }
+    .badge--item-type {
+      color: var(--accent-warm);
+      background: rgba(196, 138, 90, 0.1);
+      border: 1px solid rgba(196, 138, 90, 0.2);
     }
 
     /* ── Narrative text ── */
@@ -391,6 +442,93 @@
       opacity: 0.5;
     }
 
+    /* ── Session divider ── */
+    .session-divider {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 2.5rem 0 1.5rem;
+      color: var(--text-muted);
+      font-family: var(--font-ui);
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+    }
+    .session-divider::before,
+    .session-divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--border), transparent);
+    }
+    .session-divider span {
+      white-space: nowrap;
+    }
+
+    /* ── Cards sections & grid ── */
+    .cards-section {
+      margin-bottom: 2.5rem;
+    }
+    .cards-section__title {
+      font-family: var(--font-ui);
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .cards-grid .card {
+      margin-bottom: 0;
+    }
+
+    .card--item-image,
+    .card--building-image {
+      border: none;
+      background: transparent;
+      overflow: hidden;
+      border-radius: var(--radius);
+    }
+    .card--item-image:hover,
+    .card--building-image:hover {
+      border: none;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    }
+    .card--item-image img,
+    .card--building-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: var(--radius);
+    }
+    .card--placeholder {
+      aspect-ratio: 5 / 7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(30, 30, 40, 0.6);
+      border: 1px dashed var(--text-muted);
+      border-radius: var(--radius);
+    }
+    .card__placeholder-number {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      color: var(--accent-gold);
+    }
+    .card__placeholder-name {
+      font-family: var(--font-ui);
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.3rem;
+    }
+
     /* ── Scroll reveal ── */
     [data-reveal] {
       opacity: 0;
@@ -427,7 +565,7 @@
       .container { padding: 1rem 0.8rem; }
       h1 { font-size: 1.5rem; letter-spacing: 0.12em; }
       .logo { padding: 1rem 1.5rem; }
-      .tab { padding: 0.8rem 0.5rem; font-size: 0.78rem; }
+      .tab { padding: 0.8rem 0.5rem; font-size: 0.72rem; }
       .card__body { padding: 1.2rem 1rem; }
       .card__hero { aspect-ratio: 16 / 9; }
       .card__hero-number { font-size: 1.1rem; }
@@ -439,11 +577,16 @@
         position: sticky;
         top: 0;
       }
+      .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.6rem;
+      }
     }
 
     @media (max-width: 400px) {
       h1 { font-size: 1.25rem; }
       .card__body { padding: 1rem 0.8rem; }
+      .tab { font-size: 0.65rem; letter-spacing: 0.04em; }
     }
   </style>
 </head>
@@ -457,16 +600,22 @@
     </header>
 
     <nav class="tabs">
-      <button class="tab active" onclick="switchTab('lore')">
-        <span class="tab__icon">📜</span>Historia
+      <button class="tab active" data-tab="lore" onclick="switchTab('lore')">
+        <span class="tab__icon">&#x1F4DC;</span>Historia
       </button>
-      <button class="tab" onclick="switchTab('available')">
-        <span class="tab__icon">⚔️</span>Dostępne scenariusze
+      <button class="tab" data-tab="available" onclick="switchTab('available')">
+        <span class="tab__icon">&#x2694;</span>Dostępne scenariusze
+      </button>
+      <button class="tab" data-tab="items" onclick="switchTab('items')">
+        <span class="tab__icon">&#x2692;</span>Przedmioty
+      </button>
+      <button class="tab" data-tab="buildings" onclick="switchTab('buildings')">
+        <span class="tab__icon">&#x1F3D7;</span>Budynki
       </button>
     </nav>
 
     <section id="tab-lore" class="tab-content active">
-      
+      <div class="session-divider" data-reveal><span>Sesja 1 — 2 marca 2026</span></div>
     <article class="card card--completed" data-reveal>
       <div class="card__hero">
         <img src="images/scenario_000.png" alt="Skowyt w śniegu" loading="lazy">
@@ -520,6 +669,77 @@
     </article>
     </section>
 
+    <section id="tab-items" class="tab-content">
+        
+    <div class="cards-section">
+      <h2 class="cards-section__title">Do stworzenia</h2>
+      <div class="cards-grid">
+    <article class="card card--item-image" data-reveal>
+      <img src="images/cards/item-001.jpeg" alt="#1 spyglass" loading="lazy">
+    </article>
+
+    <article class="card card--item-image" data-reveal>
+      <img src="images/cards/item-002.jpeg" alt="#2 crude helmet" loading="lazy">
+    </article>
+
+    <article class="card card--item-image" data-reveal>
+      <img src="images/cards/item-003.jpeg" alt="#3 traveling cloak" loading="lazy">
+    </article>
+
+    <article class="card card--item-image" data-reveal>
+      <img src="images/cards/item-004.jpeg" alt="#4 crude hide armor" loading="lazy">
+    </article>
+
+    <article class="card card--item-image" data-reveal>
+      <img src="images/cards/item-005.jpeg" alt="#5 crude boots" loading="lazy">
+    </article>
+
+    <article class="card card--item-image" data-reveal>
+      <img src="images/cards/item-006.jpeg" alt="#6 flexible slippers" loading="lazy">
+    </article>
+
+    <article class="card card--item-image" data-reveal>
+      <img src="images/cards/item-007.jpeg" alt="#7 crude bow" loading="lazy">
+    </article>
+
+    <article class="card card--item-image" data-reveal>
+      <img src="images/cards/item-008.jpeg" alt="#8 crude spear" loading="lazy">
+    </article>
+
+    <article class="card card--item-image" data-reveal>
+      <img src="images/cards/item-009.jpeg" alt="#9 protective scepter" loading="lazy">
+    </article>
+
+    <article class="card card--item-image" data-reveal>
+      <img src="images/cards/item-010.jpeg" alt="#10 crude shield" loading="lazy">
+    </article></div>
+    </div>
+
+
+      </section>
+
+    <section id="tab-buildings" class="tab-content">
+        <div class="cards-section">
+        <h2 class="cards-section__title">Wybudowane</h2>
+        <div class="cards-grid">
+    <article class="card card--building-image" data-reveal>
+      <img src="images/cards/building-34-level-1.jpeg" alt="Craftsman (Poziom 1)" loading="lazy">
+    </article>
+
+    <article class="card card--building-image" data-reveal>
+      <img src="images/cards/building-35-level-1.jpeg" alt="Alchemist (Poziom 1)" loading="lazy">
+    </article>
+
+    <article class="card card--building-image" data-reveal>
+      <img src="images/cards/building-84-level-1.jpeg" alt="Workshop (Poziom 1)" loading="lazy">
+    </article>
+
+    <article class="card card--building-image" data-reveal>
+      <img src="images/cards/building-98-level-1.jpeg" alt="Barracks (Poziom 1)" loading="lazy">
+    </article></div>
+      </div>
+      </section>
+
     <footer>Kronika Frosthaven</footer>
   </div>
 
@@ -527,10 +747,10 @@
     function switchTab(tab) {
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
       document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-      const idx = tab === 'lore' ? 0 : 1;
-      document.querySelectorAll('.tab')[idx].classList.add('active');
-      document.getElementById('tab-' + tab).classList.add('active');
-      // Re-trigger reveal for newly visible cards
+      const btn = document.querySelector('[data-tab="' + tab + '"]');
+      if (btn) btn.classList.add('active');
+      const section = document.getElementById('tab-' + tab);
+      if (section) section.classList.add('active');
       requestAnimationFrame(() => {
         document.querySelectorAll('.tab-content.active [data-reveal]:not(.revealed)').forEach(el => {
           observer.observe(el);
@@ -538,7 +758,6 @@
       });
     }
 
-    // Scroll reveal
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -549,7 +768,6 @@
     }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
     document.querySelectorAll('[data-reveal]').forEach(el => {
-      // Reveal cards in active tab immediately or observe them
       if (el.closest('.tab-content.active')) {
         observer.observe(el);
       }

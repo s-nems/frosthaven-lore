@@ -1,0 +1,1267 @@
+{
+  "items": {
+    "1": {
+      "name": "spyglass",
+      "file": "item-001.jpeg"
+    },
+    "2": {
+      "name": "crude helmet",
+      "file": "item-002.jpeg"
+    },
+    "3": {
+      "name": "traveling cloak",
+      "file": "item-003.jpeg"
+    },
+    "4": {
+      "name": "crude hide armor",
+      "file": "item-004.jpeg"
+    },
+    "5": {
+      "name": "crude boots",
+      "file": "item-005.jpeg"
+    },
+    "6": {
+      "name": "flexible slippers",
+      "file": "item-006.jpeg"
+    },
+    "7": {
+      "name": "crude bow",
+      "file": "item-007.jpeg"
+    },
+    "8": {
+      "name": "crude spear",
+      "file": "item-008.jpeg"
+    },
+    "9": {
+      "name": "protective scepter",
+      "file": "item-009.jpeg"
+    },
+    "10": {
+      "name": "crude shield",
+      "file": "item-010.jpeg"
+    },
+    "11": {
+      "name": "simple charm",
+      "file": "item-011.jpeg"
+    },
+    "12": {
+      "name": "crude chain armor",
+      "file": "item-012.jpeg"
+    },
+    "13": {
+      "name": "dancing slippers",
+      "file": "item-013.jpeg"
+    },
+    "14": {
+      "name": "heavy sword",
+      "file": "item-014.jpeg"
+    },
+    "15": {
+      "name": "reinforced shield",
+      "file": "item-015.jpeg"
+    },
+    "16": {
+      "name": "inspiring helmet",
+      "file": "item-016.jpeg"
+    },
+    "17": {
+      "name": "cured leather armor",
+      "file": "item-017.jpeg"
+    },
+    "18": {
+      "name": "rough boots",
+      "file": "item-018.jpeg"
+    },
+    "19": {
+      "name": "ringing hammer",
+      "file": "item-019.jpeg"
+    },
+    "20": {
+      "name": "well-strung bow",
+      "file": "item-020.jpeg"
+    },
+    "21": {
+      "name": "chain hood",
+      "file": "item-021.jpeg"
+    },
+    "22": {
+      "name": "heavy chain armor",
+      "file": "item-022.jpeg"
+    },
+    "23": {
+      "name": "sturdy greaves",
+      "file": "item-023.jpeg"
+    },
+    "24": {
+      "name": "corrupted blade",
+      "file": "item-024.jpeg"
+    },
+    "25": {
+      "name": "soothing scepter",
+      "file": "item-025.jpeg"
+    },
+    "26": {
+      "name": "truesight lenses",
+      "file": "item-026.jpeg"
+    },
+    "27": {
+      "name": "cloak of warding",
+      "file": "item-027.jpeg"
+    },
+    "28": {
+      "name": "sturdy boots",
+      "file": "item-028.jpeg"
+    },
+    "29": {
+      "name": "cleaving axe",
+      "file": "item-029.jpeg"
+    },
+    "30": {
+      "name": "parrying gauntlet",
+      "file": "item-030.jpeg"
+    },
+    "31": {
+      "name": "deathproof charm",
+      "file": "item-031.jpeg"
+    },
+    "32": {
+      "name": "shell armor",
+      "file": "item-032.jpeg"
+    },
+    "33": {
+      "name": "volatile boots",
+      "file": "item-033.jpeg"
+    },
+    "34": {
+      "name": "shrapnel bomb",
+      "file": "item-034.jpeg"
+    },
+    "35": {
+      "name": "kite shield",
+      "file": "item-035.jpeg"
+    },
+    "36": {
+      "name": "plumed helmet",
+      "file": "item-036.jpeg"
+    },
+    "37": {
+      "name": "ghost cloak",
+      "file": "item-037.jpeg"
+    },
+    "38": {
+      "name": "duelists shoes",
+      "file": "item-038.jpeg"
+    },
+    "39": {
+      "name": "abyss axe",
+      "file": "item-039.jpeg"
+    },
+    "40": {
+      "name": "heartstrike bow",
+      "file": "item-040.jpeg"
+    },
+    "41": {
+      "name": "intricate charm",
+      "file": "item-041.jpeg"
+    },
+    "42": {
+      "name": "ornate armor",
+      "file": "item-042.jpeg"
+    },
+    "43": {
+      "name": "kicking boots",
+      "file": "item-043.jpeg"
+    },
+    "44": {
+      "name": "sword of absolution",
+      "file": "item-044.jpeg"
+    },
+    "45": {
+      "name": "master scepter",
+      "file": "item-045.jpeg"
+    },
+    "46": {
+      "name": "double-lens goggles",
+      "file": "item-046.jpeg"
+    },
+    "47": {
+      "name": "robes of doom",
+      "file": "item-047.jpeg"
+    },
+    "48": {
+      "name": "living shoes",
+      "file": "item-048.jpeg"
+    },
+    "49": {
+      "name": "cruel dagger",
+      "file": "item-049.jpeg"
+    },
+    "50": {
+      "name": "shield of reciprocity",
+      "file": "item-050.jpeg"
+    },
+    "51": {
+      "name": "spiked collar",
+      "file": "item-051.jpeg"
+    },
+    "52": {
+      "name": "laser lens",
+      "file": "item-052.jpeg"
+    },
+    "53": {
+      "name": "hobnail boots",
+      "file": "item-053.jpeg"
+    },
+    "54": {
+      "name": "restful slippers",
+      "file": "item-054.jpeg"
+    },
+    "55": {
+      "name": "biting gauntlet",
+      "file": "item-055.jpeg"
+    },
+    "56": {
+      "name": "scavengers magnet",
+      "file": "item-056.jpeg"
+    },
+    "57": {
+      "name": "shovel",
+      "file": "item-057.jpeg"
+    },
+    "58": {
+      "name": "slippery sword",
+      "file": "item-058.jpeg"
+    },
+    "59": {
+      "name": "charm of expertise",
+      "file": "item-059.jpeg"
+    },
+    "60": {
+      "name": "cloak of many pockets",
+      "file": "item-060.jpeg"
+    },
+    "61": {
+      "name": "spiked shell",
+      "file": "item-061.jpeg"
+    },
+    "62": {
+      "name": "everlasting boots",
+      "file": "item-062.jpeg"
+    },
+    "63": {
+      "name": "shadow stompers",
+      "file": "item-063.jpeg"
+    },
+    "64": {
+      "name": "detonator",
+      "file": "item-064.jpeg"
+    },
+    "65": {
+      "name": "rust powder",
+      "file": "item-065.jpeg"
+    },
+    "66": {
+      "name": "amulet of eternal life",
+      "file": "item-066.jpeg"
+    },
+    "67": {
+      "name": "converging lenses",
+      "file": "item-067.jpeg"
+    },
+    "68": {
+      "name": "scaled armor",
+      "file": "item-068.jpeg"
+    },
+    "69": {
+      "name": "feathered cloak",
+      "file": "item-069.jpeg"
+    },
+    "70": {
+      "name": "aesther robe",
+      "file": "item-070.jpeg"
+    },
+    "71": {
+      "name": "bone boots",
+      "file": "item-071.jpeg"
+    },
+    "72": {
+      "name": "oak staff",
+      "file": "item-072.jpeg"
+    },
+    "73": {
+      "name": "energizing baton",
+      "file": "item-073.jpeg"
+    },
+    "74": {
+      "name": "shock grenades",
+      "file": "item-074.jpeg"
+    },
+    "75": {
+      "name": "rose gauntlet",
+      "file": "item-075.jpeg"
+    },
+    "76": {
+      "name": "horn of command",
+      "file": "item-076.jpeg"
+    },
+    "77": {
+      "name": "chaos cannon",
+      "file": "item-077.jpeg"
+    },
+    "78": {
+      "name": "balanced scales",
+      "file": "item-078.jpeg"
+    },
+    "79": {
+      "name": "roasted fowl",
+      "file": "item-079.jpeg"
+    },
+    "80": {
+      "name": "living stone",
+      "file": "item-080.jpeg"
+    },
+    "81": {
+      "name": "pain simulacrum",
+      "file": "item-081.jpeg"
+    },
+    "82": {
+      "name": "mechanical cube",
+      "file": "item-082.jpeg"
+    },
+    "83": {
+      "name": "healing potion",
+      "file": "item-083.jpeg"
+    },
+    "84": {
+      "name": "stamina potion",
+      "file": "item-084.jpeg"
+    },
+    "85": {
+      "name": "power potion",
+      "file": "item-085.jpeg"
+    },
+    "86": {
+      "name": "element potion",
+      "file": "item-086.jpeg"
+    },
+    "87": {
+      "name": "cure potion",
+      "file": "item-087.jpeg"
+    },
+    "88": {
+      "name": "fireshield potion",
+      "file": "item-088.jpeg"
+    },
+    "89": {
+      "name": "stoneskin potion",
+      "file": "item-089.jpeg"
+    },
+    "90": {
+      "name": "muscle potion",
+      "file": "item-090.jpeg"
+    },
+    "91": {
+      "name": "holy water",
+      "file": "item-091.jpeg"
+    },
+    "92": {
+      "name": "renewing potion",
+      "file": "item-092.jpeg"
+    },
+    "93": {
+      "name": "glancing potion",
+      "file": "item-093.jpeg"
+    },
+    "94": {
+      "name": "frenzy potion",
+      "file": "item-094.jpeg"
+    },
+    "95": {
+      "name": "poison vial",
+      "file": "item-095.jpeg"
+    },
+    "96": {
+      "name": "flame vial",
+      "file": "item-096.jpeg"
+    },
+    "97": {
+      "name": "explosive vial",
+      "file": "item-097.jpeg"
+    },
+    "98": {
+      "name": "unhealthy mixture",
+      "file": "item-098.jpeg"
+    },
+    "99": {
+      "name": "major healing potion",
+      "file": "item-099.jpeg"
+    },
+    "100": {
+      "name": "major stamina potion",
+      "file": "item-100.jpeg"
+    },
+    "101": {
+      "name": "major power potion",
+      "file": "item-101.jpeg"
+    },
+    "102": {
+      "name": "major element potion",
+      "file": "item-102.jpeg"
+    },
+    "103": {
+      "name": "major cure potion",
+      "file": "item-103.jpeg"
+    },
+    "104": {
+      "name": "swiftness potion",
+      "file": "item-104.jpeg"
+    },
+    "105": {
+      "name": "major fireshield potion",
+      "file": "item-105.jpeg"
+    },
+    "106": {
+      "name": "stonewall potion",
+      "file": "item-106.jpeg"
+    },
+    "107": {
+      "name": "vigor potion",
+      "file": "item-107.jpeg"
+    },
+    "108": {
+      "name": "holy rain",
+      "file": "item-108.jpeg"
+    },
+    "109": {
+      "name": "major renewing potion",
+      "file": "item-109.jpeg"
+    },
+    "110": {
+      "name": "precision potion",
+      "file": "item-110.jpeg"
+    },
+    "111": {
+      "name": "major frenzy potion",
+      "file": "item-111.jpeg"
+    },
+    "112": {
+      "name": "hammer potion",
+      "file": "item-112.jpeg"
+    },
+    "113": {
+      "name": "expertise potion",
+      "file": "item-113.jpeg"
+    },
+    "114": {
+      "name": "foresight potion",
+      "file": "item-114.jpeg"
+    },
+    "115": {
+      "name": "infusion potion",
+      "file": "item-115.jpeg"
+    },
+    "116": {
+      "name": "plague flask",
+      "file": "item-116.jpeg"
+    },
+    "117": {
+      "name": "inferno flask",
+      "file": "item-117.jpeg"
+    },
+    "118": {
+      "name": "fulminant flask",
+      "file": "item-118.jpeg"
+    },
+    "119": {
+      "name": "deadly mixture",
+      "file": "item-119.jpeg"
+    },
+    "120": {
+      "name": "amulet of life",
+      "file": "item-120.jpeg"
+    },
+    "121": {
+      "name": "circlet of elements",
+      "file": "item-121.jpeg"
+    },
+    "122": {
+      "name": "wardens robes",
+      "file": "item-122.jpeg"
+    },
+    "123": {
+      "name": "leather armor",
+      "file": "item-123.jpeg"
+    },
+    "124": {
+      "name": "winged shoes",
+      "file": "item-124.jpeg"
+    },
+    "125": {
+      "name": "boots of speed",
+      "file": "item-125.jpeg"
+    },
+    "126": {
+      "name": "weighted net",
+      "file": "item-126.jpeg"
+    },
+    "127": {
+      "name": "poison dagger",
+      "file": "item-127.jpeg"
+    },
+    "128": {
+      "name": "heater shield",
+      "file": "item-128.jpeg"
+    },
+    "129": {
+      "name": "eagle-eye goggles",
+      "file": "item-129.jpeg"
+    },
+    "130": {
+      "name": "iron helmet",
+      "file": "item-130.jpeg"
+    },
+    "131": {
+      "name": "chainmail",
+      "file": "item-131.jpeg"
+    },
+    "132": {
+      "name": "cloak of pockets",
+      "file": "item-132.jpeg"
+    },
+    "133": {
+      "name": "nimble legguards",
+      "file": "item-133.jpeg"
+    },
+    "134": {
+      "name": "comfortable shoes",
+      "file": "item-134.jpeg"
+    },
+    "135": {
+      "name": "armorbane bow",
+      "file": "item-135.jpeg"
+    },
+    "136": {
+      "name": "battle axe",
+      "file": "item-136.jpeg"
+    },
+    "137": {
+      "name": "tower shield",
+      "file": "item-137.jpeg"
+    },
+    "138": {
+      "name": "heavy basinet",
+      "file": "item-138.jpeg"
+    },
+    "139": {
+      "name": "horned helm",
+      "file": "item-139.jpeg"
+    },
+    "140": {
+      "name": "mantle of summoning",
+      "file": "item-140.jpeg"
+    },
+    "141": {
+      "name": "studded leather",
+      "file": "item-141.jpeg"
+    },
+    "142": {
+      "name": "boots of quickness",
+      "file": "item-142.jpeg"
+    },
+    "143": {
+      "name": "endurance footwraps",
+      "file": "item-143.jpeg"
+    },
+    "144": {
+      "name": "staff of eminence",
+      "file": "item-144.jpeg"
+    },
+    "145": {
+      "name": "versatile dagger",
+      "file": "item-145.jpeg"
+    },
+    "146": {
+      "name": "hooked chain",
+      "file": "item-146.jpeg"
+    },
+    "147": {
+      "name": "mask of terror",
+      "file": "item-147.jpeg"
+    },
+    "148": {
+      "name": "circlet of sanctity",
+      "file": "item-148.jpeg"
+    },
+    "149": {
+      "name": "platemail",
+      "file": "item-149.jpeg"
+    },
+    "150": {
+      "name": "robes of the oak",
+      "file": "item-150.jpeg"
+    },
+    "151": {
+      "name": "serene sandals",
+      "file": "item-151.jpeg"
+    },
+    "152": {
+      "name": "steel sabatons",
+      "file": "item-152.jpeg"
+    },
+    "153": {
+      "name": "long spear",
+      "file": "item-153.jpeg"
+    },
+    "154": {
+      "name": "volatile bomb",
+      "file": "item-154.jpeg"
+    },
+    "155": {
+      "name": "wall shield",
+      "file": "item-155.jpeg"
+    },
+    "156": {
+      "name": "moon earring",
+      "file": "item-156.jpeg"
+    },
+    "157": {
+      "name": "steel ring",
+      "file": "item-157.jpeg"
+    },
+    "158": {
+      "name": "deep earth brooch",
+      "file": "item-158.jpeg"
+    },
+    "159": {
+      "name": "glorious bracelet",
+      "file": "item-159.jpeg"
+    },
+    "160": {
+      "name": "sun earring",
+      "file": "item-160.jpeg"
+    },
+    "161": {
+      "name": "strategists ring",
+      "file": "item-161.jpeg"
+    },
+    "162": {
+      "name": "howling ice brooch",
+      "file": "item-162.jpeg"
+    },
+    "163": {
+      "name": "stunning bracelet",
+      "file": "item-163.jpeg"
+    },
+    "164": {
+      "name": "star earring",
+      "file": "item-164.jpeg"
+    },
+    "165": {
+      "name": "ring of haste",
+      "file": "item-165.jpeg"
+    },
+    "166": {
+      "name": "blazing sun brooch",
+      "file": "item-166.jpeg"
+    },
+    "167": {
+      "name": "attractive bracelet",
+      "file": "item-167.jpeg"
+    },
+    "168": {
+      "name": "circlet of eyes",
+      "file": "item-168.jpeg"
+    },
+    "169": {
+      "name": "fateful charm",
+      "file": "item-169.jpeg"
+    },
+    "170": {
+      "name": "eye of truth",
+      "file": "item-170.jpeg"
+    },
+    "171": {
+      "name": "rejuvenating charm",
+      "file": "item-171.jpeg"
+    },
+    "172": {
+      "name": "cap of premonition",
+      "file": "item-172.jpeg"
+    },
+    "173": {
+      "name": "multi-colored cloak",
+      "file": "item-173.jpeg"
+    },
+    "174": {
+      "name": "magnetic cape",
+      "file": "item-174.jpeg"
+    },
+    "175": {
+      "name": "mirrored armor",
+      "file": "item-175.jpeg"
+    },
+    "176": {
+      "name": "blinking cape",
+      "file": "item-176.jpeg"
+    },
+    "177": {
+      "name": "boots of transference",
+      "file": "item-177.jpeg"
+    },
+    "178": {
+      "name": "tranquil shoes",
+      "file": "item-178.jpeg"
+    },
+    "179": {
+      "name": "burst boots",
+      "file": "item-179.jpeg"
+    },
+    "180": {
+      "name": "boots of greed",
+      "file": "item-180.jpeg"
+    },
+    "181": {
+      "name": "translocation rod",
+      "file": "item-181.jpeg"
+    },
+    "182": {
+      "name": "wing clippers",
+      "file": "item-182.jpeg"
+    },
+    "183": {
+      "name": "decanter of mists",
+      "file": "item-183.jpeg"
+    },
+    "184": {
+      "name": "flashing axe",
+      "file": "item-184.jpeg"
+    },
+    "185": {
+      "name": "mirrored knife",
+      "file": "item-185.jpeg"
+    },
+    "186": {
+      "name": "wild growth seeds",
+      "file": "item-186.jpeg"
+    },
+    "187": {
+      "name": "dangerous gear",
+      "file": "item-187.jpeg"
+    },
+    "188": {
+      "name": "freezing crystal",
+      "file": "item-188.jpeg"
+    },
+    "189": {
+      "name": "ring of the night",
+      "file": "item-189.jpeg"
+    },
+    "190": {
+      "name": "white card",
+      "file": "item-190.jpeg"
+    },
+    "191": {
+      "name": "corrupted scroll",
+      "file": "item-191.jpeg"
+    },
+    "192": {
+      "name": "enticing bell",
+      "file": "item-192.jpeg"
+    },
+    "193": {
+      "name": "mind-thieving helmet",
+      "file": "item-193.jpeg"
+    },
+    "194": {
+      "name": "temporal amulet",
+      "file": "item-194.jpeg"
+    },
+    "195": {
+      "name": "tri-corner hat",
+      "file": "item-195.jpeg"
+    },
+    "196": {
+      "name": "choker of sacrifice",
+      "file": "item-196.jpeg"
+    },
+    "197": {
+      "name": "aesther diadem",
+      "file": "item-197.jpeg"
+    },
+    "198": {
+      "name": "hunters necklace",
+      "file": "item-198.jpeg"
+    },
+    "199": {
+      "name": "opulent shoes",
+      "file": "item-199.jpeg"
+    },
+    "200": {
+      "name": "eventide scepter",
+      "file": "item-200.jpeg"
+    },
+    "201": {
+      "name": "wave blade",
+      "file": "item-201.jpeg"
+    },
+    "202": {
+      "name": "giant piranha pig spine",
+      "file": "item-202.jpeg"
+    },
+    "203": {
+      "name": "scepter of control",
+      "file": "item-203.jpeg"
+    },
+    "204": {
+      "name": "severed claw",
+      "file": "item-204.jpeg"
+    },
+    "205": {
+      "name": "harpoon",
+      "file": "item-205.jpeg"
+    },
+    "206": {
+      "name": "giant sword",
+      "file": "item-206.jpeg"
+    },
+    "207": {
+      "name": "fishhook",
+      "file": "item-207.jpeg"
+    },
+    "208": {
+      "name": "titan nail",
+      "file": "item-208.jpeg"
+    },
+    "209": {
+      "name": "sword of mastery",
+      "file": "item-209.jpeg"
+    },
+    "210": {
+      "name": "tanjo",
+      "file": "item-210.jpeg"
+    },
+    "211": {
+      "name": "boom barrel",
+      "file": "item-211.jpeg"
+    },
+    "212": {
+      "name": "elemental stone",
+      "file": "item-212.jpeg"
+    },
+    "213": {
+      "name": "key of seasons",
+      "file": "item-213.jpeg"
+    },
+    "214": {
+      "name": "cup of ventillion",
+      "file": "item-214.jpeg"
+    },
+    "215": {
+      "name": "befuddling mug",
+      "file": "item-215.jpeg"
+    },
+    "216": {
+      "name": "tome of elements",
+      "file": "item-216.jpeg"
+    },
+    "217": {
+      "name": "tome of time",
+      "file": "item-217.jpeg"
+    },
+    "218": {
+      "name": "tome of life",
+      "file": "item-218.jpeg"
+    },
+    "219": {
+      "name": "tome of conflict",
+      "file": "item-219.jpeg"
+    },
+    "220": {
+      "name": "belaras quill",
+      "file": "item-220.jpeg"
+    },
+    "221": {
+      "name": "ice shiv",
+      "file": "item-221.jpeg"
+    },
+    "222": {
+      "name": "black box",
+      "file": "item-222.jpeg"
+    },
+    "223": {
+      "name": "lightning rod",
+      "file": "item-223.jpeg"
+    },
+    "224": {
+      "name": "armor of empathy",
+      "file": "item-224.jpeg"
+    },
+    "225": {
+      "name": "algox carving",
+      "file": "item-225.jpeg"
+    },
+    "226": {
+      "name": "unfettered arm",
+      "file": "item-226.jpeg"
+    },
+    "227": {
+      "name": "data drive",
+      "file": "item-227.jpeg"
+    },
+    "228": {
+      "name": "extendable pole",
+      "file": "item-228.jpeg"
+    },
+    "229": {
+      "name": "exquisite map",
+      "file": "item-229.jpeg"
+    },
+    "230": {
+      "name": "examination glass",
+      "file": "item-230.jpeg"
+    },
+    "231": {
+      "name": "skinning knife",
+      "file": "item-231.jpeg"
+    },
+    "232": {
+      "name": "orchid wand",
+      "file": "item-232.jpeg"
+    },
+    "233": {
+      "name": "dead raven",
+      "file": "item-233.jpeg"
+    },
+    "234": {
+      "name": "ooze vial",
+      "file": "item-234.jpeg"
+    },
+    "235": {
+      "name": "small rat",
+      "file": "item-235.jpeg"
+    },
+    "236": {
+      "name": "cracked mirror",
+      "file": "item-236.jpeg"
+    },
+    "237": {
+      "name": "mesmerizing seashell",
+      "file": "item-237.jpeg"
+    },
+    "238": {
+      "name": "cracked idol",
+      "file": "item-238.jpeg"
+    },
+    "239": {
+      "name": "eye of the storm",
+      "file": "item-239.jpeg"
+    },
+    "240": {
+      "name": "demons gem",
+      "file": "item-240.jpeg"
+    },
+    "241": {
+      "name": "shimmering powder",
+      "file": "item-241.jpeg"
+    },
+    "242": {
+      "name": "lucky dice",
+      "file": "item-242.jpeg"
+    },
+    "243": {
+      "name": "cursed rock",
+      "file": "item-243.jpeg"
+    },
+    "244": {
+      "name": "ember energy source",
+      "file": "item-244.jpeg"
+    },
+    "245": {
+      "name": "ancient coin",
+      "file": "item-245.jpeg"
+    },
+    "246": {
+      "name": "key card",
+      "file": "item-246.jpeg"
+    },
+    "247": {
+      "name": "trainers net",
+      "file": "item-247.jpeg"
+    },
+    "248": {
+      "name": "wanderers club",
+      "file": "item-248.jpeg"
+    },
+    "249": {
+      "name": "recalibration trigger",
+      "file": "item-249.jpeg"
+    },
+    "250": {
+      "name": "spear of justice",
+      "file": "item-250.jpeg"
+    },
+    "251": {
+      "name": "soul urn",
+      "file": "item-251.jpeg"
+    },
+    "252": {
+      "name": "black earth codex",
+      "file": "item-252.jpeg"
+    },
+    "253": {
+      "name": "mask of duality",
+      "file": "item-253.jpeg"
+    },
+    "254": {
+      "name": "ancestral blade",
+      "file": "item-254.jpeg"
+    },
+    "255": {
+      "name": "mountains heart",
+      "file": "item-255.jpeg"
+    },
+    "256": {
+      "name": "sonorous shard",
+      "file": "item-256.jpeg"
+    },
+    "257": {
+      "name": "sly camouflage",
+      "file": "item-257.jpeg"
+    },
+    "258": {
+      "name": "skull of agony",
+      "file": "item-258.jpeg"
+    },
+    "259": {
+      "name": "storm carving",
+      "file": "item-259.jpeg"
+    },
+    "260": {
+      "name": "freezing orb",
+      "file": "item-260.jpeg"
+    },
+    "261": {
+      "name": "energized module",
+      "file": "item-261.jpeg"
+    },
+    "262": {
+      "name": "exhaust boots",
+      "file": "item-262.jpeg"
+    },
+    "263": {
+      "name": "warlords skull",
+      "file": "item-263.jpeg"
+    },
+    "264": {
+      "name": "spiraled medallion",
+      "file": "item-264.jpeg"
+    }
+  },
+  "buildings": {
+    "5": {
+      "name": "Mining Camp",
+      "levels": 4,
+      "files": {
+        "1": "building-05-level-1.jpeg",
+        "2": "building-05-level-2.jpeg",
+        "3": "building-05-level-3.jpeg",
+        "4": "building-05-level-4.jpeg"
+      }
+    },
+    "12": {
+      "name": "Hunting Lodge",
+      "levels": 4,
+      "files": {
+        "1": "building-12-level-1.jpeg",
+        "2": "building-12-level-2.jpeg",
+        "3": "building-12-level-3.jpeg",
+        "4": "building-12-level-4.jpeg"
+      }
+    },
+    "17": {
+      "name": "Logging Camp",
+      "levels": 4,
+      "files": {
+        "1": "building-17-level-1.jpeg",
+        "2": "building-17-level-2.jpeg",
+        "3": "building-17-level-3.jpeg",
+        "4": "building-17-level-4.jpeg"
+      }
+    },
+    "21": {
+      "name": "Inn",
+      "levels": 3,
+      "files": {
+        "1": "building-21-level-1.jpeg",
+        "2": "building-21-level-2.jpeg",
+        "3": "building-21-level-3.jpeg"
+      }
+    },
+    "24": {
+      "name": "Garden",
+      "levels": 4,
+      "files": {
+        "1": "building-24-level-1.jpeg",
+        "2": "building-24-level-2.jpeg",
+        "3": "building-24-level-3.jpeg",
+        "4": "building-24-level-4.jpeg"
+      }
+    },
+    "34": {
+      "name": "Craftsman",
+      "levels": 9,
+      "files": {
+        "1": "building-34-level-1.jpeg",
+        "2": "building-34-level-2.jpeg",
+        "3": "building-34-level-3.jpeg",
+        "4": "building-34-level-4.jpeg",
+        "5": "building-34-level-5.jpeg",
+        "6": "building-34-level-6.jpeg",
+        "7": "building-34-level-7.jpeg",
+        "8": "building-34-level-8.jpeg",
+        "9": "building-34-level-9.jpeg"
+      }
+    },
+    "35": {
+      "name": "Alchemist",
+      "levels": 3,
+      "files": {
+        "1": "building-35-level-1.jpeg",
+        "2": "building-35-level-2.jpeg",
+        "3": "building-35-level-3.jpeg"
+      }
+    },
+    "37": {
+      "name": "Trading Post",
+      "levels": 4,
+      "files": {
+        "1": "building-37-level-1.jpeg",
+        "2": "building-37-level-2.jpeg",
+        "3": "building-37-level-3.jpeg",
+        "4": "building-37-level-4.jpeg"
+      }
+    },
+    "39": {
+      "name": "Jeweler",
+      "levels": 3,
+      "files": {
+        "1": "building-39-level-1.jpeg",
+        "2": "building-39-level-2.jpeg",
+        "3": "building-39-level-3.jpeg"
+      }
+    },
+    "42": {
+      "name": "Temple",
+      "levels": 3,
+      "files": {
+        "1": "building-42-level-1.jpeg",
+        "2": "building-42-level-2.jpeg",
+        "3": "building-42-level-3.jpeg"
+      }
+    },
+    "44": {
+      "name": "Enhancer",
+      "levels": 4,
+      "files": {
+        "1": "building-44-level-1.jpeg",
+        "2": "building-44-level-2.jpeg",
+        "3": "building-44-level-3.jpeg",
+        "4": "building-44-level-4.jpeg"
+      }
+    },
+    "65": {
+      "name": "Metal Depot",
+      "levels": 2,
+      "files": {
+        "1": "building-65-level-1.jpeg",
+        "2": "building-65-level-2.jpeg"
+      }
+    },
+    "67": {
+      "name": "Lumber Depot",
+      "levels": 2,
+      "files": {
+        "1": "building-67-level-1.jpeg",
+        "2": "building-67-level-2.jpeg"
+      }
+    },
+    "72": {
+      "name": "Hide Depot",
+      "levels": 2,
+      "files": {
+        "1": "building-72-level-1.jpeg",
+        "2": "building-72-level-2.jpeg"
+      }
+    },
+    "74": {
+      "name": "Tavern",
+      "levels": 3,
+      "files": {
+        "1": "building-74-level-1.jpeg",
+        "2": "building-74-level-2.jpeg",
+        "3": "building-74-level-3.jpeg"
+      }
+    },
+    "81": {
+      "name": "Hall of Revelry",
+      "levels": 2,
+      "files": {
+        "1": "building-81-level-1.jpeg",
+        "2": "building-81-level-2.jpeg"
+      }
+    },
+    "83": {
+      "name": "Library",
+      "levels": 3,
+      "files": {
+        "1": "building-83-level-1.jpeg",
+        "2": "building-83-level-2.jpeg",
+        "3": "building-83-level-3.jpeg"
+      }
+    },
+    "84": {
+      "name": "Workshop",
+      "levels": 1,
+      "files": {
+        "1": "building-84-level-1.jpeg"
+      }
+    },
+    "85": {
+      "name": "Carpenter",
+      "levels": 2,
+      "files": {
+        "1": "building-85-level-1.jpeg",
+        "2": "building-85-level-2.jpeg"
+      }
+    },
+    "88": {
+      "name": "Stables",
+      "levels": 4,
+      "files": {
+        "1": "building-88-level-1.jpeg",
+        "2": "building-88-level-2.jpeg",
+        "3": "building-88-level-3.jpeg",
+        "4": "building-88-level-4.jpeg"
+      }
+    },
+    "90": {
+      "name": "Town Hall",
+      "levels": 3,
+      "files": {
+        "1": "building-90-level-1.jpeg",
+        "2": "building-90-level-2.jpeg",
+        "3": "building-90-level-3.jpeg"
+      }
+    },
+    "98": {
+      "name": "Barracks",
+      "levels": 4,
+      "files": {
+        "1": "building-98-level-1.jpeg",
+        "2": "building-98-level-2.jpeg",
+        "3": "building-98-level-3.jpeg",
+        "4": "building-98-level-4.jpeg"
+      }
+    }
+  }
+}
