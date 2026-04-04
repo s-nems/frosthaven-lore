@@ -272,6 +272,58 @@
       margin-bottom: 0.8rem;
     }
 
+    .card__party {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+      margin-bottom: 0.8rem;
+    }
+    .party-member {
+      font-family: var(--font-ui);
+      font-size: 0.72rem;
+      padding: 0.2rem 0.55rem;
+      border-radius: 3px;
+      letter-spacing: 0.04em;
+      color: rgba(208, 200, 184, 0.7);
+      background: rgba(208, 200, 184, 0.06);
+      border: 1px solid rgba(208, 200, 184, 0.12);
+    }
+    .party-member[data-char="wlocznia-sztandaru"] {
+      color: #e8c84a;
+      background: rgba(232, 200, 74, 0.10);
+      border-color: rgba(232, 200, 74, 0.25);
+    }
+    .party-member[data-char="dryfiarz"] {
+      color: #b5875a;
+      background: rgba(181, 135, 90, 0.10);
+      border-color: rgba(181, 135, 90, 0.25);
+    }
+    .party-member[data-char="kosciodziej"] {
+      color: #5cb870;
+      background: rgba(92, 184, 112, 0.10);
+      border-color: rgba(92, 184, 112, 0.25);
+    }
+    .party-member[data-char="smierciobiezca"] {
+      color: #6a8fa8;
+      background: linear-gradient(135deg, rgba(106, 143, 168, 0.12), rgba(30, 30, 40, 0.15));
+      border-color: rgba(106, 143, 168, 0.25);
+    }
+    .party-member[data-char="ostrzoblysk"] {
+      color: #7ec8f0;
+      background: rgba(126, 200, 240, 0.10);
+      border-color: rgba(126, 200, 240, 0.25);
+    }
+    .party-member[data-char="blizniacznik"] {
+      color: #c45a8a;
+      background: rgba(196, 90, 138, 0.10);
+      border-color: rgba(196, 90, 138, 0.25);
+    }
+    .party-member[data-char="unfettered-d-o-m-e"] {
+      color: #5a8ac4;
+      background: rgba(90, 138, 196, 0.10);
+      border-color: rgba(90, 138, 196, 0.25);
+    }
+
     /* ── Badges ── */
     .badge {
       font-family: var(--font-ui);
@@ -295,6 +347,15 @@
       color: #c86a5a;
       background: rgba(180, 70, 50, 0.1);
       border: 1px solid rgba(180, 70, 50, 0.2);
+    }
+    .badge--defeated {
+      color: #ff9999;
+      background: rgba(139, 26, 26, 0.25);
+      border: 1px solid rgba(139, 26, 26, 0.4);
+    }
+    .card--defeated {
+      border-left: 3px solid #8b1a1a;
+      opacity: 0.92;
     }
     .badge--location {
       color: #7a9aba;
@@ -442,23 +503,193 @@
       opacity: 0.5;
     }
 
+    /* ── Monster stat cards ── */
+    .card__monsters {
+      border-top: 1px solid rgba(106, 180, 232, 0.15);
+      margin-top: 0.5rem;
+    }
+    .card__monsters summary {
+      font-family: var(--font-ui);
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      color: var(--accent-ice);
+      cursor: pointer;
+      padding: 0.8rem 0 0.4rem;
+      user-select: none;
+      list-style: none;
+    }
+    .card__monsters summary::before {
+      content: '▸';
+      display: inline-block;
+      margin-right: 0.4rem;
+      transition: transform 0.2s;
+    }
+    .card__monsters[open] summary::before {
+      transform: rotate(90deg);
+    }
+    .monsters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 0.6rem 0 0.4rem;
+    }
+    .monster-card {
+      cursor: pointer;
+      border-radius: 6px;
+      overflow: hidden;
+      background: rgba(14, 22, 34, 0.5);
+      border: 1px solid rgba(106, 180, 232, 0.1);
+      transition: border-color 0.2s;
+    }
+    .monster-card:hover {
+      border-color: rgba(106, 180, 232, 0.3);
+    }
+    .monster-card__images {
+      position: relative;
+      aspect-ratio: 3 / 2;
+    }
+    .monster-level {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: none;
+    }
+    .monster-level--active {
+      display: block;
+    }
+    .monster-card__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.3rem 0.5rem;
+    }
+    .monster-card__label {
+      font-family: var(--font-ui);
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+    }
+    .monster-card__dots {
+      display: flex;
+      gap: 4px;
+    }
+    .level-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(106, 180, 232, 0.2);
+      transition: background 0.2s;
+    }
+    .level-dot--active {
+      background: var(--accent-ice);
+    }
+
+    /* ── Monster lightbox ── */
+    .monster-lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: rgba(0, 0, 0, 0.85);
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .monster-lightbox.active {
+      display: flex;
+    }
+    .monster-lightbox__card {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .monster-lightbox__card img.monster-level {
+      position: static;
+      width: auto;
+      height: auto;
+      max-width: 85vw;
+      max-height: 70vh;
+      object-fit: contain;
+      border-radius: 8px;
+      transition: transform 0.4s ease;
+      display: none;
+    }
+    .monster-lightbox__card img.monster-level--active {
+      display: block;
+    }
+    .monster-lightbox__name {
+      font-family: var(--font-ui);
+      font-size: 1rem;
+      color: var(--text);
+      letter-spacing: 0.06em;
+    }
+    .monster-lightbox__controls {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .monster-lightbox__btn {
+      background: rgba(106, 180, 232, 0.15);
+      border: 1px solid rgba(106, 180, 232, 0.3);
+      color: var(--accent-ice);
+      font-family: var(--font-ui);
+      font-size: 0.85rem;
+      padding: 0.5rem 1.2rem;
+      border-radius: 4px;
+      cursor: pointer;
+      letter-spacing: 0.04em;
+      transition: background 0.2s;
+    }
+    .monster-lightbox__btn:hover {
+      background: rgba(106, 180, 232, 0.25);
+    }
+    .monster-lightbox__dots {
+      display: flex;
+      gap: 6px;
+    }
+    .monster-lightbox__dots .level-dot {
+      width: 8px;
+      height: 8px;
+    }
+    .monster-lightbox__close {
+      position: absolute;
+      top: 1rem;
+      right: 1.5rem;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+      z-index: 1001;
+    }
+    .monster-lightbox__close:hover {
+      color: var(--text);
+    }
+
     /* ── Session divider ── */
     .session-divider {
       display: flex;
       align-items: center;
       gap: 1rem;
-      margin: 2.5rem 0 1.5rem;
-      color: var(--text-muted);
+      margin: 3rem 0 1.5rem;
+      color: #c8a84a;
       font-family: var(--font-ui);
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
     }
     .session-divider::before,
     .session-divider::after {
       content: '';
       flex: 1;
       height: 1px;
-      background: linear-gradient(to right, transparent, var(--border), transparent);
+      background: linear-gradient(to right, transparent, #c8a84a, transparent);
+      opacity: 0.4;
     }
     .session-divider span {
       white-space: nowrap;
@@ -527,6 +758,164 @@
       font-size: 0.8rem;
       color: var(--text-muted);
       margin-top: 0.3rem;
+    }
+
+    /* ── Campaign dashboard ── */
+    .campaign-dashboard,
+    .played-events {
+      margin-bottom: 2.5rem;
+    }
+
+    .stat-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .stat-row--secondary {
+      margin-bottom: 1.5rem;
+    }
+
+    .stat-block {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .stat-label {
+      font-family: var(--font-ui);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .stat-value {
+      font-family: var(--font-ui);
+      font-size: 0.9rem;
+      color: var(--text);
+    }
+
+    .stat-raw {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .stat-bar {
+      height: 6px;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .stat-bar__fill {
+      height: 100%;
+      border-radius: 3px;
+      transition: width 0.5s ease;
+    }
+
+    .stat-bar__fill--gold {
+      background: linear-gradient(90deg, var(--accent-gold), #e8c06a);
+    }
+
+    .stat-bar__fill--ice {
+      background: linear-gradient(90deg, var(--accent-ice), #8ecdf0);
+    }
+
+    .stat-inline {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .stat-value--season {
+      font-weight: 700;
+    }
+
+    .stat-value--summer {
+      color: var(--accent-gold);
+    }
+
+    .stat-value--winter {
+      color: var(--accent-ice);
+    }
+
+    .resource-section {
+      margin-top: 0.5rem;
+    }
+
+    .resource-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 0.6rem;
+      margin-top: 0.6rem;
+    }
+
+    .resource-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.4rem 0.8rem;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+    }
+
+    .resource-label {
+      font-family: var(--font-ui);
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+    }
+
+    .resource-value {
+      font-family: var(--font-ui);
+      font-size: 0.9rem;
+      color: var(--accent-gold);
+      font-weight: 700;
+    }
+
+    /* ── Played events ── */
+    .events-group {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .events-group__label {
+      font-family: var(--font-ui);
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      letter-spacing: 0.06em;
+      min-width: 5.5rem;
+    }
+
+    .event-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+
+    .event-pill {
+      font-family: var(--font-ui);
+      font-size: 0.7rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+    }
+
+    .event-pills__empty {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 680px) {
+      .stat-row { grid-template-columns: 1fr; gap: 1rem; }
+      .resource-grid { grid-template-columns: repeat(2, 1fr); }
     }
 
     /* ── Scroll reveal ── */
@@ -612,29 +1001,84 @@
       <button class="tab" data-tab="buildings" onclick="switchTab('buildings')">
         <span class="tab__icon">&#x1F3D7;</span>Budynki
       </button>
+      <button class="tab" data-tab="outpost" onclick="switchTab('outpost')">
+        <span class="tab__icon">&#x1F3D4;</span>Posterunek
+      </button>
     </nav>
 
     <section id="tab-lore" class="tab-content active">
-      <div class="session-divider" data-reveal><span>Sesja 1 — 2 marca 2026</span></div>
+      <div class="session-divider" data-reveal><span>Sesja 2 — 2 kwietnia 2026</span></div>
     <article class="card card--completed" data-reveal>
       <div class="card__hero">
-        <img src="images/scenario_000.png" alt="Skowyt w śniegu" loading="lazy">
+        <img src="images/scenario_000_s002.png" alt="Skowyt w śniegu" loading="lazy">
         <div class="card__hero-overlay">
           <span class="card__hero-number">#0</span>
-          <time class="card__date">2 marca 2026</time>
+          <time class="card__date">2 kwietnia 2026</time>
         </div>
       </div>
       <div class="card__body">
         <div class="card__header">
           <h3 class="card__title">Skowyt w śniegu</h3>
-          <span class="badge badge--easy">Łatwy</span>
+          <div class="card__badges"><span class="badge badge--easy">Łatwy</span></div>
         </div>
         
-        <div class="card__narrative narrative--lore"><p>Maszerujecie przez Mroźne Pustkowia od dziesięciu dni. Wiatr wbija w was swoje szpony, śnieg sięga pasa, każdy oddech kosztuje. Jesteście najemnikami wynajętymi jako pierwsza grupa wsparcia wysłana do Frosthaven, małej osady na końcu świata, odciętej od imperium przez większość roku. Śnieg stopniał na tyle, by przejść przez Imperialną Przełęcz, a wasze sakiewki były puste. Więc oto jesteście.</p>
+        <div class="card__party"><span class="party-member" data-char="wlocznia-sztandaru">Włócznia Sztandaru</span><span class="party-member" data-char="unfettered-d-o-m-e">Unfettered D.O.M.E.</span><span class="party-member" data-char="smierciobiezca">Śmierciobieżca</span></div>
+        <div class="card__narrative narrative--lore"><p>Maszerujecie przez Mroźne Pustkowia od dziesięciu dni. Wiatr wbija w was swoje szpony, śnieg sięga pasa, każdy oddech kosztuje. Jesteście najemnikami wynajętymi jako kolejna karawana wsparcia wysłana do Frosthaven — mała osada na końcu świata przysłała drugie wezwanie o pomoc, pilniejsze niż pierwsze. Pierwsza grupa dotarła na miejsce kilka dni temu i próbowała odeprzeć atak Algoks, ale musiała się wycofać. Śnieg jeszcze nie zamknął Imperialnej Przełęczy, więc oto jesteście — podążając śladami, które zamieć prawie zdążyła zasypać.</p>
 <p>W nocy zaczęły wyć wilki. To był sygnał. Stado wiedziało, że jesteście blisko, i zebrało się, by śledzić karawanę i czekać na moment słabości. Najwolniejszych, najstarszych, tych miały zaatakować pierwsze.</p>
-<p>Nie daliście im tej szansy. Stanęliście do walki i pokazaliście bestiom, że nie jesteście zdobyczą. Walka w zamieci była brutalna, ale krótka.</p>
-<p>Gdy znaczna część stada padła, reszta wycofała się na białe pustkowia. Nikt nie świętuje, nie ma na to czasu ani sił. Niektórzy członkowie karawany kiwają głowami w milczącym podziękowaniu. Musicie jeszcze pokonać jeden grzbiet przed zmrokiem, a jesteście już potwornie zmęczeni. To brutalne miejsce nie wygrało dzisiaj, ale zawsze jest jeszcze jakieś jutro.</p>
+<p>Nie daliście im tej szansy. Włócznia Sztandaru stanął jak filar pośrodku szlaku, jego sztandar trzepoczący na wietrze jak wyzwanie rzucone samej dziczy. Unfettered D.O.M.E. poruszał się z mechaniczną precyzją, odpierając każdą szarżę, zanim zdążyła nabrać rozpędu. Śmierciobieżca zaś... cóż, wilki szybko nauczyły się, że polowanie na tego najemnika to polowanie na własną zgubę.</p>
+<p>Walka w zamieci była brutalna, ale krótka. Gdy znaczna część stada padła, reszta wycofała się na białe pustkowia — tak jak wycofała się przed pierwszą karawaną, jak opowiadali woźnice. Te bestie nie uczą się na błędach. Albo może uczą się, ale głód jest silniejszy od mądrości.</p>
+<p>Nikt nie świętuje, nie ma na to czasu ani sił. Niektórzy członkowie karawany kiwają głowami w milczącym podziękowaniu. Musicie jeszcze pokonać jeden grzbiet przed zmrokiem, a jesteście już potwornie zmęczeni. To brutalne miejsce nie wygrało dzisiaj, ale zawsze jest jeszcze jakieś jutro.</p>
 <p>Cel: wyeliminowanie wszystkich wrogów na planszy. Scenariusz wprowadzający, rozgrywany na drodze do Frosthaven.</p></div>
+      </div>
+    </article><div class="session-divider" data-reveal><span>Sesja 1 — 28 marca 2026</span></div>
+    <article class="card card--completed" data-reveal>
+      <div class="card__hero">
+        <img src="images/scenario_000_s001.png" alt="Skowyt w śniegu" loading="lazy">
+        <div class="card__hero-overlay">
+          <span class="card__hero-number">#0</span>
+          <time class="card__date">28 marca 2026</time>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__header">
+          <h3 class="card__title">Skowyt w śniegu</h3>
+          <div class="card__badges"><span class="badge badge--easy">Łatwy</span></div>
+        </div>
+        
+        <div class="card__party"><span class="party-member" data-char="ostrzoblysk">Ostrzobłysk</span><span class="party-member" data-char="kosciodziej">Kościodziej</span><span class="party-member" data-char="dryfiarz">Dryfiarz</span></div>
+        <div class="card__narrative narrative--lore"><p>Dziesiąty dzień marszu i już nie pamiętacie, jak wygląda świat bez śniegu. Imperialna Przełęcz otworzyła się zaledwie kilka dni temu, pierwsza szczelina w murze zimy, przez którą dało się przepchnąć karawanę. Nikt rozsądny nie wyruszyłby w taką drogę. Ale rozsądni ludzie nie zostają najemnikami, a wasze sakiewki były puste od tygodni.</p>
+<p>Frosthaven. Osada na końcu świata, odcięta od cywilizacji przez pół roku, błagająca o wsparcie. Wy jesteście tym wsparciem, pierwsza grupa, która odpowiedziała na wezwanie. Trójka obcych sobie ludzi, złączonych wyłącznie kontraktem i wolą przeżycia. Ostrzobłysk kroczy na czele, jego ostrza migoczą bladym światłem nawet przez warstwę szronu. Za nim Kościodziej, otulony zapachem starej magii i czegoś gorszego. Dryfiarz zamyka szyk, przystosowując się do warunków z prędkością, która niepokoi nawet jego towarzyszy.</p>
+<p>Cisza przychodzi pierwsza. Wiatr milknie, jakby ktoś zatkał paszczę samej zimy. Woły karawany stają, odmawiając ruchu. Wtedy słyszycie niski, wibrujący skowyt, tak bliski, że czujecie go w kościach zanim dotrze do uszu. Potem kolejny, i kolejny, aż cały horyzont wyje jednym chórem.</p>
+<p>Uderzają z dwóch stron jednocześnie. To nie są wygłodniałe kundle szukające resztek, to polowanie, zorganizowane i bezwzględne. Największy z wilków, z sierścią zlepiałą lodem i krwią, rzuca się prosto na wozy z zaopatrzeniem. Reszta stada odcina was od karawany, zmuszając do walki na ich warunkach, w głębokim śniegu, gdzie każdy krok kosztuje siły.</p>
+<p>Walczycie w ciemności rozświetlanej jedynie blaskiem ostrzy Ostrzobłyska i upiorną poświatą wezwań Kościodzieja. Dryfiarz pojawia się tam, gdzie wilki się tego nie spodziewają, wyłaniając się z zamieci jak kolejny drapieżnik, tyle że groźniejszy. Krew barwi śnieg na czarno w świetle księżyca.</p>
+<p>Kiedy ostatnie wilki uciekają w mrok, stajecie po kolana w krwistym błocie. Nikt nie świętuje. Karawaniarz z rozszarpanym ramieniem dziękuje wam spojrzeniem, bo na słowa nie ma już siły. Przed wami ostatni odcinek drogi i cokolwiek czeka was w Frosthaven.</p>
+<p>Cel: wyeliminowanie wszystkich wrogów. Scenariusz wprowadzający, rozgrywany na drodze do Frosthaven.</p></div>
+      </div>
+    </article>
+    <article class="card card--completed card--defeated" data-reveal>
+      <div class="card__hero">
+        <img src="images/scenario_001_s001.png" alt="Miasto w płomieniach" loading="lazy">
+        <div class="card__hero-overlay">
+          <span class="card__hero-number">#1</span>
+          <time class="card__date">28 marca 2026</time>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__header">
+          <h3 class="card__title">Miasto w płomieniach</h3>
+          <div class="card__badges"><span class="badge badge--easy">Łatwy</span><span class="badge badge--defeated">Klęska</span></div>
+        </div>
+        
+        <div class="card__party"><span class="party-member" data-char="ostrzoblysk">Ostrzobłysk</span><span class="party-member" data-char="kosciodziej">Kościodziej</span><span class="party-member" data-char="dryfiarz">Dryfiarz</span></div>
+        <div class="card__narrative narrative--lore"><p>Widzicie łunę na niebie, zanim jeszcze zobaczycie mury. Pomarańczowy blask tańczy na chmurach nad ostatnim grzbietem i wiecie natychmiast, że to nie są ogniska powitalne.</p>
+<p>Frosthaven płonie.</p>
+<p>Wbiegacie do osady z ostatkiem sił, z niezaleczonymi ranami po wilkach i dziesięcioma dniami marszu w kościach. Ulice są polem bitwy. Ogromne, pokryte białym futrem bestie, Algoks, szturmują barykady z brutalną, zorganizowaną precyzją. Ich kapłani skandują w nieznanym języku, a każde słowo wzmacnia szarżujących wojowników. Strażnicy Frosthaven walczą desperacko, ale cofają się krok po kroku.</p>
+<p>Nie wahacie się. Ostrzobłysk przecina się przez pierwszą falę Algoks niczym rozżarzony nóż przez lód. Kościodziej wznosi swoich nieumarłych sługów z ciał poległych, obracając straty obrońców w gorzkie wzmocnienie. Dryfiarz wykorzystuje chaos, uderzając tam, gdzie linie bestii są najcieńsze.</p>
+<p>Przez chwilę wydaje się, że możecie odwrócić losy bitwy. Przez chwilę obrońcy nabierają nadziei.</p>
+<p>A potem zaczynają strzelać łucznicy.</p>
+<p>Algoks Łucznicy zajęli dachy po obu stronach głównej ulicy i nagle znajdujecie się w śmiertelnej strefie bez osłony. Strzały spadają jak grad, precyzyjne i nieubłagane. Dryfiarz pierwszy sygnalizuje odwrót, ale jest za późno na uporządkowany manewr. Kościodziej próbuje wznieść barierę z kości, ale kolejna salwa przebija ją jak papier. Ostrzobłysk osłania wycofujących się towarzyszy najdłużej, tnąc nadlatujące strzały ostrzami, ale nawet on w końcu musi ustąpić pod gradem pocisków.</p>
+<p>Wycofujecie się do ruin spalonego spichlerza na skraju osady. Strażnicy miejscy przejmują waszą pozycję, a wy możecie jedynie patrzeć, jak bitwa toczy się dalej bez was. Rany po wilkach otworzyły się na nowo, ciała odmawiają posłuszeństwa. Frosthaven broni się dalej, ale wy nie jesteście już w stanie walczyć. Gdy nad ranem Algoks w końcu się wycofują, miasto nadal stoi, choć w połowie spalone i z dziesiątkami rannych. Przetrwało tę noc, ale nie dzięki wam. Z imperialnego traktu nadciąga już kolejna karawana z najemnikami, którzy być może dokończą to, czego wy nie zdołaliście.</p>
+<p>Cel: obrona Frosthaven przed atakiem Algoks. Drużyna musiała się wycofać z walki pod ostrzałem Algoks Łuczników.</p></div>
       </div>
     </article>
     </section>
@@ -657,13 +1101,63 @@
           <div class="card__technical"><h4>Cel</h4>
 <p>Wyeliminować wszystkich wrogów na planszy.</p>
 <h4>Przeciwnicy</h4>
-<p>Algoks Kapłan · Algoks Łucznik · Algoks Strażnik. Strażnicy Miejscy walczą po waszej stronie jako sojusznicy.</p>
+<p>Algoks Kapłan · Algoks Łucznik · Algoks Strażnik · Strażnik Miejski. Strażnicy Miejscy walczą po waszej stronie jako sojusznicy.</p>
 <h4>Zasady specjalne</h4>
 <ul>
 <li>Strażnicy Miejscy są sojusznikami graczy, nie wykonują tur, ale mają dodatkową obronę (🛡️2) i odwet (🗡️2), inicjatywa 50</li>
 </ul>
 <h4>Łupy</h4>
 <p>8 monet · 2 drewno · 2 metal · 2 skóra</p></div>
+        </details>
+        
+        <details class="card__monsters">
+          <summary>Karty potworów (4)</summary>
+          <div class="monsters-grid">
+            
+    <div class="monster-card" title="Kliknij aby powiększyć">
+      <div class="monster-card__images" onclick="openMonsterLightbox(this.parentElement)">
+        <img src="images/cards/monster-algox-priest-0.png" alt="Algox Priest 1/2" class="monster-level monster-level--active" data-level="0" loading="lazy">
+<img src="images/cards/monster-algox-priest-1.png" alt="Algox Priest 2/2" class="monster-level" data-level="1" loading="lazy">
+      </div>
+      <div class="monster-card__footer">
+        <span class="monster-card__label">Algox Priest</span>
+        <div class="monster-card__dots"><span class="level-dot level-dot--active" data-level="0"></span><span class="level-dot" data-level="1"></span></div>
+      </div>
+    </div>
+
+    <div class="monster-card" title="Kliknij aby powiększyć">
+      <div class="monster-card__images" onclick="openMonsterLightbox(this.parentElement)">
+        <img src="images/cards/monster-algox-archer-0.png" alt="Algox Archer 1/2" class="monster-level monster-level--active" data-level="0" loading="lazy">
+<img src="images/cards/monster-algox-archer-1.png" alt="Algox Archer 2/2" class="monster-level" data-level="1" loading="lazy">
+      </div>
+      <div class="monster-card__footer">
+        <span class="monster-card__label">Algox Archer</span>
+        <div class="monster-card__dots"><span class="level-dot level-dot--active" data-level="0"></span><span class="level-dot" data-level="1"></span></div>
+      </div>
+    </div>
+
+    <div class="monster-card" title="Kliknij aby powiększyć">
+      <div class="monster-card__images" onclick="openMonsterLightbox(this.parentElement)">
+        <img src="images/cards/monster-algox-guard-0.png" alt="Algox Guard 1/2" class="monster-level monster-level--active" data-level="0" loading="lazy">
+<img src="images/cards/monster-algox-guard-1.png" alt="Algox Guard 2/2" class="monster-level" data-level="1" loading="lazy">
+      </div>
+      <div class="monster-card__footer">
+        <span class="monster-card__label">Algox Guard</span>
+        <div class="monster-card__dots"><span class="level-dot level-dot--active" data-level="0"></span><span class="level-dot" data-level="1"></span></div>
+      </div>
+    </div>
+
+    <div class="monster-card" title="Kliknij aby powiększyć">
+      <div class="monster-card__images" onclick="openMonsterLightbox(this.parentElement)">
+        <img src="images/cards/monster-city-guard-0.png" alt="City Guard 1/2" class="monster-level monster-level--active" data-level="0" loading="lazy">
+<img src="images/cards/monster-city-guard-1.png" alt="City Guard 2/2" class="monster-level" data-level="1" loading="lazy">
+      </div>
+      <div class="monster-card__footer">
+        <span class="monster-card__label">City Guard</span>
+        <div class="monster-card__dots"><span class="level-dot level-dot--active" data-level="0"></span><span class="level-dot" data-level="1"></span></div>
+      </div>
+    </div>
+          </div>
         </details>
       </div>
     </article>
@@ -740,10 +1234,126 @@
       </div>
       </section>
 
+    <section id="tab-outpost" class="tab-content">
+        
+    <div class="campaign-dashboard" data-reveal>
+      <h2 class="cards-section__title">Stan kampanii</h2>
+
+      <div class="stat-row">
+        <div class="stat-block">
+          <span class="stat-label">Dobrobyt</span>
+          <div class="stat-bar">
+            <div class="stat-bar__fill stat-bar__fill--gold" style="width:2%"></div>
+          </div>
+          <span class="stat-value">Poziom 1 <span class="stat-raw">(1/50)</span></span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-label">Morale</span>
+          <div class="stat-bar">
+            <div class="stat-bar__fill stat-bar__fill--ice" style="width:25%"></div>
+          </div>
+          <span class="stat-value">+0 <span class="stat-raw">(5/20)</span></span>
+        </div>
+      </div>
+
+      <div class="stat-row stat-row--secondary">
+        <div class="stat-inline">
+          <span class="stat-label">Pora roku</span>
+          <span class="stat-value stat-value--season stat-value--winter">Zima</span>
+        </div>
+        <div class="stat-inline">
+          <span class="stat-label">Tydzień</span>
+          <span class="stat-value">0</span>
+        </div>
+      </div>
+
+      
+      <div class="resource-section">
+        <span class="stat-label">Zasoby Frosthaven</span>
+        <div class="resource-grid"><div class="resource-item"><span class="resource-label">Drewno</span><span class="resource-value">5</span></div>
+<div class="resource-item"><span class="resource-label">Metal</span><span class="resource-value">3</span></div>
+<div class="resource-item"><span class="resource-label">Skóra</span><span class="resource-value">2</span></div>
+<div class="resource-item"><span class="resource-label">Skóra surowa</span><span class="resource-value">4</span></div></div>
+      </div>
+    </div>
+        
+      </section>
+
     <footer>Kronika Frosthaven</footer>
+
+  <div class="monster-lightbox" id="monsterLightbox" onclick="closeMonsterLightbox(event)">
+    <button class="monster-lightbox__close" onclick="closeMonsterLightbox(event, true)">&times;</button>
+    <div class="monster-lightbox__card" id="lightboxCard"></div>
+    <span class="monster-lightbox__name" id="lightboxName"></span>
+    <div class="monster-lightbox__controls">
+      <button class="monster-lightbox__btn" onclick="lightboxRotate(event)">Obróć 90°</button>
+      <button class="monster-lightbox__btn" id="lightboxFlipBtn" onclick="lightboxFlip(event)">Odwróć kartę</button>
+      <div class="monster-lightbox__dots" id="lightboxDots"></div>
+    </div>
+  </div>
   </div>
 
   <script>
+    var lbRotation = 0;
+
+    function openMonsterLightbox(card) {
+      var imgs = card.querySelectorAll('.monster-level');
+      var name = card.querySelector('.monster-card__label').textContent;
+      var lb = document.getElementById('monsterLightbox');
+      var lbCard = document.getElementById('lightboxCard');
+      var lbName = document.getElementById('lightboxName');
+      var lbDots = document.getElementById('lightboxDots');
+      var flipBtn = document.getElementById('lightboxFlipBtn');
+
+      lbCard.innerHTML = '';
+      lbDots.innerHTML = '';
+      lbRotation = 0;
+
+      imgs.forEach(function(img, i) {
+        var clone = img.cloneNode(true);
+        clone.style.transform = '';
+        clone.classList.toggle('monster-level--active', i === 0);
+        lbCard.appendChild(clone);
+        var dot = document.createElement('span');
+        dot.className = 'level-dot' + (i === 0 ? ' level-dot--active' : '');
+        lbDots.appendChild(dot);
+      });
+
+      flipBtn.style.display = imgs.length > 1 ? '' : 'none';
+      lbDots.style.display = imgs.length > 1 ? '' : 'none';
+      lbName.textContent = name;
+      lb.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMonsterLightbox(e, force) {
+      if (force || e.target === document.getElementById('monsterLightbox')) {
+        document.getElementById('monsterLightbox').classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+
+    function lightboxRotate(e) {
+      e.stopPropagation();
+      lbRotation = (lbRotation + 90) % 360;
+      var img = document.querySelector('#lightboxCard .monster-level--active');
+      if (img) img.style.transform = 'rotate(' + lbRotation + 'deg)';
+    }
+
+    function lightboxFlip(e) {
+      e.stopPropagation();
+      var lbCard = document.getElementById('lightboxCard');
+      var imgs = lbCard.querySelectorAll('.monster-level');
+      var dots = document.getElementById('lightboxDots').querySelectorAll('.level-dot');
+      var current = 0;
+      imgs.forEach(function(img, i) { if (img.classList.contains('monster-level--active')) current = i; });
+      var next = (current + 1) % imgs.length;
+      imgs.forEach(function(img) { img.classList.remove('monster-level--active'); img.style.transform = ''; });
+      dots.forEach(function(d) { d.classList.remove('level-dot--active'); });
+      imgs[next].classList.add('monster-level--active');
+      if (dots[next]) dots[next].classList.add('level-dot--active');
+      lbRotation = 0;
+    }
     function switchTab(tab) {
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
       document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
