@@ -1263,5 +1263,551 @@
         "4": "building-98-level-4.jpeg"
       }
     }
+  },
+  "monsters": {
+    "abael-herder": {
+      "name": "Abael Herder",
+      "levels": 2,
+      "files": {
+        "0": "monster-abael-herder-0.png",
+        "1": "monster-abael-herder-1.png"
+      }
+    },
+    "abael-scout": {
+      "name": "Abael Scout",
+      "levels": 2,
+      "files": {
+        "0": "monster-abael-scout-0.png",
+        "1": "monster-abael-scout-1.png"
+      }
+    },
+    "algox-archer": {
+      "name": "Algox Archer",
+      "levels": 2,
+      "files": {
+        "0": "monster-algox-archer-0.png",
+        "1": "monster-algox-archer-1.png"
+      }
+    },
+    "algox-guard": {
+      "name": "Algox Guard",
+      "levels": 2,
+      "files": {
+        "0": "monster-algox-guard-0.png",
+        "1": "monster-algox-guard-1.png"
+      }
+    },
+    "algox-icespeaker": {
+      "name": "Algox Icespeaker",
+      "levels": 2,
+      "files": {
+        "0": "monster-algox-icespeaker-0.png",
+        "1": "monster-algox-icespeaker-1.png"
+      }
+    },
+    "algox-priest": {
+      "name": "Algox Priest",
+      "levels": 2,
+      "files": {
+        "0": "monster-algox-priest-0.png",
+        "1": "monster-algox-priest-1.png"
+      }
+    },
+    "algox-scout": {
+      "name": "Algox Scout",
+      "levels": 2,
+      "files": {
+        "0": "monster-algox-scout-0.png",
+        "1": "monster-algox-scout-1.png"
+      }
+    },
+    "algox-snowspeaker": {
+      "name": "Algox Snowspeaker",
+      "levels": 2,
+      "files": {
+        "0": "monster-algox-snowspeaker-0.png",
+        "1": "monster-algox-snowspeaker-1.png"
+      }
+    },
+    "algox-stormcaller": {
+      "name": "Algox Stormcaller",
+      "levels": 4,
+      "files": {
+        "0": "monster-algox-stormcaller-0.png",
+        "1": "monster-algox-stormcaller-1.png",
+        "2": "monster-algox-stormcaller-2.png",
+        "3": "monster-algox-stormcaller-3.png"
+      }
+    },
+    "ancient-artillery": {
+      "name": "Ancient Artillery",
+      "levels": 2,
+      "files": {
+        "0": "monster-ancient-artillery-0.png",
+        "1": "monster-ancient-artillery-1.png"
+      }
+    },
+    "black-imp": {
+      "name": "Black Imp",
+      "levels": 2,
+      "files": {
+        "0": "monster-black-imp-0.png",
+        "1": "monster-black-imp-1.png"
+      }
+    },
+    "burrowing-blade": {
+      "name": "Burrowing Blade",
+      "levels": 2,
+      "files": {
+        "0": "monster-burrowing-blade-0.png",
+        "1": "monster-burrowing-blade-1.png"
+      }
+    },
+    "chaos-demon": {
+      "name": "Chaos Demon",
+      "levels": 2,
+      "files": {
+        "0": "monster-chaos-demon-0.png",
+        "1": "monster-chaos-demon-1.png"
+      }
+    },
+    "city-guard": {
+      "name": "City Guard",
+      "levels": 2,
+      "files": {
+        "0": "monster-city-guard-0.png",
+        "1": "monster-city-guard-1.png"
+      }
+    },
+    "deep-terror": {
+      "name": "Deep Terror",
+      "levels": 2,
+      "files": {
+        "0": "monster-deep-terror-0.png",
+        "1": "monster-deep-terror-1.png"
+      }
+    },
+    "earth-demon": {
+      "name": "Earth Demon",
+      "levels": 2,
+      "files": {
+        "0": "monster-earth-demon-0.png",
+        "1": "monster-earth-demon-1.png"
+      }
+    },
+    "elder-ooze": {
+      "name": "Elder Ooze",
+      "levels": 4,
+      "files": {
+        "0": "monster-elder-ooze-0.png",
+        "1": "monster-elder-ooze-1.png",
+        "2": "monster-elder-ooze-2.png",
+        "3": "monster-elder-ooze-3.png"
+      }
+    },
+    "fish-king": {
+      "name": "Fish King",
+      "levels": 4,
+      "files": {
+        "0": "monster-fish-king-0.png",
+        "1": "monster-fish-king-1.png",
+        "2": "monster-fish-king-2.png",
+        "3": "monster-fish-king-3.png"
+      }
+    },
+    "flame-demon": {
+      "name": "Flame Demon",
+      "levels": 2,
+      "files": {
+        "0": "monster-flame-demon-0.png",
+        "1": "monster-flame-demon-1.png"
+      }
+    },
+    "flaming-bladespinner": {
+      "name": "Flaming Bladespinner",
+      "levels": 2,
+      "files": {
+        "0": "monster-flaming-bladespinner-0.png",
+        "1": "monster-flaming-bladespinner-1.png"
+      }
+    },
+    "forest-imp": {
+      "name": "Forest Imp",
+      "levels": 2,
+      "files": {
+        "0": "monster-forest-imp-0.png",
+        "1": "monster-forest-imp-1.png"
+      }
+    },
+    "fracture-of-the-deep": {
+      "name": "Fracture of the Deep",
+      "levels": 4,
+      "files": {
+        "0": "monster-fracture-of-the-deep-0.png",
+        "1": "monster-fracture-of-the-deep-1.png",
+        "2": "monster-fracture-of-the-deep-2.png",
+        "3": "monster-fracture-of-the-deep-3.png"
+      }
+    },
+    "frost-demon": {
+      "name": "Frost Demon",
+      "levels": 2,
+      "files": {
+        "0": "monster-frost-demon-0.png",
+        "1": "monster-frost-demon-1.png"
+      }
+    },
+    "frozen-corpse": {
+      "name": "Frozen Corpse",
+      "levels": 2,
+      "files": {
+        "0": "monster-frozen-corpse-0.png",
+        "1": "monster-frozen-corpse-1.png"
+      }
+    },
+    "frozen-fist": {
+      "name": "Frozen Fist",
+      "levels": 4,
+      "files": {
+        "0": "monster-frozen-fist-0.png",
+        "1": "monster-frozen-fist-1.png",
+        "2": "monster-frozen-fist-2.png",
+        "3": "monster-frozen-fist-3.png"
+      }
+    },
+    "harbinger-of-shadow": {
+      "name": "Harbinger of Shadow",
+      "levels": 4,
+      "files": {
+        "0": "monster-harbinger-of-shadow-0.png",
+        "1": "monster-harbinger-of-shadow-1.png",
+        "2": "monster-harbinger-of-shadow-2.png",
+        "3": "monster-harbinger-of-shadow-3.png"
+      }
+    },
+    "harrower-infester": {
+      "name": "Harrower Infester",
+      "levels": 2,
+      "files": {
+        "0": "monster-harrower-infester-0.png",
+        "1": "monster-harrower-infester-1.png"
+      }
+    },
+    "hound": {
+      "name": "Hound",
+      "levels": 2,
+      "files": {
+        "0": "monster-hound-0.png",
+        "1": "monster-hound-1.png"
+      }
+    },
+    "ice-wraith": {
+      "name": "Ice Wraith",
+      "levels": 2,
+      "files": {
+        "0": "monster-ice-wraith-0.png",
+        "1": "monster-ice-wraith-1.png"
+      }
+    },
+    "lightning-eel": {
+      "name": "Lightning Eel",
+      "levels": 2,
+      "files": {
+        "0": "monster-lightning-eel-0.png",
+        "1": "monster-lightning-eel-1.png"
+      }
+    },
+    "living-bones": {
+      "name": "Living Bones",
+      "levels": 2,
+      "files": {
+        "0": "monster-living-bones-0.png",
+        "1": "monster-living-bones-1.png"
+      }
+    },
+    "living-doom": {
+      "name": "Living Doom",
+      "levels": 2,
+      "files": {
+        "0": "monster-living-doom-0.png",
+        "1": "monster-living-doom-1.png"
+      }
+    },
+    "living-spirit": {
+      "name": "Living Spirit",
+      "levels": 2,
+      "files": {
+        "0": "monster-living-spirit-0.png",
+        "1": "monster-living-spirit-1.png"
+      }
+    },
+    "lord-of-chaos": {
+      "name": "Lord of Chaos",
+      "levels": 4,
+      "files": {
+        "0": "monster-lord-of-chaos-0.png",
+        "1": "monster-lord-of-chaos-1.png",
+        "2": "monster-lord-of-chaos-2.png",
+        "3": "monster-lord-of-chaos-3.png"
+      }
+    },
+    "lurker-clawcrusher": {
+      "name": "Lurker Clawcrusher",
+      "levels": 2,
+      "files": {
+        "0": "monster-lurker-clawcrusher-0.png",
+        "1": "monster-lurker-clawcrusher-1.png"
+      }
+    },
+    "lurker-mindsnipper": {
+      "name": "Lurker Mindsnipper",
+      "levels": 2,
+      "files": {
+        "0": "monster-lurker-mindsnipper-0.png",
+        "1": "monster-lurker-mindsnipper-1.png"
+      }
+    },
+    "lurker-soldier": {
+      "name": "Lurker Soldier",
+      "levels": 2,
+      "files": {
+        "0": "monster-lurker-soldier-0.png",
+        "1": "monster-lurker-soldier-1.png"
+      }
+    },
+    "lurker-wavethrower": {
+      "name": "Lurker Wavethrower",
+      "levels": 2,
+      "files": {
+        "0": "monster-lurker-wavethrower-0.png",
+        "1": "monster-lurker-wavethrower-1.png"
+      }
+    },
+    "night-demon": {
+      "name": "Night Demon",
+      "levels": 2,
+      "files": {
+        "0": "monster-night-demon-0.png",
+        "1": "monster-night-demon-1.png"
+      }
+    },
+    "ooze": {
+      "name": "Ooze",
+      "levels": 2,
+      "files": {
+        "0": "monster-ooze-0.png",
+        "1": "monster-ooze-1.png"
+      }
+    },
+    "orphan": {
+      "name": "Orphan",
+      "levels": 4,
+      "files": {
+        "0": "monster-orphan-0.png",
+        "1": "monster-orphan-1.png",
+        "2": "monster-orphan-2.png",
+        "3": "monster-orphan-3.png"
+      }
+    },
+    "piranha-pig": {
+      "name": "Piranha Pig",
+      "levels": 2,
+      "files": {
+        "0": "monster-piranha-pig-0.png",
+        "1": "monster-piranha-pig-1.png"
+      }
+    },
+    "polar-bear": {
+      "name": "Polar Bear",
+      "levels": 2,
+      "files": {
+        "0": "monster-polar-bear-0.png",
+        "1": "monster-polar-bear-1.png"
+      }
+    },
+    "prince-of-frost": {
+      "name": "Prince of Frost",
+      "levels": 4,
+      "files": {
+        "0": "monster-prince-of-frost-0.png",
+        "1": "monster-prince-of-frost-1.png",
+        "2": "monster-prince-of-frost-2.png",
+        "3": "monster-prince-of-frost-3.png"
+      }
+    },
+    "program-director": {
+      "name": "Program Director",
+      "levels": 4,
+      "files": {
+        "0": "monster-program-director-0.png",
+        "1": "monster-program-director-1.png",
+        "2": "monster-program-director-2.png",
+        "3": "monster-program-director-3.png"
+      }
+    },
+    "render": {
+      "name": "Render",
+      "levels": 4,
+      "files": {
+        "0": "monster-render-0.png",
+        "1": "monster-render-1.png",
+        "2": "monster-render-2.png",
+        "3": "monster-render-3.png"
+      }
+    },
+    "rending-drake": {
+      "name": "Rending Drake",
+      "levels": 2,
+      "files": {
+        "0": "monster-rending-drake-0.png",
+        "1": "monster-rending-drake-1.png"
+      }
+    },
+    "robotic-boltshooter": {
+      "name": "Robotic Boltshooter",
+      "levels": 2,
+      "files": {
+        "0": "monster-robotic-boltshooter-0.png",
+        "1": "monster-robotic-boltshooter-1.png"
+      }
+    },
+    "ruined-machine": {
+      "name": "Ruined Machine",
+      "levels": 2,
+      "files": {
+        "0": "monster-ruined-machine-0.png",
+        "1": "monster-ruined-machine-1.png"
+      }
+    },
+    "savvas-icestorm": {
+      "name": "Savvas Icestorm",
+      "levels": 2,
+      "files": {
+        "0": "monster-savvas-icestorm-0.png",
+        "1": "monster-savvas-icestorm-1.png"
+      }
+    },
+    "savvas-lavaflow": {
+      "name": "Savvas Lavaflow",
+      "levels": 2,
+      "files": {
+        "0": "monster-savvas-lavaflow-0.png",
+        "1": "monster-savvas-lavaflow-1.png"
+      }
+    },
+    "seeker-of-the-abyss": {
+      "name": "Seeker of the Abyss",
+      "levels": 4,
+      "files": {
+        "0": "monster-seeker-of-the-abyss-0.png",
+        "1": "monster-seeker-of-the-abyss-1.png",
+        "2": "monster-seeker-of-the-abyss-2.png",
+        "3": "monster-seeker-of-the-abyss-3.png"
+      }
+    },
+    "shrike-fiend": {
+      "name": "Shrike Fiend",
+      "levels": 2,
+      "files": {
+        "0": "monster-shrike-fiend-0.png",
+        "1": "monster-shrike-fiend-1.png"
+      }
+    },
+    "snowdancer": {
+      "name": "Snowdancer",
+      "levels": 4,
+      "files": {
+        "0": "monster-snowdancer-0.png",
+        "1": "monster-snowdancer-1.png",
+        "2": "monster-snowdancer-2.png",
+        "3": "monster-snowdancer-3.png"
+      }
+    },
+    "snow-imp": {
+      "name": "Snow Imp",
+      "levels": 2,
+      "files": {
+        "0": "monster-snow-imp-0.png",
+        "1": "monster-snow-imp-1.png"
+      }
+    },
+    "spitting-drake": {
+      "name": "Spitting Drake",
+      "levels": 2,
+      "files": {
+        "0": "monster-spitting-drake-0.png",
+        "1": "monster-spitting-drake-1.png"
+      }
+    },
+    "steel-automaton": {
+      "name": "Steel Automaton",
+      "levels": 2,
+      "files": {
+        "0": "monster-steel-automaton-0.png",
+        "1": "monster-steel-automaton-1.png"
+      }
+    },
+    "sun-demon": {
+      "name": "Sun Demon",
+      "levels": 2,
+      "files": {
+        "0": "monster-sun-demon-0.png",
+        "1": "monster-sun-demon-1.png"
+      }
+    },
+    "the-collector": {
+      "name": "The Collector",
+      "levels": 4,
+      "files": {
+        "0": "monster-the-collector-0.png",
+        "1": "monster-the-collector-1.png",
+        "2": "monster-the-collector-2.png",
+        "3": "monster-the-collector-3.png"
+      }
+    },
+    "the-relic": {
+      "name": "The Relic",
+      "levels": 4,
+      "files": {
+        "0": "monster-the-relic-0.png",
+        "1": "monster-the-relic-1.png",
+        "2": "monster-the-relic-2.png",
+        "3": "monster-the-relic-3.png"
+      }
+    },
+    "vermling-priest": {
+      "name": "Vermling Priest",
+      "levels": 2,
+      "files": {
+        "0": "monster-vermling-priest-0.png",
+        "1": "monster-vermling-priest-1.png"
+      }
+    },
+    "vermling-scout": {
+      "name": "Vermling Scout",
+      "levels": 2,
+      "files": {
+        "0": "monster-vermling-scout-0.png",
+        "1": "monster-vermling-scout-1.png"
+      }
+    },
+    "vestige-of-the-imprisoned-god": {
+      "name": "Vestige of the Imprisoned God",
+      "levels": 4,
+      "files": {
+        "0": "monster-vestige-of-the-imprisoned-god-0.png",
+        "1": "monster-vestige-of-the-imprisoned-god-1.png",
+        "2": "monster-vestige-of-the-imprisoned-god-2.png",
+        "3": "monster-vestige-of-the-imprisoned-god-3.png"
+      }
+    },
+    "wind-demon": {
+      "name": "Wind Demon",
+      "levels": 2,
+      "files": {
+        "0": "monster-wind-demon-0.png",
+        "1": "monster-wind-demon-1.png"
+      }
+    }
   }
 }
