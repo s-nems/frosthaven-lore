@@ -1,0 +1,1 @@
+function a(){const t=new IntersectionObserver(e=>{e.forEach(r=>{r.isIntersecting&&(r.target.classList.add("revealed"),t.unobserve(r.target))})},{threshold:.1,rootMargin:"0px 0px -40px 0px"});document.querySelectorAll("[data-reveal]:not(.revealed)").forEach(e=>{t.observe(e)})}document.addEventListener("astro:page-load",a);
