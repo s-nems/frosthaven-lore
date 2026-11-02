@@ -1809,5 +1809,6313 @@
         "1": "monster-wind-demon-1.png"
       }
     }
+  },
+  "characters": {
+    "fh-BB": {
+      "name": "Blinkblade",
+      "game": "fh",
+      "mat": "character-mat-blinkblade.jpeg",
+      "matBack": "character-mat-blinkblade-back.jpeg",
+      "cards": [
+        {
+          "name": "blurry jab",
+          "level": "1",
+          "initiative": 20,
+          "file": "characters/fh-BB/fh-blurry-jab.jpeg"
+        },
+        {
+          "name": "cascading reaction",
+          "level": "1",
+          "initiative": 19,
+          "file": "characters/fh-BB/fh-cascading-reaction.jpeg"
+        },
+        {
+          "name": "drive recharge",
+          "level": "1",
+          "initiative": 69,
+          "file": "characters/fh-BB/fh-drive-recharge.jpeg"
+        },
+        {
+          "name": "hit and run",
+          "level": "1",
+          "initiative": 41,
+          "file": "characters/fh-BB/fh-hit-and-run.jpeg"
+        },
+        {
+          "name": "kinetic transfer",
+          "level": "1",
+          "initiative": 36,
+          "file": "characters/fh-BB/fh-kinetic-transfer.jpeg"
+        },
+        {
+          "name": "overdrive",
+          "level": "1",
+          "initiative": 60,
+          "file": "characters/fh-BB/fh-overdrive.jpeg"
+        },
+        {
+          "name": "power leak",
+          "level": "1",
+          "initiative": 17,
+          "file": "characters/fh-BB/fh-power-leak.jpeg"
+        },
+        {
+          "name": "sap speed",
+          "level": "1",
+          "initiative": 45,
+          "file": "characters/fh-BB/fh-sap-speed.jpeg"
+        },
+        {
+          "name": "temporal displacement",
+          "level": "1",
+          "initiative": 44,
+          "file": "characters/fh-BB/fh-temporal-displacement.jpeg"
+        },
+        {
+          "name": "twin strike",
+          "level": "1",
+          "initiative": 24,
+          "file": "characters/fh-BB/fh-twin-strike.jpeg"
+        },
+        {
+          "name": "borrowed time",
+          "level": "X",
+          "initiative": 2,
+          "file": "characters/fh-BB/fh-borrowed-time.jpeg"
+        },
+        {
+          "name": "experimental adjustment",
+          "level": "X",
+          "initiative": 12,
+          "file": "characters/fh-BB/fh-experimental-adjustment.jpeg"
+        },
+        {
+          "name": "sand in the hourglass",
+          "level": "X",
+          "initiative": 52,
+          "file": "characters/fh-BB/fh-sand-in-the-hourglass.jpeg"
+        },
+        {
+          "name": "reckless augmentation",
+          "level": "2",
+          "initiative": 10,
+          "file": "characters/fh-BB/fh-reckless-augmentation.jpeg"
+        },
+        {
+          "name": "systems reboot",
+          "level": "2",
+          "initiative": 57,
+          "file": "characters/fh-BB/fh-systems-reboot.jpeg"
+        },
+        {
+          "name": "double time",
+          "level": "3",
+          "initiative": 22,
+          "file": "characters/fh-BB/fh-double-time.jpeg"
+        },
+        {
+          "name": "make it count",
+          "level": "3",
+          "initiative": 51,
+          "file": "characters/fh-BB/fh-make-it-count.jpeg"
+        },
+        {
+          "name": "potential energy",
+          "level": "4",
+          "initiative": 32,
+          "file": "characters/fh-BB/fh-potential-energy.jpeg"
+        },
+        {
+          "name": "precision timing",
+          "level": "4",
+          "initiative": 15,
+          "file": "characters/fh-BB/fh-precision-timing.jpeg"
+        },
+        {
+          "name": "breakneck speed",
+          "level": "5",
+          "initiative": 3,
+          "file": "characters/fh-BB/fh-breakneck-speed.jpeg"
+        },
+        {
+          "name": "flashing flurry",
+          "level": "5",
+          "initiative": 40,
+          "file": "characters/fh-BB/fh-flashing-flurry.jpeg"
+        },
+        {
+          "name": "stab them all",
+          "level": "6",
+          "initiative": 4,
+          "file": "characters/fh-BB/fh-stab-them-all.jpeg"
+        },
+        {
+          "name": "the knife's edge",
+          "level": "6",
+          "initiative": 65,
+          "file": "characters/fh-BB/fh-the-knifes-edge.jpeg"
+        },
+        {
+          "name": "phasing blades",
+          "level": "7",
+          "initiative": 63,
+          "file": "characters/fh-BB/fh-phasing-blades.jpeg"
+        },
+        {
+          "name": "rushed to the end",
+          "level": "7",
+          "initiative": 32,
+          "file": "characters/fh-BB/fh-rushed-to-the-end.jpeg"
+        },
+        {
+          "name": "fastest alive",
+          "level": "8",
+          "initiative": 1,
+          "file": "characters/fh-BB/fh-fastest-alive.jpeg"
+        },
+        {
+          "name": "quantum uncertainty",
+          "level": "8",
+          "initiative": 35,
+          "file": "characters/fh-BB/fh-quantum-uncertainty.jpeg"
+        },
+        {
+          "name": "fractured timeline",
+          "level": "9",
+          "initiative": 55,
+          "file": "characters/fh-BB/fh-fractured-timeline.jpeg"
+        },
+        {
+          "name": "reverse the flow",
+          "level": "9",
+          "initiative": 58,
+          "file": "characters/fh-BB/fh-reverse-the-flow.jpeg"
+        }
+      ]
+    },
+    "fh-BN": {
+      "name": "Banner Spear",
+      "game": "fh",
+      "mat": "character-mat-banner-spear.jpeg",
+      "matBack": "character-mat-banner-spear-back.jpeg",
+      "cards": [
+        {
+          "name": "at all costs",
+          "level": "1",
+          "initiative": 60,
+          "file": "characters/fh-BN/fh-at-all-costs.jpeg"
+        },
+        {
+          "name": "combined effort",
+          "level": "1",
+          "initiative": 32,
+          "file": "characters/fh-BN/fh-combined-effort.jpeg"
+        },
+        {
+          "name": "deflecting maneuver",
+          "level": "1",
+          "initiative": 15,
+          "file": "characters/fh-BN/fh-deflecting-maneuver.jpeg"
+        },
+        {
+          "name": "javelin",
+          "level": "1",
+          "initiative": 21,
+          "file": "characters/fh-BN/fh-javelin.jpeg"
+        },
+        {
+          "name": "pincer movement",
+          "level": "1",
+          "initiative": 69,
+          "file": "characters/fh-BN/fh-pincer-movement.jpeg"
+        },
+        {
+          "name": "rallying cry",
+          "level": "1",
+          "initiative": 71,
+          "file": "characters/fh-BN/fh-rallying-cry.jpeg"
+        },
+        {
+          "name": "regroup",
+          "level": "1",
+          "initiative": 25,
+          "file": "characters/fh-BN/fh-regroup.jpeg"
+        },
+        {
+          "name": "set for the charge",
+          "level": "1",
+          "initiative": 6,
+          "file": "characters/fh-BN/fh-set-for-the-charge.jpeg"
+        },
+        {
+          "name": "tip of the spear",
+          "level": "1",
+          "initiative": 67,
+          "file": "characters/fh-BN/fh-tip-of-the-spear.jpeg"
+        },
+        {
+          "name": "unbreakable wall",
+          "level": "1",
+          "initiative": 83,
+          "file": "characters/fh-BN/fh-unbreakable-wall.jpeg"
+        },
+        {
+          "name": "driving inspiration",
+          "level": "X",
+          "initiative": 18,
+          "file": "characters/fh-BN/fh-driving-inspiration.jpeg"
+        },
+        {
+          "name": "incendiary throw",
+          "level": "X",
+          "initiative": 22,
+          "file": "characters/fh-BN/fh-incendiary-throw.jpeg"
+        },
+        {
+          "name": "resolved courage",
+          "level": "X",
+          "initiative": 10,
+          "file": "characters/fh-BN/fh-resolved-courage.jpeg"
+        },
+        {
+          "name": "meat grinder",
+          "level": "2",
+          "initiative": 62,
+          "file": "characters/fh-BN/fh-meat-grinder.jpeg"
+        },
+        {
+          "name": "pinning charge",
+          "level": "2",
+          "initiative": 17,
+          "file": "characters/fh-BN/fh-pinning-charge.jpeg"
+        },
+        {
+          "name": "head of the hammer",
+          "level": "3",
+          "initiative": 87,
+          "file": "characters/fh-BN/fh-head-of-the-hammer.jpeg"
+        },
+        {
+          "name": "let them come",
+          "level": "3",
+          "initiative": 24,
+          "file": "characters/fh-BN/fh-let-them-come.jpeg"
+        },
+        {
+          "name": "air support",
+          "level": "4",
+          "initiative": 20,
+          "file": "characters/fh-BN/fh-air-support.jpeg"
+        },
+        {
+          "name": "boldening blow",
+          "level": "4",
+          "initiative": 72,
+          "file": "characters/fh-BN/fh-boldening-blow.jpeg"
+        },
+        {
+          "name": "explosive epicenter",
+          "level": "5",
+          "initiative": 78,
+          "file": "characters/fh-BN/fh-explosive-epicenter.jpeg"
+        },
+        {
+          "name": "hold the line",
+          "level": "5",
+          "initiative": 5,
+          "file": "characters/fh-BN/fh-hold-the-line.jpeg"
+        },
+        {
+          "name": "barricade",
+          "level": "6",
+          "initiative": 16,
+          "file": "characters/fh-BN/fh-barricade.jpeg"
+        },
+        {
+          "name": "bolstering shout",
+          "level": "6",
+          "initiative": 75,
+          "file": "characters/fh-BN/fh-bolstering-shout.jpeg"
+        },
+        {
+          "name": "lead from afar",
+          "level": "7",
+          "initiative": 80,
+          "file": "characters/fh-BN/fh-lead-from-afar.jpeg"
+        },
+        {
+          "name": "tri-thrust",
+          "level": "7",
+          "initiative": 27,
+          "file": "characters/fh-BN/fh-tri-thrust.jpeg"
+        },
+        {
+          "name": "sweeping aid",
+          "level": "8",
+          "initiative": 73,
+          "file": "characters/fh-BN/fh-sweeping-aid.jpeg"
+        },
+        {
+          "name": "taunting howl",
+          "level": "8",
+          "initiative": 11,
+          "file": "characters/fh-BN/fh-taunting-howl.jpeg"
+        },
+        {
+          "name": "hail of spears",
+          "level": "9",
+          "initiative": 44,
+          "file": "characters/fh-BN/fh-hail-of-spears.jpeg"
+        },
+        {
+          "name": "take no prisoners",
+          "level": "9",
+          "initiative": 85,
+          "file": "characters/fh-BN/fh-take-no-prisoners.jpeg"
+        }
+      ]
+    },
+    "fh-BO": {
+      "name": "Boneshaper",
+      "game": "fh",
+      "mat": "character-mat-boneshaper.jpeg",
+      "matBack": "character-mat-boneshaper-back.jpeg",
+      "cards": [
+        {
+          "name": "angry spirits",
+          "level": "1",
+          "initiative": 76,
+          "file": "characters/fh-BO/fh-angry-spirits.jpeg"
+        },
+        {
+          "name": "command the wretched",
+          "level": "1",
+          "initiative": 83,
+          "file": "characters/fh-BO/fh-command-the-wretched.jpeg"
+        },
+        {
+          "name": "damned horde",
+          "level": "1",
+          "initiative": 71,
+          "file": "characters/fh-BO/fh-damned-horde.jpeg"
+        },
+        {
+          "name": "dark tidings",
+          "level": "1",
+          "initiative": 43,
+          "file": "characters/fh-BO/fh-dark-tidings.jpeg"
+        },
+        {
+          "name": "decaying will",
+          "level": "1",
+          "initiative": 46,
+          "file": "characters/fh-BO/fh-decaying-will.jpeg"
+        },
+        {
+          "name": "eternal torment",
+          "level": "1",
+          "initiative": 70,
+          "file": "characters/fh-BO/fh-eternal-torment.jpeg"
+        },
+        {
+          "name": "fell remedy",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/fh-BO/fh-fell-remedy.jpeg"
+        },
+        {
+          "name": "flow of the black river",
+          "level": "1",
+          "initiative": 18,
+          "file": "characters/fh-BO/fh-flow-of-the-black-river.jpeg"
+        },
+        {
+          "name": "life in death",
+          "level": "1",
+          "initiative": 91,
+          "file": "characters/fh-BO/fh-life-in-death.jpeg"
+        },
+        {
+          "name": "malicious conversion",
+          "level": "1",
+          "initiative": 26,
+          "file": "characters/fh-BO/fh-malicious-conversion.jpeg"
+        },
+        {
+          "name": "returned servant",
+          "level": "1",
+          "initiative": 81,
+          "file": "characters/fh-BO/fh-returned-servant.jpeg"
+        },
+        {
+          "name": "transfer of essence",
+          "level": "1",
+          "initiative": 62,
+          "file": "characters/fh-BO/fh-transfer-of-essence.jpeg"
+        },
+        {
+          "name": "approach oblivion",
+          "level": "X",
+          "initiative": 53,
+          "file": "characters/fh-BO/fh-approach-oblivion.jpeg"
+        },
+        {
+          "name": "exploding corpse",
+          "level": "X",
+          "initiative": 21,
+          "file": "characters/fh-BO/fh-exploding-corpse.jpeg"
+        },
+        {
+          "name": "wrath of the turned earth",
+          "level": "X",
+          "initiative": 80,
+          "file": "characters/fh-BO/fh-wrath-of-the-turned-earth.jpeg"
+        },
+        {
+          "name": "bone dagger",
+          "level": "2",
+          "initiative": 29,
+          "file": "characters/fh-BO/fh-bone-dagger.jpeg"
+        },
+        {
+          "name": "unearthed horror",
+          "level": "2",
+          "initiative": 94,
+          "file": "characters/fh-BO/fh-unearthed-horror.jpeg"
+        },
+        {
+          "name": "grave digging",
+          "level": "3",
+          "initiative": 96,
+          "file": "characters/fh-BO/fh-grave-digging.jpeg"
+        },
+        {
+          "name": "putrid cloud",
+          "level": "3",
+          "initiative": 28,
+          "file": "characters/fh-BO/fh-putrid-cloud.jpeg"
+        },
+        {
+          "name": "critical failure",
+          "level": "4",
+          "initiative": 95,
+          "file": "characters/fh-BO/fh-critical-failure.jpeg"
+        },
+        {
+          "name": "flesh shield",
+          "level": "4",
+          "initiative": 16,
+          "file": "characters/fh-BO/fh-flesh-shield.jpeg"
+        },
+        {
+          "name": "solid bones",
+          "level": "5",
+          "initiative": 32,
+          "file": "characters/fh-BO/fh-solid-bones.jpeg"
+        },
+        {
+          "name": "unforgivable methods",
+          "level": "5",
+          "initiative": 98,
+          "file": "characters/fh-BO/fh-unforgivable-methods.jpeg"
+        },
+        {
+          "name": "rotting multitude",
+          "level": "6",
+          "initiative": 66,
+          "file": "characters/fh-BO/fh-rotting-multitude.jpeg"
+        },
+        {
+          "name": "twisted decree",
+          "level": "6",
+          "initiative": 85,
+          "file": "characters/fh-BO/fh-twisted-decree.jpeg"
+        },
+        {
+          "name": "recycled limbs",
+          "level": "7",
+          "initiative": 52,
+          "file": "characters/fh-BO/fh-recycled-limbs.jpeg"
+        },
+        {
+          "name": "soul claim",
+          "level": "7",
+          "initiative": 23,
+          "file": "characters/fh-BO/fh-soul-claim.jpeg"
+        },
+        {
+          "name": "endless numbers",
+          "level": "8",
+          "initiative": 86,
+          "file": "characters/fh-BO/fh-endless-numbers.jpeg"
+        },
+        {
+          "name": "wailing from beyond",
+          "level": "8",
+          "initiative": 73,
+          "file": "characters/fh-BO/fh-wailing-from-beyond.jpeg"
+        },
+        {
+          "name": "behold the shrouded sun",
+          "level": "9",
+          "initiative": 10,
+          "file": "characters/fh-BO/fh-behold-the-shrouded-sun.jpeg"
+        },
+        {
+          "name": "unholy prowess",
+          "level": "9",
+          "initiative": 97,
+          "file": "characters/fh-BO/fh-unholy-prowess.jpeg"
+        }
+      ]
+    },
+    "fh-DF": {
+      "name": "Drifter",
+      "game": "fh",
+      "mat": "character-mat-drifter.jpeg",
+      "matBack": "character-mat-drifter-back.jpeg",
+      "cards": [
+        {
+          "name": "bloodletting",
+          "level": "1",
+          "initiative": 65,
+          "file": "characters/fh-DF/fh-bloodletting.jpeg"
+        },
+        {
+          "name": "continuous health",
+          "level": "1",
+          "initiative": 61,
+          "file": "characters/fh-DF/fh-continuous-health.jpeg"
+        },
+        {
+          "name": "crushing weight",
+          "level": "1",
+          "initiative": 71,
+          "file": "characters/fh-DF/fh-crushing-weight.jpeg"
+        },
+        {
+          "name": "deadly shot",
+          "level": "1",
+          "initiative": 32,
+          "file": "characters/fh-DF/fh-deadly-shot.jpeg"
+        },
+        {
+          "name": "draining arrows",
+          "level": "1",
+          "initiative": 23,
+          "file": "characters/fh-DF/fh-draining-arrows.jpeg"
+        },
+        {
+          "name": "precision aim",
+          "level": "1",
+          "initiative": 66,
+          "file": "characters/fh-DF/fh-precision-aim.jpeg"
+        },
+        {
+          "name": "prudent preparation",
+          "level": "1",
+          "initiative": 14,
+          "file": "characters/fh-DF/fh-prudent-preparation.jpeg"
+        },
+        {
+          "name": "relentless",
+          "level": "1",
+          "initiative": 89,
+          "file": "characters/fh-DF/fh-relentless.jpeg"
+        },
+        {
+          "name": "sustained momentum",
+          "level": "1",
+          "initiative": 76,
+          "file": "characters/fh-DF/fh-sustained-momentum.jpeg"
+        },
+        {
+          "name": "unbreakable",
+          "level": "1",
+          "initiative": 90,
+          "file": "characters/fh-DF/fh-unbreakable.jpeg"
+        },
+        {
+          "name": "vile assault",
+          "level": "1",
+          "initiative": 27,
+          "file": "characters/fh-DF/fh-vile-assault.jpeg"
+        },
+        {
+          "name": "violent inheritance",
+          "level": "1",
+          "initiative": 70,
+          "file": "characters/fh-DF/fh-violent-inheritance.jpeg"
+        },
+        {
+          "name": "destructive fury",
+          "level": "X",
+          "initiative": 19,
+          "file": "characters/fh-DF/fh-destructive-fury.jpeg"
+        },
+        {
+          "name": "fortitude",
+          "level": "X",
+          "initiative": 31,
+          "file": "characters/fh-DF/fh-fortitude.jpeg"
+        },
+        {
+          "name": "no remorse",
+          "level": "X",
+          "initiative": 20,
+          "file": "characters/fh-DF/fh-no-remorse.jpeg"
+        },
+        {
+          "name": "ever forward",
+          "level": "2",
+          "initiative": 67,
+          "file": "characters/fh-DF/fh-ever-forward.jpeg"
+        },
+        {
+          "name": "shockwave",
+          "level": "2",
+          "initiative": 17,
+          "file": "characters/fh-DF/fh-shockwave.jpeg"
+        },
+        {
+          "name": "dual bow",
+          "level": "3",
+          "initiative": 26,
+          "file": "characters/fh-DF/fh-dual-bow.jpeg"
+        },
+        {
+          "name": "fierce barrage",
+          "level": "3",
+          "initiative": 32,
+          "file": "characters/fh-DF/fh-fierce-barrage.jpeg"
+        },
+        {
+          "name": "chunk of flesh",
+          "level": "4",
+          "initiative": 62,
+          "file": "characters/fh-DF/fh-chunk-of-flesh.jpeg"
+        },
+        {
+          "name": "gift of the prey",
+          "level": "4",
+          "initiative": 40,
+          "file": "characters/fh-DF/fh-gift-of-the-prey.jpeg"
+        },
+        {
+          "name": "break through",
+          "level": "5",
+          "initiative": 34,
+          "file": "characters/fh-DF/fh-break-through.jpeg"
+        },
+        {
+          "name": "survivalist",
+          "level": "5",
+          "initiative": 91,
+          "file": "characters/fh-DF/fh-survivalist.jpeg"
+        },
+        {
+          "name": "accurate strikes",
+          "level": "6",
+          "initiative": 56,
+          "file": "characters/fh-DF/fh-accurate-strikes.jpeg"
+        },
+        {
+          "name": "consume stamina",
+          "level": "6",
+          "initiative": 21,
+          "file": "characters/fh-DF/fh-consume-stamina.jpeg"
+        },
+        {
+          "name": "like the wind",
+          "level": "7",
+          "initiative": 77,
+          "file": "characters/fh-DF/fh-like-the-wind.jpeg"
+        },
+        {
+          "name": "unending fight",
+          "level": "7",
+          "initiative": 25,
+          "file": "characters/fh-DF/fh-unending-fight.jpeg"
+        },
+        {
+          "name": "against all odds",
+          "level": "8",
+          "initiative": 37,
+          "file": "characters/fh-DF/fh-against-all-odds.jpeg"
+        },
+        {
+          "name": "inevitable conclusion",
+          "level": "8",
+          "initiative": 29,
+          "file": "characters/fh-DF/fh-inevitable-conclusion.jpeg"
+        },
+        {
+          "name": "everlasting",
+          "level": "9",
+          "initiative": 96,
+          "file": "characters/fh-DF/fh-everlasting.jpeg"
+        },
+        {
+          "name": "use every part",
+          "level": "9",
+          "initiative": 18,
+          "file": "characters/fh-DF/fh-use-every-part.jpeg"
+        }
+      ]
+    },
+    "fh-DW": {
+      "name": "Deathwalker",
+      "game": "fh",
+      "mat": "character-mat-deathwalker.jpeg",
+      "matBack": "character-mat-deathwalker-back.jpeg",
+      "cards": [
+        {
+          "name": "anger of the dead",
+          "level": "1",
+          "initiative": 14,
+          "file": "characters/fh-DW/fh-anger-of-the-dead.jpeg"
+        },
+        {
+          "name": "black barrage",
+          "level": "1",
+          "initiative": 28,
+          "file": "characters/fh-DW/fh-black-barrage.jpeg"
+        },
+        {
+          "name": "call of doom",
+          "level": "1",
+          "initiative": 32,
+          "file": "characters/fh-DW/fh-call-of-doom.jpeg"
+        },
+        {
+          "name": "call to the abyss",
+          "level": "1",
+          "initiative": 82,
+          "file": "characters/fh-DW/fh-call-to-the-abyss.jpeg"
+        },
+        {
+          "name": "dark fog",
+          "level": "1",
+          "initiative": 46,
+          "file": "characters/fh-DW/fh-dark-fog.jpeg"
+        },
+        {
+          "name": "eclipse",
+          "level": "1",
+          "initiative": 86,
+          "file": "characters/fh-DW/fh-eclipse.jpeg"
+        },
+        {
+          "name": "fluid night",
+          "level": "1",
+          "initiative": 24,
+          "file": "characters/fh-DW/fh-fluid-night.jpeg"
+        },
+        {
+          "name": "lingering rot",
+          "level": "1",
+          "initiative": 64,
+          "file": "characters/fh-DW/fh-lingering-rot.jpeg"
+        },
+        {
+          "name": "shadow step",
+          "level": "1",
+          "initiative": 19,
+          "file": "characters/fh-DW/fh-shadow-step.jpeg"
+        },
+        {
+          "name": "strength of the abyss",
+          "level": "1",
+          "initiative": 50,
+          "file": "characters/fh-DW/fh-strength-of-the-abyss.jpeg"
+        },
+        {
+          "name": "sunless apparition",
+          "level": "1",
+          "initiative": 96,
+          "file": "characters/fh-DW/fh-sunless-apparition.jpeg"
+        },
+        {
+          "name": "forceful spirits",
+          "level": "X",
+          "initiative": 34,
+          "file": "characters/fh-DW/fh-forceful-spirits.jpeg"
+        },
+        {
+          "name": "rest in the shade",
+          "level": "X",
+          "initiative": 26,
+          "file": "characters/fh-DW/fh-rest-in-the-shade.jpeg"
+        },
+        {
+          "name": "wave of anguish",
+          "level": "X",
+          "initiative": 58,
+          "file": "characters/fh-DW/fh-wave-of-anguish.jpeg"
+        },
+        {
+          "name": "deepening despair",
+          "level": "2",
+          "initiative": 11,
+          "file": "characters/fh-DW/fh-deepening-despair.jpeg"
+        },
+        {
+          "name": "restless spirits",
+          "level": "2",
+          "initiative": 20,
+          "file": "characters/fh-DW/fh-restless-spirits.jpeg"
+        },
+        {
+          "name": "dead bolt",
+          "level": "3",
+          "initiative": 88,
+          "file": "characters/fh-DW/fh-dead-bolt.jpeg"
+        },
+        {
+          "name": "ritual sacrifice",
+          "level": "3",
+          "initiative": 13,
+          "file": "characters/fh-DW/fh-ritual-sacrifice.jpeg"
+        },
+        {
+          "name": "fleeting dusk",
+          "level": "4",
+          "initiative": 36,
+          "file": "characters/fh-DW/fh-fleeting-dusk.jpeg"
+        },
+        {
+          "name": "pulled across",
+          "level": "4",
+          "initiative": 77,
+          "file": "characters/fh-DW/fh-pulled-across.jpeg"
+        },
+        {
+          "name": "dominate",
+          "level": "5",
+          "initiative": 29,
+          "file": "characters/fh-DW/fh-dominate.jpeg"
+        },
+        {
+          "name": "medium",
+          "level": "5",
+          "initiative": 55,
+          "file": "characters/fh-DW/fh-medium.jpeg"
+        },
+        {
+          "name": "the night takes shape",
+          "level": "6",
+          "initiative": 94,
+          "file": "characters/fh-DW/fh-the-night-takes-shape.jpeg"
+        },
+        {
+          "name": "vengeful storm",
+          "level": "6",
+          "initiative": 18,
+          "file": "characters/fh-DW/fh-vengeful-storm.jpeg"
+        },
+        {
+          "name": "hungry grasps",
+          "level": "7",
+          "initiative": 25,
+          "file": "characters/fh-DW/fh-hungry-grasps.jpeg"
+        },
+        {
+          "name": "proliferation of the abyss",
+          "level": "7",
+          "initiative": 38,
+          "file": "characters/fh-DW/fh-proliferation-of-the-abyss.jpeg"
+        },
+        {
+          "name": "frozen in fear",
+          "level": "8",
+          "initiative": 21,
+          "file": "characters/fh-DW/fh-frozen-in-fear.jpeg"
+        },
+        {
+          "name": "lashing tendrils",
+          "level": "8",
+          "initiative": 80,
+          "file": "characters/fh-DW/fh-lashing-tendrils.jpeg"
+        },
+        {
+          "name": "black lance",
+          "level": "9",
+          "initiative": 16,
+          "file": "characters/fh-DW/fh-black-lance.jpeg"
+        },
+        {
+          "name": "when your time comes",
+          "level": "9",
+          "initiative": 72,
+          "file": "characters/fh-DW/fh-when-your-time-comes.jpeg"
+        }
+      ]
+    },
+    "fh-GE": {
+      "name": "Geminate",
+      "game": "fh",
+      "mat": "character-mat-geminate.jpeg",
+      "matBack": "character-mat-geminate-back.jpeg",
+      "cards": [
+        {
+          "name": "changeling's boon",
+          "level": "1",
+          "initiative": 40,
+          "file": "characters/fh-GE/fh-changelings-boon.jpeg"
+        },
+        {
+          "name": "drag down",
+          "level": "1",
+          "initiative": 34,
+          "file": "characters/fh-GE/fh-drag-down.jpeg"
+        },
+        {
+          "name": "draining pincers",
+          "level": "1",
+          "initiative": 72,
+          "file": "characters/fh-GE/fh-draining-pincers.jpeg"
+        },
+        {
+          "name": "firefly swarm",
+          "level": "1",
+          "initiative": 76,
+          "file": "characters/fh-GE/fh-firefly-swarm.jpeg"
+        },
+        {
+          "name": "flailing tendrils",
+          "level": "1",
+          "initiative": 12,
+          "file": "characters/fh-GE/fh-flailing-tendrils.jpeg"
+        },
+        {
+          "name": "hail of thorns",
+          "level": "1",
+          "initiative": 88,
+          "file": "characters/fh-GE/fh-hail-of-thorns.jpeg"
+        },
+        {
+          "name": "harvest the essence",
+          "level": "1",
+          "initiative": 60,
+          "file": "characters/fh-GE/fh-harvest-the-essence.jpeg"
+        },
+        {
+          "name": "hornbeetle carapace",
+          "level": "1",
+          "initiative": 20,
+          "file": "characters/fh-GE/fh-hornbeetle-carapace.jpeg"
+        },
+        {
+          "name": "hornet stingers",
+          "level": "1",
+          "initiative": 23,
+          "file": "characters/fh-GE/fh-hornet-stingers.jpeg"
+        },
+        {
+          "name": "icebound quills",
+          "level": "1",
+          "initiative": 14,
+          "file": "characters/fh-GE/fh-icebound-quills.jpeg"
+        },
+        {
+          "name": "into my embrace",
+          "level": "1",
+          "initiative": 36,
+          "file": "characters/fh-GE/fh-into-my-embrace.jpeg"
+        },
+        {
+          "name": "mind spike",
+          "level": "1",
+          "initiative": 18,
+          "file": "characters/fh-GE/fh-mind-spike.jpeg"
+        },
+        {
+          "name": "scarab flight",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/fh-GE/fh-scarab-flight.jpeg"
+        },
+        {
+          "name": "selfless offering",
+          "level": "1",
+          "initiative": 27,
+          "file": "characters/fh-GE/fh-selfless-offering.jpeg"
+        },
+        {
+          "name": "feeding frenzy",
+          "level": "X",
+          "initiative": 62,
+          "file": "characters/fh-GE/fh-feeding-frenzy.jpeg"
+        },
+        {
+          "name": "reckless jab",
+          "level": "X",
+          "initiative": 38,
+          "file": "characters/fh-GE/fh-reckless-jab.jpeg"
+        },
+        {
+          "name": "reshape the guise",
+          "level": "X",
+          "initiative": 38,
+          "file": "characters/fh-GE/fh-reshape-the-guise.jpeg"
+        },
+        {
+          "name": "smoldering hatred",
+          "level": "X",
+          "initiative": 32,
+          "file": "characters/fh-GE/fh-smoldering-hatred.jpeg"
+        },
+        {
+          "name": "locust host",
+          "level": "2",
+          "initiative": 23,
+          "file": "characters/fh-GE/fh-locust-host.jpeg"
+        },
+        {
+          "name": "venomous barbs",
+          "level": "2",
+          "initiative": 17,
+          "file": "characters/fh-GE/fh-venomous-barbs.jpeg"
+        },
+        {
+          "name": "dragonfly surge",
+          "level": "3",
+          "initiative": 50,
+          "file": "characters/fh-GE/fh-dragonfly-surge.jpeg"
+        },
+        {
+          "name": "mandible storm",
+          "level": "3",
+          "initiative": 30,
+          "file": "characters/fh-GE/fh-mandible-storm.jpeg"
+        },
+        {
+          "name": "luminous descent",
+          "level": "4",
+          "initiative": 67,
+          "file": "characters/fh-GE/fh-luminous-descent.jpeg"
+        },
+        {
+          "name": "thresh and flail",
+          "level": "4",
+          "initiative": 43,
+          "file": "characters/fh-GE/fh-thresh-and-flail.jpeg"
+        },
+        {
+          "name": "chitinous horde",
+          "level": "5",
+          "initiative": 15,
+          "file": "characters/fh-GE/fh-chitinous-horde.jpeg"
+        },
+        {
+          "name": "formless grace",
+          "level": "5",
+          "initiative": 75,
+          "file": "characters/fh-GE/fh-formless-grace.jpeg"
+        },
+        {
+          "name": "corrosive acids",
+          "level": "6",
+          "initiative": 28,
+          "file": "characters/fh-GE/fh-corrosive-acids.jpeg"
+        },
+        {
+          "name": "hirudotherapy",
+          "level": "6",
+          "initiative": 92,
+          "file": "characters/fh-GE/fh-hirudotherapy.jpeg"
+        },
+        {
+          "name": "alluring pheromones",
+          "level": "7",
+          "initiative": 49,
+          "file": "characters/fh-GE/fh-alluring-pheromones.jpeg"
+        },
+        {
+          "name": "two-pronged entrapment",
+          "level": "7",
+          "initiative": 21,
+          "file": "characters/fh-GE/fh-two-pronged-entrapment.jpeg"
+        },
+        {
+          "name": "accelerated metabolism",
+          "level": "8",
+          "initiative": 85,
+          "file": "characters/fh-GE/fh-accelerated-metabolism.jpeg"
+        },
+        {
+          "name": "oscillating entity",
+          "level": "8",
+          "initiative": 55,
+          "file": "characters/fh-GE/fh-oscillating-entity.jpeg"
+        },
+        {
+          "name": "harbinger of ruin",
+          "level": "9",
+          "initiative": 11,
+          "file": "characters/fh-GE/fh-harbinger-of-ruin.jpeg"
+        },
+        {
+          "name": "voice of salvation",
+          "level": "9",
+          "initiative": 39,
+          "file": "characters/fh-GE/fh-voice-of-salvation.jpeg"
+        }
+      ]
+    },
+    "fh-CR": {
+      "name": "Crashing Tide",
+      "game": "fh",
+      "mat": "character-mat-crashing-tide.jpeg",
+      "matBack": "character-mat-crashing-tide-back.jpeg",
+      "cards": [
+        {
+          "name": "cleansing swell",
+          "level": "1",
+          "initiative": 45,
+          "file": "characters/fh-CR/fh-cleansing-swell.jpeg"
+        },
+        {
+          "name": "crashing surge",
+          "level": "1",
+          "initiative": 34,
+          "file": "characters/fh-CR/fh-crashing-surge.jpeg"
+        },
+        {
+          "name": "cresting force",
+          "level": "1",
+          "initiative": 87,
+          "file": "characters/fh-CR/fh-cresting-force.jpeg"
+        },
+        {
+          "name": "down to the depths",
+          "level": "1",
+          "initiative": 74,
+          "file": "characters/fh-CR/fh-down-to-the-depths.jpeg"
+        },
+        {
+          "name": "mighty claws",
+          "level": "1",
+          "initiative": 23,
+          "file": "characters/fh-CR/fh-mighty-claws.jpeg"
+        },
+        {
+          "name": "overwhelming wave",
+          "level": "1",
+          "initiative": 86,
+          "file": "characters/fh-CR/fh-overwhelming-wave.jpeg"
+        },
+        {
+          "name": "pool of power",
+          "level": "1",
+          "initiative": 41,
+          "file": "characters/fh-CR/fh-pool-of-power.jpeg"
+        },
+        {
+          "name": "rancid brine",
+          "level": "1",
+          "initiative": 62,
+          "file": "characters/fh-CR/fh-rancid-brine.jpeg"
+        },
+        {
+          "name": "sharp chitin",
+          "level": "1",
+          "initiative": 25,
+          "file": "characters/fh-CR/fh-sharp-chitin.jpeg"
+        },
+        {
+          "name": "skitter",
+          "level": "1",
+          "initiative": 51,
+          "file": "characters/fh-CR/fh-skitter.jpeg"
+        },
+        {
+          "name": "soft flesh",
+          "level": "1",
+          "initiative": 75,
+          "file": "characters/fh-CR/fh-soft-flesh.jpeg"
+        },
+        {
+          "name": "submerge",
+          "level": "1",
+          "initiative": 68,
+          "file": "characters/fh-CR/fh-submerge.jpeg"
+        },
+        {
+          "name": "crush armor",
+          "level": "X",
+          "initiative": 42,
+          "file": "characters/fh-CR/fh-crush-armor.jpeg"
+        },
+        {
+          "name": "rising flood",
+          "level": "X",
+          "initiative": 49,
+          "file": "characters/fh-CR/fh-rising-flood.jpeg"
+        },
+        {
+          "name": "undertow",
+          "level": "X",
+          "initiative": 15,
+          "file": "characters/fh-CR/fh-undertow.jpeg"
+        },
+        {
+          "name": "blood in the water",
+          "level": "2",
+          "initiative": 53,
+          "file": "characters/fh-CR/fh-blood-in-the-water.jpeg"
+        },
+        {
+          "name": "smashing torrent",
+          "level": "2",
+          "initiative": 79,
+          "file": "characters/fh-CR/fh-smashing-torrent.jpeg"
+        },
+        {
+          "name": "endless cycle",
+          "level": "3",
+          "initiative": 8,
+          "file": "characters/fh-CR/fh-endless-cycle.jpeg"
+        },
+        {
+          "name": "shuck",
+          "level": "3",
+          "initiative": 55,
+          "file": "characters/fh-CR/fh-shuck.jpeg"
+        },
+        {
+          "name": "chaotic refraction",
+          "level": "4",
+          "initiative": 26,
+          "file": "characters/fh-CR/fh-chaotic-refraction.jpeg"
+        },
+        {
+          "name": "clean sweep",
+          "level": "4",
+          "initiative": 65,
+          "file": "characters/fh-CR/fh-clean-sweep.jpeg"
+        },
+        {
+          "name": "sodden soil",
+          "level": "5",
+          "initiative": 17,
+          "file": "characters/fh-CR/fh-sodden-soil.jpeg"
+        },
+        {
+          "name": "tidal blast",
+          "level": "5",
+          "initiative": 71,
+          "file": "characters/fh-CR/fh-tidal-blast.jpeg"
+        },
+        {
+          "name": "powerful pincer",
+          "level": "6",
+          "initiative": 70,
+          "file": "characters/fh-CR/fh-powerful-pincer.jpeg"
+        },
+        {
+          "name": "twilight grasp",
+          "level": "6",
+          "initiative": 33,
+          "file": "characters/fh-CR/fh-twilight-grasp.jpeg"
+        },
+        {
+          "name": "drown beneath the waves",
+          "level": "7",
+          "initiative": 9,
+          "file": "characters/fh-CR/fh-drown-beneath-the-waves.jpeg"
+        },
+        {
+          "name": "dug in",
+          "level": "7",
+          "initiative": 76,
+          "file": "characters/fh-CR/fh-dug-in.jpeg"
+        },
+        {
+          "name": "death on all sides",
+          "level": "8",
+          "initiative": 73,
+          "file": "characters/fh-CR/fh-death-on-all-sides.jpeg"
+        },
+        {
+          "name": "ebb and flow",
+          "level": "8",
+          "initiative": 24,
+          "file": "characters/fh-CR/fh-ebb-and-flow.jpeg"
+        },
+        {
+          "name": "high tide",
+          "level": "9",
+          "initiative": 90,
+          "file": "characters/fh-CR/fh-high-tide.jpeg"
+        },
+        {
+          "name": "low tide",
+          "level": "9",
+          "initiative": 10,
+          "file": "characters/fh-CR/fh-low-tide.jpeg"
+        }
+      ]
+    },
+    "fh-SD": {
+      "name": "Snowdancer",
+      "game": "fh",
+      "mat": "character-mat-snowdancer.jpeg",
+      "matBack": "character-mat-snowdancer-back.jpeg",
+      "cards": [
+        {
+          "name": "blizzard",
+          "level": "1",
+          "initiative": 71,
+          "file": "characters/fh-SD/fh-blizzard.jpeg"
+        },
+        {
+          "name": "chilling impact",
+          "level": "1",
+          "initiative": 31,
+          "file": "characters/fh-SD/fh-chilling-impact.jpeg"
+        },
+        {
+          "name": "cold therapy",
+          "level": "1",
+          "initiative": 20,
+          "file": "characters/fh-SD/fh-cold-therapy.jpeg"
+        },
+        {
+          "name": "cross winds",
+          "level": "1",
+          "initiative": 32,
+          "file": "characters/fh-SD/fh-cross-winds.jpeg"
+        },
+        {
+          "name": "enticing breeze",
+          "level": "1",
+          "initiative": 76,
+          "file": "characters/fh-SD/fh-enticing-breeze.jpeg"
+        },
+        {
+          "name": "frigid growth",
+          "level": "1",
+          "initiative": 70,
+          "file": "characters/fh-SD/fh-frigid-growth.jpeg"
+        },
+        {
+          "name": "gathering force",
+          "level": "1",
+          "initiative": 89,
+          "file": "characters/fh-SD/fh-gathering-force.jpeg"
+        },
+        {
+          "name": "lifting gust",
+          "level": "1",
+          "initiative": 27,
+          "file": "characters/fh-SD/fh-lifting-gust.jpeg"
+        },
+        {
+          "name": "nature's breath",
+          "level": "1",
+          "initiative": 90,
+          "file": "characters/fh-SD/fh-natures-breath.jpeg"
+        },
+        {
+          "name": "snowball",
+          "level": "1",
+          "initiative": 23,
+          "file": "characters/fh-SD/fh-snowball.jpeg"
+        },
+        {
+          "name": "whiteout",
+          "level": "1",
+          "initiative": 21,
+          "file": "characters/fh-SD/fh-whiteout.jpeg"
+        },
+        {
+          "name": "blinding vortex",
+          "level": "X",
+          "initiative": 31,
+          "file": "characters/fh-SD/fh-blinding-vortex.jpeg"
+        },
+        {
+          "name": "the spirit's call",
+          "level": "X",
+          "initiative": 45,
+          "file": "characters/fh-SD/fh-the-spirits-call.jpeg"
+        },
+        {
+          "name": "white winds",
+          "level": "X",
+          "initiative": 11,
+          "file": "characters/fh-SD/fh-white-winds.jpeg"
+        },
+        {
+          "name": "birds in a tempest",
+          "level": "2",
+          "initiative": 18,
+          "file": "characters/fh-SD/fh-birds-in-a-tempest.jpeg"
+        },
+        {
+          "name": "tornado",
+          "level": "2",
+          "initiative": 59,
+          "file": "characters/fh-SD/fh-tornado.jpeg"
+        },
+        {
+          "name": "cold snap",
+          "level": "3",
+          "initiative": 86,
+          "file": "characters/fh-SD/fh-cold-snap.jpeg"
+        },
+        {
+          "name": "polar vortex",
+          "level": "3",
+          "initiative": 61,
+          "file": "characters/fh-SD/fh-polar-vortex.jpeg"
+        },
+        {
+          "name": "biting frost",
+          "level": "4",
+          "initiative": 16,
+          "file": "characters/fh-SD/fh-biting-frost.jpeg"
+        },
+        {
+          "name": "zephyr barrier",
+          "level": "4",
+          "initiative": 40,
+          "file": "characters/fh-SD/fh-zephyr-barrier.jpeg"
+        },
+        {
+          "name": "shifting snow",
+          "level": "5",
+          "initiative": 17,
+          "file": "characters/fh-SD/fh-shifting-snow.jpeg"
+        },
+        {
+          "name": "whipping gale",
+          "level": "5",
+          "initiative": 79,
+          "file": "characters/fh-SD/fh-whipping-gale.jpeg"
+        },
+        {
+          "name": "frozen brand",
+          "level": "6",
+          "initiative": 33,
+          "file": "characters/fh-SD/fh-frozen-brand.jpeg"
+        },
+        {
+          "name": "refreshing flurry",
+          "level": "6",
+          "initiative": 95,
+          "file": "characters/fh-SD/fh-refreshing-flurry.jpeg"
+        },
+        {
+          "name": "freezing storm",
+          "level": "7",
+          "initiative": 81,
+          "file": "characters/fh-SD/fh-freezing-storm.jpeg"
+        },
+        {
+          "name": "storm wall",
+          "level": "7",
+          "initiative": 30,
+          "file": "characters/fh-SD/fh-storm-wall.jpeg"
+        },
+        {
+          "name": "surging blow",
+          "level": "8",
+          "initiative": 73,
+          "file": "characters/fh-SD/fh-surging-blow.jpeg"
+        },
+        {
+          "name": "the endless white",
+          "level": "8",
+          "initiative": 5,
+          "file": "characters/fh-SD/fh-the-endless-white.jpeg"
+        },
+        {
+          "name": "snowblind",
+          "level": "9",
+          "initiative": 83,
+          "file": "characters/fh-SD/fh-snowblind.jpeg"
+        },
+        {
+          "name": "winds of change",
+          "level": "9",
+          "initiative": 15,
+          "file": "characters/fh-SD/fh-winds-of-change.jpeg"
+        }
+      ]
+    },
+    "fh-TA": {
+      "name": "Trapper",
+      "game": "fh",
+      "mat": "character-mat-trapper.jpeg",
+      "matBack": "character-mat-trapper-back.jpeg",
+      "cards": [
+        {
+          "name": "boar catcher",
+          "level": "1",
+          "initiative": 20,
+          "file": "characters/fh-TA/fh-boar-catcher.jpeg"
+        },
+        {
+          "name": "caltrops",
+          "level": "1",
+          "initiative": 25,
+          "file": "characters/fh-TA/fh-caltrops.jpeg"
+        },
+        {
+          "name": "electrified net",
+          "level": "1",
+          "initiative": 53,
+          "file": "characters/fh-TA/fh-electrified-net.jpeg"
+        },
+        {
+          "name": "enticing bait",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/fh-TA/fh-enticing-bait.jpeg"
+        },
+        {
+          "name": "exploding decoy",
+          "level": "1",
+          "initiative": 62,
+          "file": "characters/fh-TA/fh-exploding-decoy.jpeg"
+        },
+        {
+          "name": "flurry of nails",
+          "level": "1",
+          "initiative": 68,
+          "file": "characters/fh-TA/fh-flurry-of-nails.jpeg"
+        },
+        {
+          "name": "furry facade",
+          "level": "1",
+          "initiative": 85,
+          "file": "characters/fh-TA/fh-furry-facade.jpeg"
+        },
+        {
+          "name": "honeypot",
+          "level": "1",
+          "initiative": 18,
+          "file": "characters/fh-TA/fh-honeypot.jpeg"
+        },
+        {
+          "name": "spike pit",
+          "level": "1",
+          "initiative": 47,
+          "file": "characters/fh-TA/fh-spike-pit.jpeg"
+        },
+        {
+          "name": "dismantle",
+          "level": "X",
+          "initiative": 72,
+          "file": "characters/fh-TA/fh-dismantle.jpeg"
+        },
+        {
+          "name": "improvised improvement",
+          "level": "X",
+          "initiative": 58,
+          "file": "characters/fh-TA/fh-improvised-improvement.jpeg"
+        },
+        {
+          "name": "spring-loaded",
+          "level": "X",
+          "initiative": 15,
+          "file": "characters/fh-TA/fh-spring-loaded.jpeg"
+        },
+        {
+          "name": "path of pain",
+          "level": "2",
+          "initiative": 38,
+          "file": "characters/fh-TA/fh-path-of-pain.jpeg"
+        },
+        {
+          "name": "unavoidable outcome",
+          "level": "2",
+          "initiative": 45,
+          "file": "characters/fh-TA/fh-unavoidable-outcome.jpeg"
+        },
+        {
+          "name": "extra teeth",
+          "level": "3",
+          "initiative": 22,
+          "file": "characters/fh-TA/fh-extra-teeth.jpeg"
+        },
+        {
+          "name": "pyrotechnics",
+          "level": "3",
+          "initiative": 80,
+          "file": "characters/fh-TA/fh-pyrotechnics.jpeg"
+        },
+        {
+          "name": "dangerous ground",
+          "level": "4",
+          "initiative": 31,
+          "file": "characters/fh-TA/fh-dangerous-ground.jpeg"
+        },
+        {
+          "name": "stalker's spoils",
+          "level": "4",
+          "initiative": 10,
+          "file": "characters/fh-TA/fh-stalkers-spoils.jpeg"
+        },
+        {
+          "name": "lure of the snare",
+          "level": "5",
+          "initiative": 59,
+          "file": "characters/fh-TA/fh-lure-of-the-snare.jpeg"
+        },
+        {
+          "name": "proficient hunter",
+          "level": "5",
+          "initiative": 26,
+          "file": "characters/fh-TA/fh-proficient-hunter.jpeg"
+        },
+        {
+          "name": "cage of thorns",
+          "level": "6",
+          "initiative": 55,
+          "file": "characters/fh-TA/fh-cage-of-thorns.jpeg"
+        },
+        {
+          "name": "persistent pitfalls",
+          "level": "6",
+          "initiative": 13,
+          "file": "characters/fh-TA/fh-persistent-pitfalls.jpeg"
+        },
+        {
+          "name": "foxhole",
+          "level": "7",
+          "initiative": 90,
+          "file": "characters/fh-TA/fh-foxhole.jpeg"
+        },
+        {
+          "name": "grasping hazards",
+          "level": "7",
+          "initiative": 8,
+          "file": "characters/fh-TA/fh-grasping-hazards.jpeg"
+        },
+        {
+          "name": "magnetic shards",
+          "level": "8",
+          "initiative": 37,
+          "file": "characters/fh-TA/fh-magnetic-shards.jpeg"
+        },
+        {
+          "name": "spike strip",
+          "level": "8",
+          "initiative": 67,
+          "file": "characters/fh-TA/fh-spike-strip.jpeg"
+        },
+        {
+          "name": "dangerous cargo",
+          "level": "9",
+          "initiative": 23,
+          "file": "characters/fh-TA/fh-dangerous-cargo.jpeg"
+        },
+        {
+          "name": "mother of all traps",
+          "level": "9",
+          "initiative": 86,
+          "file": "characters/fh-TA/fh-mother-of-all-traps.jpeg"
+        }
+      ]
+    },
+    "cc-AM": {
+      "name": "alchemancer",
+      "game": "cc",
+      "mat": "character-mat-alchemancer.jpeg",
+      "matBack": "character-mat-alchemancer-back.jpeg",
+      "cards": [
+        {
+          "name": "boiling concoction",
+          "level": "1",
+          "initiative": 45,
+          "file": "characters/cc-AM/cc-boiling-concoction.jpeg"
+        },
+        {
+          "name": "caustic fluid",
+          "level": "1",
+          "initiative": 61,
+          "file": "characters/cc-AM/cc-caustic-fluid.jpeg"
+        },
+        {
+          "name": "cryogenic mixture",
+          "level": "1",
+          "initiative": 55,
+          "file": "characters/cc-AM/cc-cryogenic-mixture.jpeg"
+        },
+        {
+          "name": "doubling draught",
+          "level": "1",
+          "initiative": 64,
+          "file": "characters/cc-AM/cc-doubling-draught.jpeg"
+        },
+        {
+          "name": "energized thrusters",
+          "level": "1",
+          "initiative": 27,
+          "file": "characters/cc-AM/cc-energized-thrusters.jpeg"
+        },
+        {
+          "name": "energy blade",
+          "level": "1",
+          "initiative": 22,
+          "file": "characters/cc-AM/cc-energy-blade.jpeg"
+        },
+        {
+          "name": "ingenious device",
+          "level": "1",
+          "initiative": 41,
+          "file": "characters/cc-AM/cc-ingenious-device.jpeg"
+        },
+        {
+          "name": "quicksilver",
+          "level": "1",
+          "initiative": 9,
+          "file": "characters/cc-AM/cc-quicksilver.jpeg"
+        },
+        {
+          "name": "rejuvenating tonic",
+          "level": "1",
+          "initiative": 16,
+          "file": "characters/cc-AM/cc-rejuvenating-tonic.jpeg"
+        },
+        {
+          "name": "steamburst",
+          "level": "1",
+          "initiative": 51,
+          "file": "characters/cc-AM/cc-steamburst.jpeg"
+        },
+        {
+          "name": "critical catalyst",
+          "level": "X",
+          "initiative": 24,
+          "file": "characters/cc-AM/cc-critical-catalyst.jpeg"
+        },
+        {
+          "name": "harvest lifeforce",
+          "level": "X",
+          "initiative": 72,
+          "file": "characters/cc-AM/cc-harvest-lifeforce.jpeg"
+        },
+        {
+          "name": "unfathomable engine",
+          "level": "X",
+          "initiative": 82,
+          "file": "characters/cc-AM/cc-unfathomable-engine.jpeg"
+        },
+        {
+          "name": "imbued grenade",
+          "level": "2",
+          "initiative": 53,
+          "file": "characters/cc-AM/cc-imbued-grenade.jpeg"
+        },
+        {
+          "name": "transmutation contraption",
+          "level": "2",
+          "initiative": 32,
+          "file": "characters/cc-AM/cc-transmutation-contraption.jpeg"
+        },
+        {
+          "name": "noxious fumes",
+          "level": "3",
+          "initiative": 17,
+          "file": "characters/cc-AM/cc-noxious-fumes.jpeg"
+        },
+        {
+          "name": "prismatic conversion",
+          "level": "3",
+          "initiative": 46,
+          "file": "characters/cc-AM/cc-prismatic-conversion.jpeg"
+        },
+        {
+          "name": "catastrophic meltdown",
+          "level": "4",
+          "initiative": 70,
+          "file": "characters/cc-AM/cc-catastrophic-meltdown.jpeg"
+        },
+        {
+          "name": "necrotic acid",
+          "level": "4",
+          "initiative": 28,
+          "file": "characters/cc-AM/cc-necrotic-acid.jpeg"
+        },
+        {
+          "name": "artificial life",
+          "level": "5",
+          "initiative": 95,
+          "file": "characters/cc-AM/cc-artificial-life.jpeg"
+        },
+        {
+          "name": "chain reaction",
+          "level": "5",
+          "initiative": 51,
+          "file": "characters/cc-AM/cc-chain-reaction.jpeg"
+        },
+        {
+          "name": "alchemical bonds",
+          "level": "6",
+          "initiative": 13,
+          "file": "characters/cc-AM/cc-alchemical-bonds.jpeg"
+        },
+        {
+          "name": "invigorating serum",
+          "level": "6",
+          "initiative": 26,
+          "file": "characters/cc-AM/cc-invigorating-serum.jpeg"
+        },
+        {
+          "name": "liquid luck",
+          "level": "7",
+          "initiative": 77,
+          "file": "characters/cc-AM/cc-liquid-luck.jpeg"
+        },
+        {
+          "name": "philosopher's stone",
+          "level": "7",
+          "initiative": 33,
+          "file": "characters/cc-AM/cc-philosophers-stone.jpeg"
+        },
+        {
+          "name": "chromatic instability",
+          "level": "8",
+          "initiative": 43,
+          "file": "characters/cc-AM/cc-chromatic-instability.jpeg"
+        },
+        {
+          "name": "entangled essences",
+          "level": "8",
+          "initiative": 58,
+          "file": "characters/cc-AM/cc-entangled-essences.jpeg"
+        },
+        {
+          "name": "magnum opus",
+          "level": "9",
+          "initiative": 79,
+          "file": "characters/cc-AM/cc-magnum-opus.jpeg"
+        },
+        {
+          "name": "theory of everything",
+          "level": "9",
+          "initiative": 39,
+          "file": "characters/cc-AM/cc-theory-of-everything.jpeg"
+        }
+      ]
+    },
+    "cc-CO": {
+      "name": "core",
+      "game": "cc",
+      "mat": "character-mat-core.jpeg",
+      "matBack": "character-mat-core-back.jpeg",
+      "cards": [
+        {
+          "name": "overdrive reference",
+          "level": "0",
+          "initiative": 0,
+          "file": "characters/cc-CO/cc-overdrive-reference.jpeg"
+        },
+        {
+          "name": "adaptive malware",
+          "level": "1",
+          "initiative": 66,
+          "file": "characters/cc-CO/cc-adaptive-malware.jpeg"
+        },
+        {
+          "name": "assess environment",
+          "level": "1",
+          "initiative": 36,
+          "file": "characters/cc-CO/cc-assess-environment.jpeg"
+        },
+        {
+          "name": "at arm's length",
+          "level": "1",
+          "initiative": 41,
+          "file": "characters/cc-CO/cc-at-arms-length.jpeg"
+        },
+        {
+          "name": "bypass safeguard",
+          "level": "1",
+          "initiative": 44,
+          "file": "characters/cc-CO/cc-bypass-safeguard.jpeg"
+        },
+        {
+          "name": "chaotic recursion",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/cc-CO/cc-chaotic-recursion.jpeg"
+        },
+        {
+          "name": "cluster purge",
+          "level": "1",
+          "initiative": 82,
+          "file": "characters/cc-CO/cc-cluster-purge.jpeg"
+        },
+        {
+          "name": "core exposure",
+          "level": "1",
+          "initiative": 39,
+          "file": "characters/cc-CO/cc-core-exposure.jpeg"
+        },
+        {
+          "name": "fault tolerance",
+          "level": "1",
+          "initiative": 65,
+          "file": "characters/cc-CO/cc-fault-tolerance.jpeg"
+        },
+        {
+          "name": "flying shrapnel",
+          "level": "1",
+          "initiative": 70,
+          "file": "characters/cc-CO/cc-flying-shrapnel.jpeg"
+        },
+        {
+          "name": "impatient escalation",
+          "level": "1",
+          "initiative": 56,
+          "file": "characters/cc-CO/cc-impatient-escalation.jpeg"
+        },
+        {
+          "name": "issue warning",
+          "level": "1",
+          "initiative": 29,
+          "file": "characters/cc-CO/cc-issue-warning.jpeg"
+        },
+        {
+          "name": "patchwork repairs",
+          "level": "1",
+          "initiative": 18,
+          "file": "characters/cc-CO/cc-patchwork-repairs.jpeg"
+        },
+        {
+          "name": "protective charge",
+          "level": "1",
+          "initiative": 22,
+          "file": "characters/cc-CO/cc-protective-charge.jpeg"
+        },
+        {
+          "name": "pulsating orb",
+          "level": "1",
+          "initiative": 79,
+          "file": "characters/cc-CO/cc-pulsating-orb.jpeg"
+        },
+        {
+          "name": "recalibrate polarity",
+          "level": "1",
+          "initiative": 19,
+          "file": "characters/cc-CO/cc-recalibrate-polarity.jpeg"
+        },
+        {
+          "name": "redline",
+          "level": "1",
+          "initiative": 40,
+          "file": "characters/cc-CO/cc-redline.jpeg"
+        },
+        {
+          "name": "short circuit",
+          "level": "1",
+          "initiative": 47,
+          "file": "characters/cc-CO/cc-short-circuit.jpeg"
+        },
+        {
+          "name": "static discharge",
+          "level": "1",
+          "initiative": 51,
+          "file": "characters/cc-CO/cc-static-discharge.jpeg"
+        },
+        {
+          "name": "accelerated flywheel",
+          "level": "X",
+          "initiative": 92,
+          "file": "characters/cc-CO/cc-accelerated-flywheel.jpeg"
+        },
+        {
+          "name": "controlled stasis",
+          "level": "X",
+          "initiative": 86,
+          "file": "characters/cc-CO/cc-controlled-stasis.jpeg"
+        },
+        {
+          "name": "defensive preparation",
+          "level": "X",
+          "initiative": 7,
+          "file": "characters/cc-CO/cc-defensive-preparation.jpeg"
+        },
+        {
+          "name": "conserved energy",
+          "level": "2",
+          "initiative": 84,
+          "file": "characters/cc-CO/cc-conserved-energy.jpeg"
+        },
+        {
+          "name": "magnetic flechettes",
+          "level": "2",
+          "initiative": 27,
+          "file": "characters/cc-CO/cc-magnetic-flechettes.jpeg"
+        },
+        {
+          "name": "glowing runes",
+          "level": "3",
+          "initiative": 50,
+          "file": "characters/cc-CO/cc-glowing-runes.jpeg"
+        },
+        {
+          "name": "upload virus",
+          "level": "3",
+          "initiative": 42,
+          "file": "characters/cc-CO/cc-upload-virus.jpeg"
+        },
+        {
+          "name": "firewall",
+          "level": "4",
+          "initiative": 75,
+          "file": "characters/cc-CO/cc-firewall.jpeg"
+        },
+        {
+          "name": "intruder alert",
+          "level": "4",
+          "initiative": 26,
+          "file": "characters/cc-CO/cc-intruder-alert.jpeg"
+        },
+        {
+          "name": "composure in chaos",
+          "level": "5",
+          "initiative": 33,
+          "file": "characters/cc-CO/cc-composure-in-chaos.jpeg"
+        },
+        {
+          "name": "destructive propulsion",
+          "level": "5",
+          "initiative": 53,
+          "file": "characters/cc-CO/cc-destructive-propulsion.jpeg"
+        },
+        {
+          "name": "motion sensors",
+          "level": "6",
+          "initiative": 11,
+          "file": "characters/cc-CO/cc-motion-sensors.jpeg"
+        },
+        {
+          "name": "radiant beams",
+          "level": "6",
+          "initiative": 59,
+          "file": "characters/cc-CO/cc-radiant-beams.jpeg"
+        },
+        {
+          "name": "embrace entropy",
+          "level": "7",
+          "initiative": 13,
+          "file": "characters/cc-CO/cc-embrace-entropy.jpeg"
+        },
+        {
+          "name": "targeted detonation",
+          "level": "7",
+          "initiative": 58,
+          "file": "characters/cc-CO/cc-targeted-detonation.jpeg"
+        },
+        {
+          "name": "resist the pull",
+          "level": "8",
+          "initiative": 77,
+          "file": "characters/cc-CO/cc-resist-the-pull.jpeg"
+        },
+        {
+          "name": "rest in peace",
+          "level": "8",
+          "initiative": 90,
+          "file": "characters/cc-CO/cc-rest-in-peace.jpeg"
+        },
+        {
+          "name": "catastrophic cascade",
+          "level": "9",
+          "initiative": 25,
+          "file": "characters/cc-CO/cc-catastrophic-cascade.jpeg"
+        },
+        {
+          "name": "corrupted core",
+          "level": "9",
+          "initiative": 93,
+          "file": "characters/cc-CO/cc-corrupted-core.jpeg"
+        }
+      ]
+    },
+    "cc-DO": {
+      "name": "dome",
+      "game": "cc",
+      "mat": "character-mat-dome.jpeg",
+      "matBack": "character-mat-dome-back.jpeg",
+      "cards": [
+        {
+          "name": "adrenal infusion",
+          "level": "1",
+          "initiative": 61,
+          "file": "characters/cc-DO/cc-adrenal-infusion.jpeg"
+        },
+        {
+          "name": "barrier expansion",
+          "level": "1",
+          "initiative": 20,
+          "file": "characters/cc-DO/cc-barrier-expansion.jpeg"
+        },
+        {
+          "name": "bolstering protocol",
+          "level": "1",
+          "initiative": 40,
+          "file": "characters/cc-DO/cc-bolstering-protocol.jpeg"
+        },
+        {
+          "name": "calibrating pulse",
+          "level": "1",
+          "initiative": 42,
+          "file": "characters/cc-DO/cc-calibrating-pulse.jpeg"
+        },
+        {
+          "name": "dynamic interdiction",
+          "level": "1",
+          "initiative": 13,
+          "file": "characters/cc-DO/cc-dynamic-interdiction.jpeg"
+        },
+        {
+          "name": "energized grapple",
+          "level": "1",
+          "initiative": 18,
+          "file": "characters/cc-DO/cc-energized-grapple.jpeg"
+        },
+        {
+          "name": "intervention protocol",
+          "level": "1",
+          "initiative": 87,
+          "file": "characters/cc-DO/cc-intervention-protocol.jpeg"
+        },
+        {
+          "name": "photosynthetic protocol",
+          "level": "1",
+          "initiative": 22,
+          "file": "characters/cc-DO/cc-photosynthetic-protocol.jpeg"
+        },
+        {
+          "name": "recovery function",
+          "level": "1",
+          "initiative": 57,
+          "file": "characters/cc-DO/cc-recovery-function.jpeg"
+        },
+        {
+          "name": "soothing barrier",
+          "level": "1",
+          "initiative": 38,
+          "file": "characters/cc-DO/cc-soothing-barrier.jpeg"
+        },
+        {
+          "name": "tracer pulse",
+          "level": "1",
+          "initiative": 45,
+          "file": "characters/cc-DO/cc-tracer-pulse.jpeg"
+        },
+        {
+          "name": "electrified strike",
+          "level": "X",
+          "initiative": 30,
+          "file": "characters/cc-DO/cc-electrified-strike.jpeg"
+        },
+        {
+          "name": "vengeance protocol",
+          "level": "X",
+          "initiative": 74,
+          "file": "characters/cc-DO/cc-vengeance-protocol.jpeg"
+        },
+        {
+          "name": "voltaic emitter",
+          "level": "X",
+          "initiative": 81,
+          "file": "characters/cc-DO/cc-voltaic-emitter.jpeg"
+        },
+        {
+          "name": "attraction protocol",
+          "level": "2",
+          "initiative": 54,
+          "file": "characters/cc-DO/cc-attraction-protocol.jpeg"
+        },
+        {
+          "name": "magnetic misdirection",
+          "level": "2",
+          "initiative": 15,
+          "file": "characters/cc-DO/cc-magnetic-misdirection.jpeg"
+        },
+        {
+          "name": "bursting barrier",
+          "level": "3",
+          "initiative": 24,
+          "file": "characters/cc-DO/cc-bursting-barrier.jpeg"
+        },
+        {
+          "name": "phase-shifting device",
+          "level": "3",
+          "initiative": 29,
+          "file": "characters/cc-DO/cc-phase-shifting-device.jpeg"
+        },
+        {
+          "name": "assisted abeyance",
+          "level": "4",
+          "initiative": 21,
+          "file": "characters/cc-DO/cc-assisted-abeyance.jpeg"
+        },
+        {
+          "name": "cornucopia device",
+          "level": "4",
+          "initiative": 67,
+          "file": "characters/cc-DO/cc-cornucopia-device.jpeg"
+        },
+        {
+          "name": "leadership emulator module",
+          "level": "5",
+          "initiative": 5,
+          "file": "characters/cc-DO/cc-leadership-emulator-module.jpeg"
+        },
+        {
+          "name": "reassembly emulator module",
+          "level": "5",
+          "initiative": 91,
+          "file": "characters/cc-DO/cc-reassembly-emulator-module.jpeg"
+        },
+        {
+          "name": "absorption protocol",
+          "level": "6",
+          "initiative": 8,
+          "file": "characters/cc-DO/cc-absorption-protocol.jpeg"
+        },
+        {
+          "name": "enhanced momentum",
+          "level": "6",
+          "initiative": 60,
+          "file": "characters/cc-DO/cc-enhanced-momentum.jpeg"
+        },
+        {
+          "name": "repurposed reserves",
+          "level": "7",
+          "initiative": 91,
+          "file": "characters/cc-DO/cc-repurposed-reserves.jpeg"
+        },
+        {
+          "name": "thermal extrusion",
+          "level": "7",
+          "initiative": 36,
+          "file": "characters/cc-DO/cc-thermal-extrusion.jpeg"
+        },
+        {
+          "name": "predictive matrix",
+          "level": "8",
+          "initiative": 7,
+          "file": "characters/cc-DO/cc-predictive-matrix.jpeg"
+        },
+        {
+          "name": "reconstitution protocol",
+          "level": "8",
+          "initiative": 79,
+          "file": "characters/cc-DO/cc-reconstitution-protocol.jpeg"
+        },
+        {
+          "name": "demolisher emulator module",
+          "level": "9",
+          "initiative": 80,
+          "file": "characters/cc-DO/cc-demolisher-emulator-module.jpeg"
+        },
+        {
+          "name": "engineer emulator module",
+          "level": "9",
+          "initiative": 19,
+          "file": "characters/cc-DO/cc-engineer-emulator-module.jpeg"
+        }
+      ]
+    },
+    "cc-DRD": {
+      "name": "dreadscourge",
+      "game": "cc",
+      "mat": "character-mat-dreadscourge.jpeg",
+      "matBack": "character-mat-dreadscourge-back.jpeg",
+      "cards": [
+        {
+          "name": "blinding swarm",
+          "level": "1",
+          "initiative": 33,
+          "file": "characters/cc-DRD/cc-blinding-swarm.jpeg"
+        },
+        {
+          "name": "claim the hunted",
+          "level": "1",
+          "initiative": 16,
+          "file": "characters/cc-DRD/cc-claim-the-hunted.jpeg"
+        },
+        {
+          "name": "frozen in fear",
+          "level": "1",
+          "initiative": 56,
+          "file": "characters/cc-DRD/cc-frozen-in-fear.jpeg"
+        },
+        {
+          "name": "haunting slice",
+          "level": "1",
+          "initiative": 71,
+          "file": "characters/cc-DRD/cc-haunting-slice.jpeg"
+        },
+        {
+          "name": "out of the shadows",
+          "level": "1",
+          "initiative": 76,
+          "file": "characters/cc-DRD/cc-out-of-the-shadows.jpeg"
+        },
+        {
+          "name": "reap the spoils",
+          "level": "1",
+          "initiative": 21,
+          "file": "characters/cc-DRD/cc-reap-the-spoils.jpeg"
+        },
+        {
+          "name": "seize control",
+          "level": "1",
+          "initiative": 9,
+          "file": "characters/cc-DRD/cc-seize-control.jpeg"
+        },
+        {
+          "name": "silkstring puppetry",
+          "level": "1",
+          "initiative": 18,
+          "file": "characters/cc-DRD/cc-silkstring-puppetry.jpeg"
+        },
+        {
+          "name": "skittering underfoot",
+          "level": "1",
+          "initiative": 86,
+          "file": "characters/cc-DRD/cc-skittering-underfoot.jpeg"
+        },
+        {
+          "name": "there and gone",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/cc-DRD/cc-there-and-gone.jpeg"
+        },
+        {
+          "name": "controlled by terror",
+          "level": "X",
+          "initiative": 46,
+          "file": "characters/cc-DRD/cc-controlled-by-terror.jpeg"
+        },
+        {
+          "name": "live bait",
+          "level": "X",
+          "initiative": 40,
+          "file": "characters/cc-DRD/cc-live-bait.jpeg"
+        },
+        {
+          "name": "right behind you",
+          "level": "X",
+          "initiative": 80,
+          "file": "characters/cc-DRD/cc-right-behind-you.jpeg"
+        },
+        {
+          "name": "razor wings",
+          "level": "2",
+          "initiative": 51,
+          "file": "characters/cc-DRD/cc-razor-wings.jpeg"
+        },
+        {
+          "name": "whispered nightmares",
+          "level": "2",
+          "initiative": 22,
+          "file": "characters/cc-DRD/cc-whispered-nightmares.jpeg"
+        },
+        {
+          "name": "hay fever",
+          "level": "3",
+          "initiative": 59,
+          "file": "characters/cc-DRD/cc-hay-fever.jpeg"
+        },
+        {
+          "name": "wasting away",
+          "level": "3",
+          "initiative": 73,
+          "file": "characters/cc-DRD/cc-wasting-away.jpeg"
+        },
+        {
+          "name": "silent reaping",
+          "level": "4",
+          "initiative": 13,
+          "file": "characters/cc-DRD/cc-silent-reaping.jpeg"
+        },
+        {
+          "name": "spreading horror",
+          "level": "4",
+          "initiative": 63,
+          "file": "characters/cc-DRD/cc-spreading-horror.jpeg"
+        },
+        {
+          "name": "cloud of locusts",
+          "level": "5",
+          "initiative": 54,
+          "file": "characters/cc-DRD/cc-cloud-of-locusts.jpeg"
+        },
+        {
+          "name": "scavenge the remains",
+          "level": "5",
+          "initiative": 19,
+          "file": "characters/cc-DRD/cc-scavenge-the-remains.jpeg"
+        },
+        {
+          "name": "ritualistic harvest",
+          "level": "6",
+          "initiative": 29,
+          "file": "characters/cc-DRD/cc-ritualistic-harvest.jpeg"
+        },
+        {
+          "name": "silken cocoon",
+          "level": "6",
+          "initiative": 24,
+          "file": "characters/cc-DRD/cc-silken-cocoon.jpeg"
+        },
+        {
+          "name": "chaotic swarming",
+          "level": "7",
+          "initiative": 33,
+          "file": "characters/cc-DRD/cc-chaotic-swarming.jpeg"
+        },
+        {
+          "name": "marked for harvest",
+          "level": "7",
+          "initiative": 7,
+          "file": "characters/cc-DRD/cc-marked-for-harvest.jpeg"
+        },
+        {
+          "name": "inevitable doom",
+          "level": "8",
+          "initiative": 38,
+          "file": "characters/cc-DRD/cc-inevitable-doom.jpeg"
+        },
+        {
+          "name": "your time has come",
+          "level": "8",
+          "initiative": 95,
+          "file": "characters/cc-DRD/cc-your-time-has-come.jpeg"
+        },
+        {
+          "name": "dancing marionette",
+          "level": "9",
+          "initiative": 27,
+          "file": "characters/cc-DRD/cc-dancing-marionette.jpeg"
+        },
+        {
+          "name": "never alone",
+          "level": "9",
+          "initiative": 90,
+          "file": "characters/cc-DRD/cc-never-alone.jpeg"
+        }
+      ]
+    },
+    "cc-EW": {
+      "name": "echowight",
+      "game": "cc",
+      "mat": "character-mat-echowight.jpeg",
+      "matBack": "character-mat-echowight-back.jpeg",
+      "cards": [
+        {
+          "name": "confounding echoes",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/cc-EW/cc-confounding-echoes.jpeg"
+        },
+        {
+          "name": "formless dread",
+          "level": "1",
+          "initiative": 76,
+          "file": "characters/cc-EW/cc-formless-dread.jpeg"
+        },
+        {
+          "name": "grisly tidings",
+          "level": "1",
+          "initiative": 48,
+          "file": "characters/cc-EW/cc-grisly-tidings.jpeg"
+        },
+        {
+          "name": "guardian from the ether",
+          "level": "1",
+          "initiative": 82,
+          "file": "characters/cc-EW/cc-guardian-from-the-ether.jpeg"
+        },
+        {
+          "name": "lead them astray",
+          "level": "1",
+          "initiative": 25,
+          "file": "characters/cc-EW/cc-lead-them-astray.jpeg"
+        },
+        {
+          "name": "murky haze",
+          "level": "1",
+          "initiative": 73,
+          "file": "characters/cc-EW/cc-murky-haze.jpeg"
+        },
+        {
+          "name": "scattering pulse",
+          "level": "1",
+          "initiative": 32,
+          "file": "characters/cc-EW/cc-scattering-pulse.jpeg"
+        },
+        {
+          "name": "shifting air",
+          "level": "1",
+          "initiative": 43,
+          "file": "characters/cc-EW/cc-shifting-air.jpeg"
+        },
+        {
+          "name": "swirling absurdity",
+          "level": "1",
+          "initiative": 19,
+          "file": "characters/cc-EW/cc-swirling-absurdity.jpeg"
+        },
+        {
+          "name": "the fog rolls in",
+          "level": "1",
+          "initiative": 67,
+          "file": "characters/cc-EW/cc-the-fog-rolls-in.jpeg"
+        },
+        {
+          "name": "withering gaze",
+          "level": "1",
+          "initiative": 14,
+          "file": "characters/cc-EW/cc-withering-gaze.jpeg"
+        },
+        {
+          "name": "empathy with the hunted",
+          "level": "X",
+          "initiative": 85,
+          "file": "characters/cc-EW/cc-empathy-with-the-hunted.jpeg"
+        },
+        {
+          "name": "myriad delusions",
+          "level": "X",
+          "initiative": 22,
+          "file": "characters/cc-EW/cc-myriad-delusions.jpeg"
+        },
+        {
+          "name": "sickening wind",
+          "level": "X",
+          "initiative": 16,
+          "file": "characters/cc-EW/cc-sickening-wind.jpeg"
+        },
+        {
+          "name": "dissolution of form",
+          "level": "2",
+          "initiative": 21,
+          "file": "characters/cc-EW/cc-dissolution-of-form.jpeg"
+        },
+        {
+          "name": "shrouds of silver",
+          "level": "2",
+          "initiative": 78,
+          "file": "characters/cc-EW/cc-shrouds-of-silver.jpeg"
+        },
+        {
+          "name": "black clouds gather",
+          "level": "3",
+          "initiative": 45,
+          "file": "characters/cc-EW/cc-black-clouds-gather.jpeg"
+        },
+        {
+          "name": "deluge of whispers",
+          "level": "3",
+          "initiative": 27,
+          "file": "characters/cc-EW/cc-deluge-of-whispers.jpeg"
+        },
+        {
+          "name": "doom stalks the land",
+          "level": "4",
+          "initiative": 90,
+          "file": "characters/cc-EW/cc-doom-stalks-the-land.jpeg"
+        },
+        {
+          "name": "ripples in the ether",
+          "level": "4",
+          "initiative": 17,
+          "file": "characters/cc-EW/cc-ripples-in-the-ether.jpeg"
+        },
+        {
+          "name": "the embraced",
+          "level": "5",
+          "initiative": 20,
+          "file": "characters/cc-EW/cc-the-embraced.jpeg"
+        },
+        {
+          "name": "the lost",
+          "level": "5",
+          "initiative": 50,
+          "file": "characters/cc-EW/cc-the-lost.jpeg"
+        },
+        {
+          "name": "air of atrophy",
+          "level": "6",
+          "initiative": 11,
+          "file": "characters/cc-EW/cc-air-of-atrophy.jpeg"
+        },
+        {
+          "name": "hellish wailing",
+          "level": "6",
+          "initiative": 79,
+          "file": "characters/cc-EW/cc-hellish-wailing.jpeg"
+        },
+        {
+          "name": "cloaked in white vapors",
+          "level": "7",
+          "initiative": 29,
+          "file": "characters/cc-EW/cc-cloaked-in-white-vapors.jpeg"
+        },
+        {
+          "name": "malevolant guidance",
+          "level": "7",
+          "initiative": 56,
+          "file": "characters/cc-EW/cc-malevolant-guidance.jpeg"
+        },
+        {
+          "name": "gray halation",
+          "level": "8",
+          "initiative": 44,
+          "file": "characters/cc-EW/cc-gray-halation.jpeg"
+        },
+        {
+          "name": "soul sapping",
+          "level": "8",
+          "initiative": 13,
+          "file": "characters/cc-EW/cc-soul-sapping.jpeg"
+        },
+        {
+          "name": "foreboding",
+          "level": "9",
+          "initiative": 93,
+          "file": "characters/cc-EW/cc-foreboding.jpeg"
+        },
+        {
+          "name": "scenery of the end",
+          "level": "9",
+          "initiative": 35,
+          "file": "characters/cc-EW/cc-scenery-of-the-end.jpeg"
+        }
+      ]
+    },
+    "cc-GT": {
+      "name": "glacial torrent",
+      "game": "cc",
+      "mat": "character-mat-glacial-torrent.jpeg",
+      "matBack": "character-mat-glacial-torrent-back.jpeg",
+      "cards": [
+        {
+          "name": "arctic assault",
+          "level": "1",
+          "initiative": 33,
+          "file": "characters/cc-GT/cc-arctic-assault.jpeg"
+        },
+        {
+          "name": "bellowing behemoth",
+          "level": "1",
+          "initiative": 23,
+          "file": "characters/cc-GT/cc-bellowing-behemoth.jpeg"
+        },
+        {
+          "name": "flashfreeze",
+          "level": "1",
+          "initiative": 28,
+          "file": "characters/cc-GT/cc-flashfreeze.jpeg"
+        },
+        {
+          "name": "frozen debris",
+          "level": "1",
+          "initiative": 39,
+          "file": "characters/cc-GT/cc-frozen-debris.jpeg"
+        },
+        {
+          "name": "ice slide",
+          "level": "1",
+          "initiative": 60,
+          "file": "characters/cc-GT/cc-ice-slide.jpeg"
+        },
+        {
+          "name": "icy onslaught",
+          "level": "1",
+          "initiative": 37,
+          "file": "characters/cc-GT/cc-icy-onslaught.jpeg"
+        },
+        {
+          "name": "jagged ice",
+          "level": "1",
+          "initiative": 82,
+          "file": "characters/cc-GT/cc-jagged-ice.jpeg"
+        },
+        {
+          "name": "lost to the cold",
+          "level": "1",
+          "initiative": 40,
+          "file": "characters/cc-GT/cc-lost-to-the-cold.jpeg"
+        },
+        {
+          "name": "thawing treatment",
+          "level": "1",
+          "initiative": 65,
+          "file": "characters/cc-GT/cc-thawing-treatment.jpeg"
+        },
+        {
+          "name": "winter's embrace",
+          "level": "1",
+          "initiative": 19,
+          "file": "characters/cc-GT/cc-winters-embrace.jpeg"
+        },
+        {
+          "name": "living glacier",
+          "level": "X",
+          "initiative": 12,
+          "file": "characters/cc-GT/cc-living-glacier.jpeg"
+        },
+        {
+          "name": "shattering shield",
+          "level": "X",
+          "initiative": 70,
+          "file": "characters/cc-GT/cc-shattering-shield.jpeg"
+        },
+        {
+          "name": "weight of the mountain",
+          "level": "X",
+          "initiative": 56,
+          "file": "characters/cc-GT/cc-weight-of-the-mountain.jpeg"
+        },
+        {
+          "name": "knockout punch",
+          "level": "2",
+          "initiative": 76,
+          "file": "characters/cc-GT/cc-knockout-punch.jpeg"
+        },
+        {
+          "name": "tracherous trail",
+          "level": "2",
+          "initiative": 16,
+          "file": "characters/cc-GT/cc-tracherous-trail.jpeg"
+        },
+        {
+          "name": "ice wall",
+          "level": "3",
+          "initiative": 8,
+          "file": "characters/cc-GT/cc-ice-wall.jpeg"
+        },
+        {
+          "name": "slippery slope",
+          "level": "3",
+          "initiative": 35,
+          "file": "characters/cc-GT/cc-slippery-slope.jpeg"
+        },
+        {
+          "name": "bounty of the mountain",
+          "level": "4",
+          "initiative": 86,
+          "file": "characters/cc-GT/cc-bounty-of-the-mountain.jpeg"
+        },
+        {
+          "name": "hailstorm",
+          "level": "4",
+          "initiative": 20,
+          "file": "characters/cc-GT/cc-hailstorm.jpeg"
+        },
+        {
+          "name": "glacial spike",
+          "level": "5",
+          "initiative": 50,
+          "file": "characters/cc-GT/cc-glacial-spike.jpeg"
+        },
+        {
+          "name": "the mountain's judgement",
+          "level": "5",
+          "initiative": 68,
+          "file": "characters/cc-GT/cc-the-mountains-judgement.jpeg"
+        },
+        {
+          "name": "frostbitten bulwark",
+          "level": "6",
+          "initiative": 15,
+          "file": "characters/cc-GT/cc-frostbitten-bulwark.jpeg"
+        },
+        {
+          "name": "titantic might",
+          "level": "6",
+          "initiative": 90,
+          "file": "characters/cc-GT/cc-titantic-might.jpeg"
+        },
+        {
+          "name": "one with the ice",
+          "level": "7",
+          "initiative": 25,
+          "file": "characters/cc-GT/cc-one-with-the-ice.jpeg"
+        },
+        {
+          "name": "winter's wrath",
+          "level": "7",
+          "initiative": 30,
+          "file": "characters/cc-GT/cc-winters-wrath.jpeg"
+        },
+        {
+          "name": "perilous blizzard",
+          "level": "8",
+          "initiative": 80,
+          "file": "characters/cc-GT/cc-perilous-blizzard.jpeg"
+        },
+        {
+          "name": "warding swipe",
+          "level": "8",
+          "initiative": 17,
+          "file": "characters/cc-GT/cc-warding-swipe.jpeg"
+        },
+        {
+          "name": "permafrost",
+          "level": "9",
+          "initiative": 10,
+          "file": "characters/cc-GT/cc-permafrost.jpeg"
+        },
+        {
+          "name": "two-fisted strike",
+          "level": "9",
+          "initiative": 41,
+          "file": "characters/cc-GT/cc-two-fisted-strike.jpeg"
+        }
+      ]
+    },
+    "cc-JT": {
+      "name": "jester twins",
+      "game": "cc",
+      "mat": "character-mat-jester-twins.jpeg",
+      "matBack": "character-mat-jester-twins-back.jpeg",
+      "cards": [
+        {
+          "name": "flying trapeze",
+          "level": "1",
+          "initiative": 11,
+          "file": "characters/cc-JT/cc-flying-trapeze.jpeg"
+        },
+        {
+          "name": "impalement arts",
+          "level": "1",
+          "initiative": 71,
+          "file": "characters/cc-JT/cc-impalement-arts.jpeg"
+        },
+        {
+          "name": "juggling act",
+          "level": "1",
+          "initiative": 68,
+          "file": "characters/cc-JT/cc-juggling-act.jpeg"
+        },
+        {
+          "name": "ring of fire",
+          "level": "1",
+          "initiative": 9,
+          "file": "characters/cc-JT/cc-ring-of-fire.jpeg"
+        },
+        {
+          "name": "rotten tomatoes",
+          "level": "1",
+          "initiative": 44,
+          "file": "characters/cc-JT/cc-rotten-tomatoes.jpeg"
+        },
+        {
+          "name": "stick the landing",
+          "level": "1",
+          "initiative": 37,
+          "file": "characters/cc-JT/cc-stick-the-landing.jpeg"
+        },
+        {
+          "name": "teamwork",
+          "level": "1",
+          "initiative": 88,
+          "file": "characters/cc-JT/cc-teamwork.jpeg"
+        },
+        {
+          "name": "twisted performance",
+          "level": "1",
+          "initiative": 32,
+          "file": "characters/cc-JT/cc-twisted-performance.jpeg"
+        },
+        {
+          "name": "walking globe",
+          "level": "1",
+          "initiative": 27,
+          "file": "characters/cc-JT/cc-walking-globe.jpeg"
+        },
+        {
+          "name": "whiplash",
+          "level": "1",
+          "initiative": 14,
+          "file": "characters/cc-JT/cc-whiplash.jpeg"
+        },
+        {
+          "name": "lift me up",
+          "level": "X",
+          "initiative": 77,
+          "file": "characters/cc-JT/cc-lift-me-up.jpeg"
+        },
+        {
+          "name": "stun the crowd",
+          "level": "X",
+          "initiative": 51,
+          "file": "characters/cc-JT/cc-stun-the-crowd.jpeg"
+        },
+        {
+          "name": "unbreakable bond",
+          "level": "X",
+          "initiative": 45,
+          "file": "characters/cc-JT/cc-unbreakable-bond.jpeg"
+        },
+        {
+          "name": "banana split",
+          "level": "2",
+          "initiative": 19,
+          "file": "characters/cc-JT/cc-banana-split.jpeg"
+        },
+        {
+          "name": "slapstick",
+          "level": "2",
+          "initiative": 41,
+          "file": "characters/cc-JT/cc-slapstick.jpeg"
+        },
+        {
+          "name": "dizzying dance",
+          "level": "3",
+          "initiative": 33,
+          "file": "characters/cc-JT/cc-dizzying-dance.jpeg"
+        },
+        {
+          "name": "volunteer",
+          "level": "3",
+          "initiative": 50,
+          "file": "characters/cc-JT/cc-volunteer.jpeg"
+        },
+        {
+          "name": "pull me back",
+          "level": "4",
+          "initiative": 60,
+          "file": "characters/cc-JT/cc-pull-me-back.jpeg"
+        },
+        {
+          "name": "toss me!",
+          "level": "4",
+          "initiative": 70,
+          "file": "characters/cc-JT/cc-toss-me!.jpeg"
+        },
+        {
+          "name": "encore",
+          "level": "5",
+          "initiative": 84,
+          "file": "characters/cc-JT/cc-encore.jpeg"
+        },
+        {
+          "name": "fireworks",
+          "level": "5",
+          "initiative": 55,
+          "file": "characters/cc-JT/cc-fireworks.jpeg"
+        },
+        {
+          "name": "massive trampoline",
+          "level": "6",
+          "initiative": 8,
+          "file": "characters/cc-JT/cc-massive-trampoline.jpeg"
+        },
+        {
+          "name": "sword swallowing",
+          "level": "6",
+          "initiative": 24,
+          "file": "characters/cc-JT/cc-sword-swallowing.jpeg"
+        },
+        {
+          "name": "cannonball!",
+          "level": "7",
+          "initiative": 92,
+          "file": "characters/cc-JT/cc-cannonball!.jpeg"
+        },
+        {
+          "name": "fire blowing",
+          "level": "7",
+          "initiative": 66,
+          "file": "characters/cc-JT/cc-fire-blowing.jpeg"
+        },
+        {
+          "name": "humongous net",
+          "level": "8",
+          "initiative": 63,
+          "file": "characters/cc-JT/cc-humongous-net.jpeg"
+        },
+        {
+          "name": "pie throw",
+          "level": "8",
+          "initiative": 16,
+          "file": "characters/cc-JT/cc-pie-throw.jpeg"
+        },
+        {
+          "name": "double trouble",
+          "level": "9",
+          "initiative": 22,
+          "file": "characters/cc-JT/cc-double-trouble.jpeg"
+        },
+        {
+          "name": "showstopper",
+          "level": "9",
+          "initiative": 99,
+          "file": "characters/cc-JT/cc-showstopper.jpeg"
+        }
+      ]
+    },
+    "cc-LS": {
+      "name": "lifespeaker",
+      "game": "cc",
+      "mat": "character-mat-lifespeaker.jpeg",
+      "matBack": "character-mat-lifespeaker-back.jpeg",
+      "cards": [
+        {
+          "name": "advance",
+          "level": "1",
+          "initiative": 22,
+          "file": "characters/cc-LS/cc-advance.jpeg"
+        },
+        {
+          "name": "bestow",
+          "level": "1",
+          "initiative": 23,
+          "file": "characters/cc-LS/cc-bestow.jpeg"
+        },
+        {
+          "name": "blight",
+          "level": "1",
+          "initiative": 66,
+          "file": "characters/cc-LS/cc-blight.jpeg"
+        },
+        {
+          "name": "embolden",
+          "level": "1",
+          "initiative": 17,
+          "file": "characters/cc-LS/cc-embolden.jpeg"
+        },
+        {
+          "name": "halt",
+          "level": "1",
+          "initiative": 43,
+          "file": "characters/cc-LS/cc-halt.jpeg"
+        },
+        {
+          "name": "instill a silent dread",
+          "level": "1",
+          "initiative": 81,
+          "file": "characters/cc-LS/cc-instill-a-silent-dread.jpeg"
+        },
+        {
+          "name": "rebuke",
+          "level": "1",
+          "initiative": 25,
+          "file": "characters/cc-LS/cc-rebuke.jpeg"
+        },
+        {
+          "name": "the march of time",
+          "level": "1",
+          "initiative": 65,
+          "file": "characters/cc-LS/cc-the-march-of-time.jpeg"
+        },
+        {
+          "name": "the past's toll",
+          "level": "1",
+          "initiative": 13,
+          "file": "characters/cc-LS/cc-the-pasts-toll.jpeg"
+        },
+        {
+          "name": "unleash",
+          "level": "1",
+          "initiative": 33,
+          "file": "characters/cc-LS/cc-unleash.jpeg"
+        },
+        {
+          "name": "the past returns",
+          "level": "X",
+          "initiative": 92,
+          "file": "characters/cc-LS/cc-the-past-returns.jpeg"
+        },
+        {
+          "name": "torrent of flame and stone",
+          "level": "X",
+          "initiative": 51,
+          "file": "characters/cc-LS/cc-torrent-of-flame-and-stone.jpeg"
+        },
+        {
+          "name": "wither",
+          "level": "X",
+          "initiative": 38,
+          "file": "characters/cc-LS/cc-wither.jpeg"
+        },
+        {
+          "name": "rejuvenate",
+          "level": "2",
+          "initiative": 75,
+          "file": "characters/cc-LS/cc-rejuvenate.jpeg"
+        },
+        {
+          "name": "whispers burn within",
+          "level": "2",
+          "initiative": 15,
+          "file": "characters/cc-LS/cc-whispers-burn-within.jpeg"
+        },
+        {
+          "name": "deny",
+          "level": "3",
+          "initiative": 60,
+          "file": "characters/cc-LS/cc-deny.jpeg"
+        },
+        {
+          "name": "the past's remembrace",
+          "level": "3",
+          "initiative": 31,
+          "file": "characters/cc-LS/cc-the-pasts-remembrace.jpeg"
+        },
+        {
+          "name": "harmonize",
+          "level": "4",
+          "initiative": 77,
+          "file": "characters/cc-LS/cc-harmonize.jpeg"
+        },
+        {
+          "name": "siphon",
+          "level": "4",
+          "initiative": 21,
+          "file": "characters/cc-LS/cc-siphon.jpeg"
+        },
+        {
+          "name": "channel",
+          "level": "5",
+          "initiative": 11,
+          "file": "characters/cc-LS/cc-channel.jpeg"
+        },
+        {
+          "name": "scorch",
+          "level": "5",
+          "initiative": 82,
+          "file": "characters/cc-LS/cc-scorch.jpeg"
+        },
+        {
+          "name": "deeds of warriors past",
+          "level": "6",
+          "initiative": 89,
+          "file": "characters/cc-LS/cc-deeds-of-warriors-past.jpeg"
+        },
+        {
+          "name": "lingering echoes",
+          "level": "6",
+          "initiative": 69,
+          "file": "characters/cc-LS/cc-lingering-echoes.jpeg"
+        },
+        {
+          "name": "focus",
+          "level": "7",
+          "initiative": 29,
+          "file": "characters/cc-LS/cc-focus.jpeg"
+        },
+        {
+          "name": "words of dread travel softly",
+          "level": "7",
+          "initiative": 16,
+          "file": "characters/cc-LS/cc-words-of-dread-travel-softly.jpeg"
+        },
+        {
+          "name": "past in flames",
+          "level": "8",
+          "initiative": 96,
+          "file": "characters/cc-LS/cc-past-in-flames.jpeg"
+        },
+        {
+          "name": "suffer",
+          "level": "8",
+          "initiative": 50,
+          "file": "characters/cc-LS/cc-suffer.jpeg"
+        },
+        {
+          "name": "echoes reverberate",
+          "level": "9",
+          "initiative": 9,
+          "file": "characters/cc-LS/cc-echoes-reverberate.jpeg"
+        },
+        {
+          "name": "raze",
+          "level": "9",
+          "initiative": 20,
+          "file": "characters/cc-LS/cc-raze.jpeg"
+        }
+      ]
+    },
+    "cc-LR": {
+      "name": "lightracer",
+      "game": "cc",
+      "mat": "character-mat-lightracer.jpeg",
+      "matBack": "character-mat-lightracer-back.jpeg",
+      "cards": [
+        {
+          "name": "accelerated assault",
+          "level": "1",
+          "initiative": 39,
+          "file": "characters/cc-LR/cc-accelerated-assault.jpeg"
+        },
+        {
+          "name": "bruising jabs",
+          "level": "1",
+          "initiative": 27,
+          "file": "characters/cc-LR/cc-bruising-jabs.jpeg"
+        },
+        {
+          "name": "hypothesis testing",
+          "level": "1",
+          "initiative": 70,
+          "file": "characters/cc-LR/cc-hypothesis-testing.jpeg"
+        },
+        {
+          "name": "legendary swiftness",
+          "level": "1",
+          "initiative": 12,
+          "file": "characters/cc-LR/cc-legendary-swiftness.jpeg"
+        },
+        {
+          "name": "lightspeed barrage",
+          "level": "1",
+          "initiative": 29,
+          "file": "characters/cc-LR/cc-lightspeed-barrage.jpeg"
+        },
+        {
+          "name": "push the limits",
+          "level": "1",
+          "initiative": 58,
+          "file": "characters/cc-LR/cc-push-the-limits.jpeg"
+        },
+        {
+          "name": "quick insight",
+          "level": "1",
+          "initiative": 17,
+          "file": "characters/cc-LR/cc-quick-insight.jpeg"
+        },
+        {
+          "name": "sonic vortex",
+          "level": "1",
+          "initiative": 40,
+          "file": "characters/cc-LR/cc-sonic-vortex.jpeg"
+        },
+        {
+          "name": "sucker punch",
+          "level": "1",
+          "initiative": 43,
+          "file": "characters/cc-LR/cc-sucker-punch.jpeg"
+        },
+        {
+          "name": "synaptic interruption",
+          "level": "1",
+          "initiative": 11,
+          "file": "characters/cc-LR/cc-synaptic-interruption.jpeg"
+        },
+        {
+          "name": "there and back",
+          "level": "1",
+          "initiative": 48,
+          "file": "characters/cc-LR/cc-there-and-back.jpeg"
+        },
+        {
+          "name": "weak points",
+          "level": "1",
+          "initiative": 38,
+          "file": "characters/cc-LR/cc-weak-points.jpeg"
+        },
+        {
+          "name": "blinding speed",
+          "level": "X",
+          "initiative": 7,
+          "file": "characters/cc-LR/cc-blinding-speed.jpeg"
+        },
+        {
+          "name": "fleet of foot",
+          "level": "X",
+          "initiative": 15,
+          "file": "characters/cc-LR/cc-fleet-of-foot.jpeg"
+        },
+        {
+          "name": "nimble strike",
+          "level": "X",
+          "initiative": 24,
+          "file": "characters/cc-LR/cc-nimble-strike.jpeg"
+        },
+        {
+          "name": "comfort in stride",
+          "level": "2",
+          "initiative": 62,
+          "file": "characters/cc-LR/cc-comfort-in-stride.jpeg"
+        },
+        {
+          "name": "hypersonic dash",
+          "level": "2",
+          "initiative": 26,
+          "file": "characters/cc-LR/cc-hypersonic-dash.jpeg"
+        },
+        {
+          "name": "endless onslaught",
+          "level": "3",
+          "initiative": 46,
+          "file": "characters/cc-LR/cc-endless-onslaught.jpeg"
+        },
+        {
+          "name": "extreme speed",
+          "level": "3",
+          "initiative": 5,
+          "file": "characters/cc-LR/cc-extreme-speed.jpeg"
+        },
+        {
+          "name": "into the fray",
+          "level": "4",
+          "initiative": 55,
+          "file": "characters/cc-LR/cc-into-the-fray.jpeg"
+        },
+        {
+          "name": "relentless strikes",
+          "level": "4",
+          "initiative": 22,
+          "file": "characters/cc-LR/cc-relentless-strikes.jpeg"
+        },
+        {
+          "name": "blur of motion",
+          "level": "5",
+          "initiative": 50,
+          "file": "characters/cc-LR/cc-blur-of-motion.jpeg"
+        },
+        {
+          "name": "lingering pain",
+          "level": "5",
+          "initiative": 21,
+          "file": "characters/cc-LR/cc-lingering-pain.jpeg"
+        },
+        {
+          "name": "battlefield analytics",
+          "level": "6",
+          "initiative": 30,
+          "file": "characters/cc-LR/cc-battlefield-analytics.jpeg"
+        },
+        {
+          "name": "lightning intellect",
+          "level": "6",
+          "initiative": 13,
+          "file": "characters/cc-LR/cc-lightning-intellect.jpeg"
+        },
+        {
+          "name": "take a breather",
+          "level": "7",
+          "initiative": 80,
+          "file": "characters/cc-LR/cc-take-a-breather.jpeg"
+        },
+        {
+          "name": "top speed",
+          "level": "7",
+          "initiative": 6,
+          "file": "characters/cc-LR/cc-top-speed.jpeg"
+        },
+        {
+          "name": "flexible footwork",
+          "level": "8",
+          "initiative": 44,
+          "file": "characters/cc-LR/cc-flexible-footwork.jpeg"
+        },
+        {
+          "name": "nimble and quick",
+          "level": "8",
+          "initiative": 16,
+          "file": "characters/cc-LR/cc-nimble-and-quick.jpeg"
+        },
+        {
+          "name": "all the time in the world",
+          "level": "9",
+          "initiative": 99,
+          "file": "characters/cc-LR/cc-all-the-time-in-the-world.jpeg"
+        },
+        {
+          "name": "faster than light",
+          "level": "9",
+          "initiative": 1,
+          "file": "characters/cc-LR/cc-faster-than-light.jpeg"
+        }
+      ]
+    },
+    "cc-MEC": {
+      "name": "mechanist",
+      "game": "cc",
+      "mat": "character-mat-mechanist.jpeg",
+      "matBack": "character-mat-mechanist-back.jpeg",
+      "cards": [
+        {
+          "name": "amped followthrough",
+          "level": "1",
+          "initiative": 24,
+          "file": "characters/cc-MEC/cc-amped-followthrough.jpeg"
+        },
+        {
+          "name": "assault protocol",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/cc-MEC/cc-assault-protocol.jpeg"
+        },
+        {
+          "name": "charged fists",
+          "level": "1",
+          "initiative": 40,
+          "file": "characters/cc-MEC/cc-charged-fists.jpeg"
+        },
+        {
+          "name": "covering fire",
+          "level": "1",
+          "initiative": 72,
+          "file": "characters/cc-MEC/cc-covering-fire.jpeg"
+        },
+        {
+          "name": "crash down",
+          "level": "1",
+          "initiative": 76,
+          "file": "characters/cc-MEC/cc-crash-down.jpeg"
+        },
+        {
+          "name": "embrace the cold",
+          "level": "1",
+          "initiative": 88,
+          "file": "characters/cc-MEC/cc-embrace-the-cold.jpeg"
+        },
+        {
+          "name": "hunker down",
+          "level": "1",
+          "initiative": 18,
+          "file": "characters/cc-MEC/cc-hunker-down.jpeg"
+        },
+        {
+          "name": "on the winds",
+          "level": "1",
+          "initiative": 22,
+          "file": "characters/cc-MEC/cc-on-the-winds.jpeg"
+        },
+        {
+          "name": "pulse cannon",
+          "level": "1",
+          "initiative": 82,
+          "file": "characters/cc-MEC/cc-pulse-cannon.jpeg"
+        },
+        {
+          "name": "pyrotechnics",
+          "level": "1",
+          "initiative": 65,
+          "file": "characters/cc-MEC/cc-pyrotechnics.jpeg"
+        },
+        {
+          "name": "sturdy as stone",
+          "level": "1",
+          "initiative": 16,
+          "file": "characters/cc-MEC/cc-sturdy-as-stone.jpeg"
+        },
+        {
+          "name": "energy shell",
+          "level": "X",
+          "initiative": 38,
+          "file": "characters/cc-MEC/cc-energy-shell.jpeg"
+        },
+        {
+          "name": "looking for parts",
+          "level": "X",
+          "initiative": 55,
+          "file": "characters/cc-MEC/cc-looking-for-parts.jpeg"
+        },
+        {
+          "name": "powered up",
+          "level": "X",
+          "initiative": 35,
+          "file": "characters/cc-MEC/cc-powered-up.jpeg"
+        },
+        {
+          "name": "surging missiles",
+          "level": "2",
+          "initiative": 68,
+          "file": "characters/cc-MEC/cc-surging-missiles.jpeg"
+        },
+        {
+          "name": "thermal conduction",
+          "level": "2",
+          "initiative": 78,
+          "file": "characters/cc-MEC/cc-thermal-conduction.jpeg"
+        },
+        {
+          "name": "blazing impact",
+          "level": "3",
+          "initiative": 26,
+          "file": "characters/cc-MEC/cc-blazing-impact.jpeg"
+        },
+        {
+          "name": "crashing stonecase",
+          "level": "3",
+          "initiative": 21,
+          "file": "characters/cc-MEC/cc-crashing-stonecase.jpeg"
+        },
+        {
+          "name": "cryonic skewering",
+          "level": "4",
+          "initiative": 32,
+          "file": "characters/cc-MEC/cc-cryonic-skewering.jpeg"
+        },
+        {
+          "name": "molten framework",
+          "level": "4",
+          "initiative": 90,
+          "file": "characters/cc-MEC/cc-molten-framework.jpeg"
+        },
+        {
+          "name": "flash freeze",
+          "level": "5",
+          "initiative": 48,
+          "file": "characters/cc-MEC/cc-flash-freeze.jpeg"
+        },
+        {
+          "name": "searing blitz",
+          "level": "5",
+          "initiative": 52,
+          "file": "characters/cc-MEC/cc-searing-blitz.jpeg"
+        },
+        {
+          "name": "accelerated munitions",
+          "level": "6",
+          "initiative": 43,
+          "file": "characters/cc-MEC/cc-accelerated-munitions.jpeg"
+        },
+        {
+          "name": "shockwave pistons",
+          "level": "6",
+          "initiative": 28,
+          "file": "characters/cc-MEC/cc-shockwave-pistons.jpeg"
+        },
+        {
+          "name": "hellfire armaments",
+          "level": "7",
+          "initiative": 81,
+          "file": "characters/cc-MEC/cc-hellfire-armaments.jpeg"
+        },
+        {
+          "name": "optimized routing",
+          "level": "7",
+          "initiative": 7,
+          "file": "characters/cc-MEC/cc-optimized-routing.jpeg"
+        },
+        {
+          "name": "frozen fortress",
+          "level": "8",
+          "initiative": 9,
+          "file": "characters/cc-MEC/cc-frozen-fortress.jpeg"
+        },
+        {
+          "name": "rolling thunder",
+          "level": "8",
+          "initiative": 60,
+          "file": "characters/cc-MEC/cc-rolling-thunder.jpeg"
+        },
+        {
+          "name": "full power",
+          "level": "9",
+          "initiative": 36,
+          "file": "characters/cc-MEC/cc-full-power.jpeg"
+        },
+        {
+          "name": "weapon platform",
+          "level": "9",
+          "initiative": 85,
+          "file": "characters/cc-MEC/cc-weapon-platform.jpeg"
+        }
+      ]
+    },
+    "cc-PW": {
+      "name": "powdercoat",
+      "game": "cc",
+      "mat": "character-mat-powdercoat.jpeg",
+      "matBack": "character-mat-powdercoat-back.jpeg",
+      "cards": [
+        {
+          "name": "backup munitions",
+          "level": "1",
+          "initiative": 41,
+          "file": "characters/cc-PW/cc-backup-munitions.jpeg"
+        },
+        {
+          "name": "combustion",
+          "level": "1",
+          "initiative": 45,
+          "file": "characters/cc-PW/cc-combustion.jpeg"
+        },
+        {
+          "name": "flame burst",
+          "level": "1",
+          "initiative": 78,
+          "file": "characters/cc-PW/cc-flame-burst.jpeg"
+        },
+        {
+          "name": "locked and loaded",
+          "level": "1",
+          "initiative": 28,
+          "file": "characters/cc-PW/cc-locked-and-loaded.jpeg"
+        },
+        {
+          "name": "rapid shift",
+          "level": "1",
+          "initiative": 15,
+          "file": "characters/cc-PW/cc-rapid-shift.jpeg"
+        },
+        {
+          "name": "searing blaze",
+          "level": "1",
+          "initiative": 36,
+          "file": "characters/cc-PW/cc-searing-blaze.jpeg"
+        },
+        {
+          "name": "share a swig",
+          "level": "1",
+          "initiative": 32,
+          "file": "characters/cc-PW/cc-share-a-swig.jpeg"
+        },
+        {
+          "name": "spiked rope",
+          "level": "1",
+          "initiative": 20,
+          "file": "characters/cc-PW/cc-spiked-rope.jpeg"
+        },
+        {
+          "name": "thounderous charge",
+          "level": "1",
+          "initiative": 73,
+          "file": "characters/cc-PW/cc-thounderous-charge.jpeg"
+        },
+        {
+          "name": "torpedo rounds",
+          "level": "1",
+          "initiative": 67,
+          "file": "characters/cc-PW/cc-torpedo-rounds.jpeg"
+        },
+        {
+          "name": "barter",
+          "level": "X",
+          "initiative": 27,
+          "file": "characters/cc-PW/cc-barter.jpeg"
+        },
+        {
+          "name": "mischievous endeavour",
+          "level": "X",
+          "initiative": 88,
+          "file": "characters/cc-PW/cc-mischievous-endeavour.jpeg"
+        },
+        {
+          "name": "toxic vapor",
+          "level": "X",
+          "initiative": 25,
+          "file": "characters/cc-PW/cc-toxic-vapor.jpeg"
+        },
+        {
+          "name": "disorienting uproar",
+          "level": "2",
+          "initiative": 17,
+          "file": "characters/cc-PW/cc-disorienting-uproar.jpeg"
+        },
+        {
+          "name": "grapeshot",
+          "level": "2",
+          "initiative": 43,
+          "file": "characters/cc-PW/cc-grapeshot.jpeg"
+        },
+        {
+          "name": "ball bearings",
+          "level": "3",
+          "initiative": 31,
+          "file": "characters/cc-PW/cc-ball-bearings.jpeg"
+        },
+        {
+          "name": "compacted shells",
+          "level": "3",
+          "initiative": 57,
+          "file": "characters/cc-PW/cc-compacted-shells.jpeg"
+        },
+        {
+          "name": "implosion",
+          "level": "4",
+          "initiative": 37,
+          "file": "characters/cc-PW/cc-implosion.jpeg"
+        },
+        {
+          "name": "repelling blast",
+          "level": "4",
+          "initiative": 26,
+          "file": "characters/cc-PW/cc-repelling-blast.jpeg"
+        },
+        {
+          "name": "incinerate",
+          "level": "5",
+          "initiative": 71,
+          "file": "characters/cc-PW/cc-incinerate.jpeg"
+        },
+        {
+          "name": "suspicious salve",
+          "level": "5",
+          "initiative": 11,
+          "file": "characters/cc-PW/cc-suspicious-salve.jpeg"
+        },
+        {
+          "name": "flammable dust",
+          "level": "6",
+          "initiative": 52,
+          "file": "characters/cc-PW/cc-flammable-dust.jpeg"
+        },
+        {
+          "name": "hostile acquisition",
+          "level": "6",
+          "initiative": 34,
+          "file": "characters/cc-PW/cc-hostile-acquisition.jpeg"
+        },
+        {
+          "name": "death wish",
+          "level": "7",
+          "initiative": 16,
+          "file": "characters/cc-PW/cc-death-wish.jpeg"
+        },
+        {
+          "name": "trick of the trade",
+          "level": "7",
+          "initiative": 23,
+          "file": "characters/cc-PW/cc-trick-of-the-trade.jpeg"
+        },
+        {
+          "name": "flashbang mayhem",
+          "level": "8",
+          "initiative": 86,
+          "file": "characters/cc-PW/cc-flashbang-mayhem.jpeg"
+        },
+        {
+          "name": "high impact",
+          "level": "8",
+          "initiative": 42,
+          "file": "characters/cc-PW/cc-high-impact.jpeg"
+        },
+        {
+          "name": "death's daughter",
+          "level": "9",
+          "initiative": 90,
+          "file": "characters/cc-PW/cc-deaths-daughter.jpeg"
+        },
+        {
+          "name": "fractured barrage",
+          "level": "9",
+          "initiative": 18,
+          "file": "characters/cc-PW/cc-fractured-barrage.jpeg"
+        }
+      ]
+    },
+    "cc-RK": {
+      "name": "rekindled",
+      "game": "cc",
+      "mat": "character-mat-rekindled.jpeg",
+      "matBack": "character-mat-rekindled-back.jpeg",
+      "cards": [
+        {
+          "name": "blazing path",
+          "level": "1",
+          "initiative": 20,
+          "file": "characters/cc-RK/cc-blazing-path.jpeg"
+        },
+        {
+          "name": "cinderstrike",
+          "level": "1",
+          "initiative": 64,
+          "file": "characters/cc-RK/cc-cinderstrike.jpeg"
+        },
+        {
+          "name": "disarming glow",
+          "level": "1",
+          "initiative": 33,
+          "file": "characters/cc-RK/cc-disarming-glow.jpeg"
+        },
+        {
+          "name": "embers of protection",
+          "level": "1",
+          "initiative": 14,
+          "file": "characters/cc-RK/cc-embers-of-protection.jpeg"
+        },
+        {
+          "name": "hot coals",
+          "level": "1",
+          "initiative": 19,
+          "file": "characters/cc-RK/cc-hot-coals.jpeg"
+        },
+        {
+          "name": "lick of the flame",
+          "level": "1",
+          "initiative": 56,
+          "file": "characters/cc-RK/cc-lick-of-the-flame.jpeg"
+        },
+        {
+          "name": "rallying blaze",
+          "level": "1",
+          "initiative": 24,
+          "file": "characters/cc-RK/cc-rallying-blaze.jpeg"
+        },
+        {
+          "name": "scorched earth",
+          "level": "1",
+          "initiative": 38,
+          "file": "characters/cc-RK/cc-scorched-earth.jpeg"
+        },
+        {
+          "name": "weakening sparks",
+          "level": "1",
+          "initiative": 23,
+          "file": "characters/cc-RK/cc-weakening-sparks.jpeg"
+        },
+        {
+          "name": "fuel for the fire",
+          "level": "X",
+          "initiative": 81,
+          "file": "characters/cc-RK/cc-fuel-for-the-fire.jpeg"
+        },
+        {
+          "name": "gather kindling",
+          "level": "X",
+          "initiative": 85,
+          "file": "characters/cc-RK/cc-gather-kindling.jpeg"
+        },
+        {
+          "name": "maditative violence",
+          "level": "X",
+          "initiative": 78,
+          "file": "characters/cc-RK/cc-maditative-violence.jpeg"
+        },
+        {
+          "name": "rejuvenating warmth",
+          "level": "2",
+          "initiative": 74,
+          "file": "characters/cc-RK/cc-rejuvenating-warmth.jpeg"
+        },
+        {
+          "name": "rest here, weary traveler",
+          "level": "2",
+          "initiative": 29,
+          "file": "characters/cc-RK/cc-rest-here-weary-traveler.jpeg"
+        },
+        {
+          "name": "into the fire",
+          "level": "3",
+          "initiative": 37,
+          "file": "characters/cc-RK/cc-into-the-fire.jpeg"
+        },
+        {
+          "name": "raining charcoal",
+          "level": "3",
+          "initiative": 18,
+          "file": "characters/cc-RK/cc-raining-charcoal.jpeg"
+        },
+        {
+          "name": "smoke and mirrors",
+          "level": "4",
+          "initiative": 21,
+          "file": "characters/cc-RK/cc-smoke-and-mirrors.jpeg"
+        },
+        {
+          "name": "untamable pyre",
+          "level": "4",
+          "initiative": 25,
+          "file": "characters/cc-RK/cc-untamable-pyre.jpeg"
+        },
+        {
+          "name": "baptized in the blaze",
+          "level": "5",
+          "initiative": 31,
+          "file": "characters/cc-RK/cc-baptized-in-the-blaze.jpeg"
+        },
+        {
+          "name": "kindled spirits",
+          "level": "5",
+          "initiative": 13,
+          "file": "characters/cc-RK/cc-kindled-spirits.jpeg"
+        },
+        {
+          "name": "fan of flames",
+          "level": "6",
+          "initiative": 91,
+          "file": "characters/cc-RK/cc-fan-of-flames.jpeg"
+        },
+        {
+          "name": "teach a man to fish",
+          "level": "6",
+          "initiative": 27,
+          "file": "characters/cc-RK/cc-teach-a-man-to-fish.jpeg"
+        },
+        {
+          "name": "crossfire",
+          "level": "7",
+          "initiative": 80,
+          "file": "characters/cc-RK/cc-crossfire.jpeg"
+        },
+        {
+          "name": "trailblazer",
+          "level": "7",
+          "initiative": 10,
+          "file": "characters/cc-RK/cc-trailblazer.jpeg"
+        },
+        {
+          "name": "choked with soot",
+          "level": "8",
+          "initiative": 22,
+          "file": "characters/cc-RK/cc-choked-with-soot.jpeg"
+        },
+        {
+          "name": "songs around the campfire",
+          "level": "8",
+          "initiative": 12,
+          "file": "characters/cc-RK/cc-songs-around-the-campfire.jpeg"
+        },
+        {
+          "name": "escalating heat",
+          "level": "9",
+          "initiative": 7,
+          "file": "characters/cc-RK/cc-escalating-heat.jpeg"
+        },
+        {
+          "name": "from the inferno",
+          "level": "9",
+          "initiative": 98,
+          "file": "characters/cc-RK/cc-from-the-inferno.jpeg"
+        }
+      ]
+    },
+    "cc-RT": {
+      "name": "reeftender",
+      "game": "cc",
+      "mat": "character-mat-reeftender.jpeg",
+      "matBack": "character-mat-reeftender-back.jpeg",
+      "cards": [
+        {
+          "name": "along for the ride",
+          "level": "1",
+          "initiative": 70,
+          "file": "characters/cc-RT/cc-along-for-the-ride.jpeg"
+        },
+        {
+          "name": "benevolent protector",
+          "level": "1",
+          "initiative": 39,
+          "file": "characters/cc-RT/cc-benevolent-protector.jpeg"
+        },
+        {
+          "name": "dauntless bulwark",
+          "level": "1",
+          "initiative": 52,
+          "file": "characters/cc-RT/cc-dauntless-bulwark.jpeg"
+        },
+        {
+          "name": "inspiring guidance",
+          "level": "1",
+          "initiative": 24,
+          "file": "characters/cc-RT/cc-inspiring-guidance.jpeg"
+        },
+        {
+          "name": "intense tutelage",
+          "level": "1",
+          "initiative": 48,
+          "file": "characters/cc-RT/cc-intense-tutelage.jpeg"
+        },
+        {
+          "name": "protective instinct",
+          "level": "1",
+          "initiative": 35,
+          "file": "characters/cc-RT/cc-protective-instinct.jpeg"
+        },
+        {
+          "name": "safe harbor",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/cc-RT/cc-safe-harbor.jpeg"
+        },
+        {
+          "name": "sturdy carapace",
+          "level": "1",
+          "initiative": 85,
+          "file": "characters/cc-RT/cc-sturdy-carapace.jpeg"
+        },
+        {
+          "name": "unshakeable guardian",
+          "level": "1",
+          "initiative": 15,
+          "file": "characters/cc-RT/cc-unshakeable-guardian.jpeg"
+        },
+        {
+          "name": "walking ecosystem",
+          "level": "1",
+          "initiative": 45,
+          "file": "characters/cc-RT/cc-walking-ecosystem.jpeg"
+        },
+        {
+          "name": "wild progeny",
+          "level": "1",
+          "initiative": 80,
+          "file": "characters/cc-RT/cc-wild-progeny.jpeg"
+        },
+        {
+          "name": "rip current",
+          "level": "X",
+          "initiative": 68,
+          "file": "characters/cc-RT/cc-rip-current.jpeg"
+        },
+        {
+          "name": "sharpened coral",
+          "level": "X",
+          "initiative": 33,
+          "file": "characters/cc-RT/cc-sharpened-coral.jpeg"
+        },
+        {
+          "name": "to the rescue",
+          "level": "X",
+          "initiative": 92,
+          "file": "characters/cc-RT/cc-to-the-rescue.jpeg"
+        },
+        {
+          "name": "salty spray",
+          "level": "2",
+          "initiative": 89,
+          "file": "characters/cc-RT/cc-salty-spray.jpeg"
+        },
+        {
+          "name": "swarming tidepools",
+          "level": "2",
+          "initiative": 31,
+          "file": "characters/cc-RT/cc-swarming-tidepools.jpeg"
+        },
+        {
+          "name": "murky water",
+          "level": "3",
+          "initiative": 12,
+          "file": "characters/cc-RT/cc-murky-water.jpeg"
+        },
+        {
+          "name": "united front",
+          "level": "3",
+          "initiative": 87,
+          "file": "characters/cc-RT/cc-united-front.jpeg"
+        },
+        {
+          "name": "scattershot",
+          "level": "4",
+          "initiative": 20,
+          "file": "characters/cc-RT/cc-scattershot.jpeg"
+        },
+        {
+          "name": "tide rolls in",
+          "level": "4",
+          "initiative": 41,
+          "file": "characters/cc-RT/cc-tide-rolls-in.jpeg"
+        },
+        {
+          "name": "barrier reef",
+          "level": "5",
+          "initiative": 65,
+          "file": "characters/cc-RT/cc-barrier-reef.jpeg"
+        },
+        {
+          "name": "call them home",
+          "level": "5",
+          "initiative": 82,
+          "file": "characters/cc-RT/cc-call-them-home.jpeg"
+        },
+        {
+          "name": "glowing with pride",
+          "level": "6",
+          "initiative": 18,
+          "file": "characters/cc-RT/cc-glowing-with-pride.jpeg"
+        },
+        {
+          "name": "steadfast caretaker",
+          "level": "6",
+          "initiative": 61,
+          "file": "characters/cc-RT/cc-steadfast-caretaker.jpeg"
+        },
+        {
+          "name": "fierce loyalty",
+          "level": "7",
+          "initiative": 28,
+          "file": "characters/cc-RT/cc-fierce-loyalty.jpeg"
+        },
+        {
+          "name": "natural camouflage",
+          "level": "7",
+          "initiative": 91,
+          "file": "characters/cc-RT/cc-natural-camouflage.jpeg"
+        },
+        {
+          "name": "deafening roar",
+          "level": "8",
+          "initiative": 90,
+          "file": "characters/cc-RT/cc-deafening-roar.jpeg"
+        },
+        {
+          "name": "stronger together",
+          "level": "8",
+          "initiative": 46,
+          "file": "characters/cc-RT/cc-stronger-together.jpeg"
+        },
+        {
+          "name": "give them roots",
+          "level": "9",
+          "initiative": 8,
+          "file": "characters/cc-RT/cc-give-them-roots.jpeg"
+        },
+        {
+          "name": "set them free",
+          "level": "9",
+          "initiative": 94,
+          "file": "characters/cc-RT/cc-set-them-free.jpeg"
+        }
+      ]
+    },
+    "cc-SDS": {
+      "name": "sandstinger",
+      "game": "cc",
+      "mat": "character-mat-sandstinger.jpeg",
+      "matBack": "character-mat-sandstinger-back.jpeg",
+      "cards": [
+        {
+          "name": "acid spit",
+          "level": "1",
+          "initiative": 59,
+          "file": "characters/cc-SDS/cc-acid-spit.jpeg"
+        },
+        {
+          "name": "close quarters",
+          "level": "1",
+          "initiative": 12,
+          "file": "characters/cc-SDS/cc-close-quarters.jpeg"
+        },
+        {
+          "name": "cold blood",
+          "level": "1",
+          "initiative": 38,
+          "file": "characters/cc-SDS/cc-cold-blood.jpeg"
+        },
+        {
+          "name": "draw in",
+          "level": "1",
+          "initiative": 52,
+          "file": "characters/cc-SDS/cc-draw-in.jpeg"
+        },
+        {
+          "name": "envenomed sting",
+          "level": "1",
+          "initiative": 26,
+          "file": "characters/cc-SDS/cc-envenomed-sting.jpeg"
+        },
+        {
+          "name": "furious pincer",
+          "level": "1",
+          "initiative": 76,
+          "file": "characters/cc-SDS/cc-furious-pincer.jpeg"
+        },
+        {
+          "name": "on your toes",
+          "level": "1",
+          "initiative": 41,
+          "file": "characters/cc-SDS/cc-on-your-toes.jpeg"
+        },
+        {
+          "name": "psychic snap",
+          "level": "1",
+          "initiative": 20,
+          "file": "characters/cc-SDS/cc-psychic-snap.jpeg"
+        },
+        {
+          "name": "sensory overload",
+          "level": "1",
+          "initiative": 23,
+          "file": "characters/cc-SDS/cc-sensory-overload.jpeg"
+        },
+        {
+          "name": "shimmering chitin",
+          "level": "1",
+          "initiative": 28,
+          "file": "characters/cc-SDS/cc-shimmering-chitin.jpeg"
+        },
+        {
+          "name": "stalk the weak",
+          "level": "1",
+          "initiative": 22,
+          "file": "characters/cc-SDS/cc-stalk-the-weak.jpeg"
+        },
+        {
+          "name": "tail swipe",
+          "level": "1",
+          "initiative": 66,
+          "file": "characters/cc-SDS/cc-tail-swipe.jpeg"
+        },
+        {
+          "name": "thrash",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/cc-SDS/cc-thrash.jpeg"
+        },
+        {
+          "name": "concentrated venom",
+          "level": "X",
+          "initiative": 82,
+          "file": "characters/cc-SDS/cc-concentrated-venom.jpeg"
+        },
+        {
+          "name": "debilitating daze",
+          "level": "X",
+          "initiative": 70,
+          "file": "characters/cc-SDS/cc-debilitating-daze.jpeg"
+        },
+        {
+          "name": "fortune from the sands",
+          "level": "X",
+          "initiative": 47,
+          "file": "characters/cc-SDS/cc-fortune-from-the-sands.jpeg"
+        },
+        {
+          "name": "calm mind",
+          "level": "2",
+          "initiative": 43,
+          "file": "characters/cc-SDS/cc-calm-mind.jpeg"
+        },
+        {
+          "name": "telson strike",
+          "level": "2",
+          "initiative": 32,
+          "file": "characters/cc-SDS/cc-telson-strike.jpeg"
+        },
+        {
+          "name": "kick up a storm",
+          "level": "3",
+          "initiative": 19,
+          "file": "characters/cc-SDS/cc-kick-up-a-storm.jpeg"
+        },
+        {
+          "name": "psychic bulwark",
+          "level": "3",
+          "initiative": 64,
+          "file": "characters/cc-SDS/cc-psychic-bulwark.jpeg"
+        },
+        {
+          "name": "mind flare",
+          "level": "4",
+          "initiative": 60,
+          "file": "characters/cc-SDS/cc-mind-flare.jpeg"
+        },
+        {
+          "name": "ravage",
+          "level": "4",
+          "initiative": 46,
+          "file": "characters/cc-SDS/cc-ravage.jpeg"
+        },
+        {
+          "name": "deathstalker",
+          "level": "5",
+          "initiative": 49,
+          "file": "characters/cc-SDS/cc-deathstalker.jpeg"
+        },
+        {
+          "name": "synaptic snap",
+          "level": "5",
+          "initiative": 91,
+          "file": "characters/cc-SDS/cc-synaptic-snap.jpeg"
+        },
+        {
+          "name": "necrotic reaction",
+          "level": "6",
+          "initiative": 68,
+          "file": "characters/cc-SDS/cc-necrotic-reaction.jpeg"
+        },
+        {
+          "name": "within the grasp",
+          "level": "6",
+          "initiative": 21,
+          "file": "characters/cc-SDS/cc-within-the-grasp.jpeg"
+        },
+        {
+          "name": "deflecting ward",
+          "level": "7",
+          "initiative": 15,
+          "file": "characters/cc-SDS/cc-deflecting-ward.jpeg"
+        },
+        {
+          "name": "splashing neurotoxin",
+          "level": "7",
+          "initiative": 25,
+          "file": "characters/cc-SDS/cc-splashing-neurotoxin.jpeg"
+        },
+        {
+          "name": "regenerative carapace",
+          "level": "8",
+          "initiative": 14,
+          "file": "characters/cc-SDS/cc-regenerative-carapace.jpeg"
+        },
+        {
+          "name": "shattered mind",
+          "level": "8",
+          "initiative": 36,
+          "file": "characters/cc-SDS/cc-shattered-mind.jpeg"
+        },
+        {
+          "name": "psychic superiority",
+          "level": "9",
+          "initiative": 53,
+          "file": "characters/cc-SDS/cc-psychic-superiority.jpeg"
+        },
+        {
+          "name": "stinger of ugly death",
+          "level": "9",
+          "initiative": 74,
+          "file": "characters/cc-SDS/cc-stinger-of-ugly-death.jpeg"
+        }
+      ]
+    },
+    "cc-SF": {
+      "name": "swarmshift",
+      "game": "cc",
+      "mat": "character-mat-swarmshift.jpeg",
+      "matBack": "character-mat-swarmshift-back.jpeg",
+      "cards": [
+        {
+          "name": "attack from within",
+          "level": "1",
+          "initiative": 43,
+          "file": "characters/cc-SF/cc-attack-from-within.jpeg"
+        },
+        {
+          "name": "broodmist",
+          "level": "1",
+          "initiative": 72,
+          "file": "characters/cc-SF/cc-broodmist.jpeg"
+        },
+        {
+          "name": "crawling embrace",
+          "level": "1",
+          "initiative": 37,
+          "file": "characters/cc-SF/cc-crawling-embrace.jpeg"
+        },
+        {
+          "name": "furious swarm",
+          "level": "1",
+          "initiative": 25,
+          "file": "characters/cc-SF/cc-furious-swarm.jpeg"
+        },
+        {
+          "name": "infecting the core",
+          "level": "1",
+          "initiative": 34,
+          "file": "characters/cc-SF/cc-infecting-the-core.jpeg"
+        },
+        {
+          "name": "instilled fear",
+          "level": "1",
+          "initiative": 84,
+          "file": "characters/cc-SF/cc-instilled-fear.jpeg"
+        },
+        {
+          "name": "leeching assault",
+          "level": "1",
+          "initiative": 47,
+          "file": "characters/cc-SF/cc-leeching-assault.jpeg"
+        },
+        {
+          "name": "overwhelming presence",
+          "level": "1",
+          "initiative": 13,
+          "file": "characters/cc-SF/cc-overwhelming-presence.jpeg"
+        },
+        {
+          "name": "paralyzing stinger",
+          "level": "1",
+          "initiative": 73,
+          "file": "characters/cc-SF/cc-paralyzing-stinger.jpeg"
+        },
+        {
+          "name": "swarming tide",
+          "level": "1",
+          "initiative": 24,
+          "file": "characters/cc-SF/cc-swarming-tide.jpeg"
+        },
+        {
+          "name": "through the cracks",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/cc-SF/cc-through-the-cracks.jpeg"
+        },
+        {
+          "name": "flying menace",
+          "level": "X",
+          "initiative": 91,
+          "file": "characters/cc-SF/cc-flying-menace.jpeg"
+        },
+        {
+          "name": "hive renewal",
+          "level": "X",
+          "initiative": 11,
+          "file": "characters/cc-SF/cc-hive-renewal.jpeg"
+        },
+        {
+          "name": "razorcarapace",
+          "level": "X",
+          "initiative": 15,
+          "file": "characters/cc-SF/cc-razorcarapace.jpeg"
+        },
+        {
+          "name": "cloud of agony",
+          "level": "2",
+          "initiative": 29,
+          "file": "characters/cc-SF/cc-cloud-of-agony.jpeg"
+        },
+        {
+          "name": "invading the mind",
+          "level": "2",
+          "initiative": 33,
+          "file": "characters/cc-SF/cc-invading-the-mind.jpeg"
+        },
+        {
+          "name": "release the swarm",
+          "level": "3",
+          "initiative": 9,
+          "file": "characters/cc-SF/cc-release-the-swarm.jpeg"
+        },
+        {
+          "name": "solidifying carapace",
+          "level": "3",
+          "initiative": 17,
+          "file": "characters/cc-SF/cc-solidifying-carapace.jpeg"
+        },
+        {
+          "name": "probing for weakness",
+          "level": "4",
+          "initiative": 45,
+          "file": "characters/cc-SF/cc-probing-for-weakness.jpeg"
+        },
+        {
+          "name": "spreading panic",
+          "level": "4",
+          "initiative": 89,
+          "file": "characters/cc-SF/cc-spreading-panic.jpeg"
+        },
+        {
+          "name": "contaminating bites",
+          "level": "5",
+          "initiative": 21,
+          "file": "characters/cc-SF/cc-contaminating-bites.jpeg"
+        },
+        {
+          "name": "shared fate",
+          "level": "5",
+          "initiative": 67,
+          "file": "characters/cc-SF/cc-shared-fate.jpeg"
+        },
+        {
+          "name": "imbedded parasite",
+          "level": "6",
+          "initiative": 18,
+          "file": "characters/cc-SF/cc-imbedded-parasite.jpeg"
+        },
+        {
+          "name": "swam revitalization",
+          "level": "6",
+          "initiative": 42,
+          "file": "characters/cc-SF/cc-swam-revitalization.jpeg"
+        },
+        {
+          "name": "enraging pheromones",
+          "level": "7",
+          "initiative": 87,
+          "file": "characters/cc-SF/cc-enraging-pheromones.jpeg"
+        },
+        {
+          "name": "overwhelming retribution",
+          "level": "7",
+          "initiative": 10,
+          "file": "characters/cc-SF/cc-overwhelming-retribution.jpeg"
+        },
+        {
+          "name": "cluster of wasps",
+          "level": "8",
+          "initiative": 22,
+          "file": "characters/cc-SF/cc-cluster-of-wasps.jpeg"
+        },
+        {
+          "name": "host eruption",
+          "level": "8",
+          "initiative": 64,
+          "file": "characters/cc-SF/cc-host-eruption.jpeg"
+        },
+        {
+          "name": "engulfing assault",
+          "level": "9",
+          "initiative": 7,
+          "file": "characters/cc-SF/cc-engulfing-assault.jpeg"
+        },
+        {
+          "name": "raging hivecall",
+          "level": "9",
+          "initiative": 79,
+          "file": "characters/cc-SF/cc-raging-hivecall.jpeg"
+        }
+      ]
+    },
+    "cc-SI": {
+      "name": "skitterclaw",
+      "game": "cc",
+      "mat": "character-mat-skitterclaw.jpeg",
+      "matBack": "character-mat-skitterclaw-back.jpeg",
+      "cards": [
+        {
+          "name": "ensnaring flutter",
+          "level": "1",
+          "initiative": 67,
+          "file": "characters/cc-SI/cc-ensnaring-flutter.jpeg"
+        },
+        {
+          "name": "flickering assault",
+          "level": "1",
+          "initiative": 42,
+          "file": "characters/cc-SI/cc-flickering-assault.jpeg"
+        },
+        {
+          "name": "furry flurry",
+          "level": "1",
+          "initiative": 8,
+          "file": "characters/cc-SI/cc-furry-flurry.jpeg"
+        },
+        {
+          "name": "hunters instinct",
+          "level": "1",
+          "initiative": 82,
+          "file": "characters/cc-SI/cc-hunters-instinct.jpeg"
+        },
+        {
+          "name": "lead the charge",
+          "level": "1",
+          "initiative": 15,
+          "file": "characters/cc-SI/cc-lead-the-charge.jpeg"
+        },
+        {
+          "name": "might of many",
+          "level": "1",
+          "initiative": 20,
+          "file": "characters/cc-SI/cc-might-of-many.jpeg"
+        },
+        {
+          "name": "opportunistic pilfer",
+          "level": "1",
+          "initiative": 54,
+          "file": "characters/cc-SI/cc-opportunistic-pilfer.jpeg"
+        },
+        {
+          "name": "protective haven",
+          "level": "1",
+          "initiative": 45,
+          "file": "characters/cc-SI/cc-protective-haven.jpeg"
+        },
+        {
+          "name": "scuttling swarm",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/cc-SI/cc-scuttling-swarm.jpeg"
+        },
+        {
+          "name": "sustaining surge",
+          "level": "1",
+          "initiative": 21,
+          "file": "characters/cc-SI/cc-sustaining-surge.jpeg"
+        },
+        {
+          "name": "underhanded tactics",
+          "level": "1",
+          "initiative": 70,
+          "file": "characters/cc-SI/cc-underhanded-tactics.jpeg"
+        },
+        {
+          "name": "exasperating blitz",
+          "level": "X",
+          "initiative": 33,
+          "file": "characters/cc-SI/cc-exasperating-blitz.jpeg"
+        },
+        {
+          "name": "natural bunker",
+          "level": "X",
+          "initiative": 78,
+          "file": "characters/cc-SI/cc-natural-bunker.jpeg"
+        },
+        {
+          "name": "venomous volley",
+          "level": "X",
+          "initiative": 27,
+          "file": "characters/cc-SI/cc-venomous-volley.jpeg"
+        },
+        {
+          "name": "gatherer's harvest",
+          "level": "2",
+          "initiative": 80,
+          "file": "characters/cc-SI/cc-gatherers-harvest.jpeg"
+        },
+        {
+          "name": "predatory resolve",
+          "level": "2",
+          "initiative": 58,
+          "file": "characters/cc-SI/cc-predatory-resolve.jpeg"
+        },
+        {
+          "name": "disorienting maneuver",
+          "level": "3",
+          "initiative": 64,
+          "file": "characters/cc-SI/cc-disorienting-maneuver.jpeg"
+        },
+        {
+          "name": "marked prey",
+          "level": "3",
+          "initiative": 14,
+          "file": "characters/cc-SI/cc-marked-prey.jpeg"
+        },
+        {
+          "name": "swarm's vengeance",
+          "level": "4",
+          "initiative": 23,
+          "file": "characters/cc-SI/cc-swarms-vengeance.jpeg"
+        },
+        {
+          "name": "wilderness herbs",
+          "level": "4",
+          "initiative": 90,
+          "file": "characters/cc-SI/cc-wilderness-herbs.jpeg"
+        },
+        {
+          "name": "gemini guardians",
+          "level": "5",
+          "initiative": 76,
+          "file": "characters/cc-SI/cc-gemini-guardians.jpeg"
+        },
+        {
+          "name": "rending barrage",
+          "level": "5",
+          "initiative": 36,
+          "file": "characters/cc-SI/cc-rending-barrage.jpeg"
+        },
+        {
+          "name": "coordinated advance",
+          "level": "6",
+          "initiative": 19,
+          "file": "characters/cc-SI/cc-coordinated-advance.jpeg"
+        },
+        {
+          "name": "swift alliance",
+          "level": "6",
+          "initiative": 42,
+          "file": "characters/cc-SI/cc-swift-alliance.jpeg"
+        },
+        {
+          "name": "disruptive ambush",
+          "level": "7",
+          "initiative": 28,
+          "file": "characters/cc-SI/cc-disruptive-ambush.jpeg"
+        },
+        {
+          "name": "haze of confusion",
+          "level": "7",
+          "initiative": 10,
+          "file": "characters/cc-SI/cc-haze-of-confusion.jpeg"
+        },
+        {
+          "name": "nimble phantasm",
+          "level": "8",
+          "initiative": 94,
+          "file": "characters/cc-SI/cc-nimble-phantasm.jpeg"
+        },
+        {
+          "name": "tree's bounty",
+          "level": "8",
+          "initiative": 88,
+          "file": "characters/cc-SI/cc-trees-bounty.jpeg"
+        },
+        {
+          "name": "overpowering rush",
+          "level": "9",
+          "initiative": 34,
+          "file": "characters/cc-SI/cc-overpowering-rush.jpeg"
+        },
+        {
+          "name": "wicker basket",
+          "level": "9",
+          "initiative": 13,
+          "file": "characters/cc-SI/cc-wicker-basket.jpeg"
+        }
+      ]
+    },
+    "cc-SKY": {
+      "name": "skyreader",
+      "game": "cc",
+      "mat": "character-mat-skyreader.jpeg",
+      "matBack": "character-mat-skyreader-back.jpeg",
+      "cards": [
+        {
+          "name": "aksut's execution",
+          "level": "0.5",
+          "initiative": 50,
+          "file": "characters/cc-SKY/cc-aksut-back.jpeg"
+        },
+        {
+          "name": "awnu's curse",
+          "level": "0.5",
+          "initiative": 50,
+          "file": "characters/cc-SKY/cc-awnu-back.jpeg"
+        },
+        {
+          "name": "haf's blessing",
+          "level": "0.5",
+          "initiative": 50,
+          "file": "characters/cc-SKY/cc-haf-back.jpeg"
+        },
+        {
+          "name": "maku's barrage",
+          "level": "0.5",
+          "initiative": 50,
+          "file": "characters/cc-SKY/cc-maku-back.jpeg"
+        },
+        {
+          "name": "pakh's advance",
+          "level": "0.5",
+          "initiative": 50,
+          "file": "characters/cc-SKY/cc-pakh-back.jpeg"
+        },
+        {
+          "name": "tomeg's protection",
+          "level": "0.5",
+          "initiative": 50,
+          "file": "characters/cc-SKY/cc-tomeg-back.jpeg"
+        },
+        {
+          "name": "vadi's invocation",
+          "level": "0.5",
+          "initiative": 50,
+          "file": "characters/cc-SKY/cc-vadi-back.jpeg"
+        },
+        {
+          "name": "vaska's ambush",
+          "level": "0.5",
+          "initiative": 50,
+          "file": "characters/cc-SKY/cc-vaska-back.jpeg"
+        },
+        {
+          "name": "astral infusion",
+          "level": "1",
+          "initiative": 18,
+          "file": "characters/cc-SKY/cc-astral-infusion.jpeg"
+        },
+        {
+          "name": "clear night",
+          "level": "1",
+          "initiative": 48,
+          "file": "characters/cc-SKY/cc-clear-night.jpeg"
+        },
+        {
+          "name": "convoke the elements",
+          "level": "1",
+          "initiative": 83,
+          "file": "characters/cc-SKY/cc-convoke-the-elements.jpeg"
+        },
+        {
+          "name": "pitch black",
+          "level": "1",
+          "initiative": 27,
+          "file": "characters/cc-SKY/cc-pitch-black.jpeg"
+        },
+        {
+          "name": "stare into the sky",
+          "level": "1",
+          "initiative": 35,
+          "file": "characters/cc-SKY/cc-stare-into-the-sky.jpeg"
+        },
+        {
+          "name": "starsurge",
+          "level": "1",
+          "initiative": 54,
+          "file": "characters/cc-SKY/cc-starsurge.jpeg"
+        },
+        {
+          "name": "stellar flare",
+          "level": "1",
+          "initiative": 23,
+          "file": "characters/cc-SKY/cc-stellar-flare.jpeg"
+        },
+        {
+          "name": "the spirit's guidance",
+          "level": "1",
+          "initiative": 96,
+          "file": "characters/cc-SKY/cc-the-spirits-guidance.jpeg"
+        },
+        {
+          "name": "the stars aligned",
+          "level": "1",
+          "initiative": 69,
+          "file": "characters/cc-SKY/cc-the-stars-aligned.jpeg"
+        },
+        {
+          "name": "moonbeam",
+          "level": "X",
+          "initiative": 14,
+          "file": "characters/cc-SKY/cc-moonbeam.jpeg"
+        },
+        {
+          "name": "solar eclipse",
+          "level": "X",
+          "initiative": 57,
+          "file": "characters/cc-SKY/cc-solar-eclipse.jpeg"
+        },
+        {
+          "name": "sun's reflection",
+          "level": "X",
+          "initiative": 64,
+          "file": "characters/cc-SKY/cc-suns-reflection.jpeg"
+        },
+        {
+          "name": "celestial rebuke",
+          "level": "2",
+          "initiative": 16,
+          "file": "characters/cc-SKY/cc-celestial-rebuke.jpeg"
+        },
+        {
+          "name": "desert gust",
+          "level": "2",
+          "initiative": 62,
+          "file": "characters/cc-SKY/cc-desert-gust.jpeg"
+        },
+        {
+          "name": "ancestral call",
+          "level": "3",
+          "initiative": 50,
+          "file": "characters/cc-SKY/cc-ancestral-call.jpeg"
+        },
+        {
+          "name": "three-body problem",
+          "level": "3",
+          "initiative": 33,
+          "file": "characters/cc-SKY/cc-three-body-problem.jpeg"
+        },
+        {
+          "name": "cosmic rapidity",
+          "level": "4",
+          "initiative": 37,
+          "file": "characters/cc-SKY/cc-cosmic-rapidity.jpeg"
+        },
+        {
+          "name": "waning twilight",
+          "level": "4",
+          "initiative": 25,
+          "file": "characters/cc-SKY/cc-waning-twilight.jpeg"
+        },
+        {
+          "name": "the spirit's judgement",
+          "level": "5",
+          "initiative": 71,
+          "file": "characters/cc-SKY/cc-the-spirits-judgement.jpeg"
+        },
+        {
+          "name": "unravel the elements",
+          "level": "5",
+          "initiative": 45,
+          "file": "characters/cc-SKY/cc-unravel-the-elements.jpeg"
+        },
+        {
+          "name": "aurora",
+          "level": "6",
+          "initiative": 8,
+          "file": "characters/cc-SKY/cc-aurora.jpeg"
+        },
+        {
+          "name": "dark nebula",
+          "level": "6",
+          "initiative": 21,
+          "file": "characters/cc-SKY/cc-dark-nebula.jpeg"
+        },
+        {
+          "name": "mystical touch",
+          "level": "7",
+          "initiative": 29,
+          "file": "characters/cc-SKY/cc-mystical-touch.jpeg"
+        },
+        {
+          "name": "supernova",
+          "level": "7",
+          "initiative": 88,
+          "file": "characters/cc-SKY/cc-supernova.jpeg"
+        },
+        {
+          "name": "bad omen",
+          "level": "8",
+          "initiative": 13,
+          "file": "characters/cc-SKY/cc-bad-omen.jpeg"
+        },
+        {
+          "name": "shooting star",
+          "level": "8",
+          "initiative": 77,
+          "file": "characters/cc-SKY/cc-shooting-star.jpeg"
+        },
+        {
+          "name": "one with the elements",
+          "level": "9",
+          "initiative": 58,
+          "file": "characters/cc-SKY/cc-one-with-the-elements.jpeg"
+        },
+        {
+          "name": "the spirit realm",
+          "level": "9",
+          "initiative": 41,
+          "file": "characters/cc-SKY/cc-the-spirit-realm.jpeg"
+        }
+      ]
+    },
+    "cc-TF": {
+      "name": "tunnelforged",
+      "game": "cc",
+      "mat": "character-mat-tunnelforged.jpeg",
+      "matBack": "character-mat-tunnelforged-back.jpeg",
+      "cards": [
+        {
+          "name": "comminution",
+          "level": "1",
+          "initiative": 36,
+          "file": "characters/cc-TF/cc-comminution.jpeg"
+        },
+        {
+          "name": "drilling",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/cc-TF/cc-drilling.jpeg"
+        },
+        {
+          "name": "excavation",
+          "level": "1",
+          "initiative": 28,
+          "file": "characters/cc-TF/cc-excavation.jpeg"
+        },
+        {
+          "name": "explosive exit",
+          "level": "1",
+          "initiative": 78,
+          "file": "characters/cc-TF/cc-explosive-exit.jpeg"
+        },
+        {
+          "name": "rumbles below the earth",
+          "level": "1",
+          "initiative": 12,
+          "file": "characters/cc-TF/cc-rumbles-below-the-earth.jpeg"
+        },
+        {
+          "name": "safe passage",
+          "level": "1",
+          "initiative": 58,
+          "file": "characters/cc-TF/cc-safe-passage.jpeg"
+        },
+        {
+          "name": "secret tunnel",
+          "level": "1",
+          "initiative": 14,
+          "file": "characters/cc-TF/cc-secret-tunnel.jpeg"
+        },
+        {
+          "name": "stay on task!",
+          "level": "1",
+          "initiative": 48,
+          "file": "characters/cc-TF/cc-stay-on-task.jpeg"
+        },
+        {
+          "name": "submerge",
+          "level": "1",
+          "initiative": 68,
+          "file": "characters/cc-TF/cc-submerge.jpeg"
+        },
+        {
+          "name": "undermine",
+          "level": "1",
+          "initiative": 32,
+          "file": "characters/cc-TF/cc-undermine.jpeg"
+        },
+        {
+          "name": "crude sternotomy",
+          "level": "X",
+          "initiative": 70,
+          "file": "characters/cc-TF/cc-crude-sternotomy.jpeg"
+        },
+        {
+          "name": "expedited operations",
+          "level": "X",
+          "initiative": 23,
+          "file": "characters/cc-TF/cc-expedited-operations.jpeg"
+        },
+        {
+          "name": "motherlode",
+          "level": "X",
+          "initiative": 59,
+          "file": "characters/cc-TF/cc-motherlode.jpeg"
+        },
+        {
+          "name": "hazardous work",
+          "level": "2",
+          "initiative": 27,
+          "file": "characters/cc-TF/cc-hazardous-work.jpeg"
+        },
+        {
+          "name": "safety protocol",
+          "level": "2",
+          "initiative": 52,
+          "file": "characters/cc-TF/cc-safety-protocol.jpeg"
+        },
+        {
+          "name": "follow the path",
+          "level": "3",
+          "initiative": 19,
+          "file": "characters/cc-TF/cc-follow-the-path.jpeg"
+        },
+        {
+          "name": "keep digging",
+          "level": "3",
+          "initiative": 89,
+          "file": "characters/cc-TF/cc-keep-digging.jpeg"
+        },
+        {
+          "name": "see it through",
+          "level": "4",
+          "initiative": 40,
+          "file": "characters/cc-TF/cc-see-it-through.jpeg"
+        },
+        {
+          "name": "spin",
+          "level": "4",
+          "initiative": 64,
+          "file": "characters/cc-TF/cc-spin.jpeg"
+        },
+        {
+          "name": "cozy burrow",
+          "level": "5",
+          "initiative": 16,
+          "file": "characters/cc-TF/cc-cozy-burrow.jpeg"
+        },
+        {
+          "name": "through the mountains",
+          "level": "5",
+          "initiative": 44,
+          "file": "characters/cc-TF/cc-through-the-mountains.jpeg"
+        },
+        {
+          "name": "cyanidation",
+          "level": "6",
+          "initiative": 67,
+          "file": "characters/cc-TF/cc-cyanidation.jpeg"
+        },
+        {
+          "name": "sinkhole",
+          "level": "6",
+          "initiative": 17,
+          "file": "characters/cc-TF/cc-sinkhole.jpeg"
+        },
+        {
+          "name": "ceaseless boring",
+          "level": "7",
+          "initiative": 57,
+          "file": "characters/cc-TF/cc-ceaseless-boring.jpeg"
+        },
+        {
+          "name": "watch your head!",
+          "level": "7",
+          "initiative": 33,
+          "file": "characters/cc-TF/cc-watch-your-head.jpeg"
+        },
+        {
+          "name": "clear the way!",
+          "level": "8",
+          "initiative": 95,
+          "file": "characters/cc-TF/cc-clear-the-way.jpeg"
+        },
+        {
+          "name": "expanded operations",
+          "level": "8",
+          "initiative": 26,
+          "file": "characters/cc-TF/cc-expanded-operations.jpeg"
+        },
+        {
+          "name": "earthquake",
+          "level": "9",
+          "initiative": 38,
+          "file": "characters/cc-TF/cc-earthquake.jpeg"
+        },
+        {
+          "name": "wind tunnel",
+          "level": "9",
+          "initiative": 9,
+          "file": "characters/cc-TF/cc-wind-tunnel.jpeg"
+        }
+      ]
+    },
+    "cc-TWI": {
+      "name": "Twilight",
+      "game": "cc",
+      "mat": "character-mat-twilight.jpeg",
+      "matBack": "character-mat-twilight-back.jpeg",
+      "cards": [
+        {
+          "name": "brilliant bliss",
+          "level": "1",
+          "initiative": 28,
+          "file": "characters/cc-TWI/cc-brilliant-bliss.jpeg"
+        },
+        {
+          "name": "converging luminescence",
+          "level": "1",
+          "initiative": 43,
+          "file": "characters/cc-TWI/cc-converging-luminescence.jpeg"
+        },
+        {
+          "name": "devouring darkness",
+          "level": "1",
+          "initiative": 80,
+          "file": "characters/cc-TWI/cc-devouring-darkness.jpeg"
+        },
+        {
+          "name": "dusk darts",
+          "level": "1",
+          "initiative": 24,
+          "file": "characters/cc-TWI/cc-dusk-darts.jpeg"
+        },
+        {
+          "name": "entwining shadows",
+          "level": "1",
+          "initiative": 40,
+          "file": "characters/cc-TWI/cc-entwining-shadows.jpeg"
+        },
+        {
+          "name": "helping hand",
+          "level": "1",
+          "initiative": 18,
+          "file": "characters/cc-TWI/cc-helping-hand.jpeg"
+        },
+        {
+          "name": "illuminating improve",
+          "level": "1",
+          "initiative": 36,
+          "file": "characters/cc-TWI/cc-illuminating-improve.jpeg"
+        },
+        {
+          "name": "orbs of obscurity",
+          "level": "1",
+          "initiative": 72,
+          "file": "characters/cc-TWI/cc-orbs-of-obscurity.jpeg"
+        },
+        {
+          "name": "pierce the veil",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/cc-TWI/cc-pierce-the-veil.jpeg"
+        },
+        {
+          "name": "radiant refraction",
+          "level": "1",
+          "initiative": 88,
+          "file": "characters/cc-TWI/cc-radiant-refraction.jpeg"
+        },
+        {
+          "name": "requisition the light",
+          "level": "1",
+          "initiative": 91,
+          "file": "characters/cc-TWI/cc-requisition-the-light.jpeg"
+        },
+        {
+          "name": "sheltering shade",
+          "level": "1",
+          "initiative": 34,
+          "file": "characters/cc-TWI/cc-sheltering-shade.jpeg"
+        },
+        {
+          "name": "shimmering shield",
+          "level": "1",
+          "initiative": 12,
+          "file": "characters/cc-TWI/cc-shimmering-shield.jpeg"
+        },
+        {
+          "name": "stygian shadows",
+          "level": "1",
+          "initiative": 19,
+          "file": "characters/cc-TWI/cc-stygian-shadows.jpeg"
+        },
+        {
+          "name": "cursed crescent",
+          "level": "X",
+          "initiative": 38,
+          "file": "characters/cc-TWI/cc-cursed-crescent.jpeg"
+        },
+        {
+          "name": "eclipsing control",
+          "level": "X",
+          "initiative": 13,
+          "file": "characters/cc-TWI/cc-eclipsing-control.jpeg"
+        },
+        {
+          "name": "evoke the dark",
+          "level": "X",
+          "initiative": 90,
+          "file": "characters/cc-TWI/cc-evoke-the-dark.jpeg"
+        },
+        {
+          "name": "guiding gleam",
+          "level": "X",
+          "initiative": 76,
+          "file": "characters/cc-TWI/cc-guiding-gleam.jpeg"
+        },
+        {
+          "name": "aurora assault",
+          "level": "2",
+          "initiative": 67,
+          "file": "characters/cc-TWI/cc-aurora-assault.jpeg"
+        },
+        {
+          "name": "nocturnal nova",
+          "level": "2",
+          "initiative": 27,
+          "file": "characters/cc-TWI/cc-nocturnal-nova.jpeg"
+        },
+        {
+          "name": "gleaming sunset",
+          "level": "3",
+          "initiative": 53,
+          "file": "characters/cc-TWI/cc-gleaming-sunset.jpeg"
+        },
+        {
+          "name": "shadowed sunrise",
+          "level": "3",
+          "initiative": 21,
+          "file": "characters/cc-TWI/cc-shadowed-sunrise.jpeg"
+        },
+        {
+          "name": "eventide impact",
+          "level": "4",
+          "initiative": 10,
+          "file": "characters/cc-TWI/cc-eventide-impact.jpeg"
+        },
+        {
+          "name": "morningtide renewal",
+          "level": "4",
+          "initiative": 84,
+          "file": "characters/cc-TWI/cc-morningtide-renewal.jpeg"
+        },
+        {
+          "name": "endowment of the dawn",
+          "level": "5",
+          "initiative": 62,
+          "file": "characters/cc-TWI/cc-endowment-of-the-dawn.jpeg"
+        },
+        {
+          "name": "legacy of the dusk",
+          "level": "5",
+          "initiative": 9,
+          "file": "characters/cc-TWI/cc-legacy-of-the-dusk.jpeg"
+        },
+        {
+          "name": "oblivion onslaught",
+          "level": "6",
+          "initiative": 92,
+          "file": "characters/cc-TWI/cc-oblivion-onslaught.jpeg"
+        },
+        {
+          "name": "resplendent reincarnation",
+          "level": "6",
+          "initiative": 15,
+          "file": "characters/cc-TWI/cc-resplendent-reincarnation.jpeg"
+        },
+        {
+          "name": "samsara strike",
+          "level": "7",
+          "initiative": 41,
+          "file": "characters/cc-TWI/cc-samsara-strike.jpeg"
+        },
+        {
+          "name": "supernova",
+          "level": "7",
+          "initiative": 95,
+          "file": "characters/cc-TWI/cc-supernova.jpeg"
+        },
+        {
+          "name": "death's deliverance",
+          "level": "8",
+          "initiative": 31,
+          "file": "characters/cc-TWI/cc-deaths-deliverance.jpeg"
+        },
+        {
+          "name": "life's balance",
+          "level": "8",
+          "initiative": 70,
+          "file": "characters/cc-TWI/cc-lifes-balance.jpeg"
+        },
+        {
+          "name": "chiral coalescence",
+          "level": "9",
+          "initiative": 11,
+          "file": "characters/cc-TWI/cc-chiral-coalescence.jpeg"
+        },
+        {
+          "name": "convergence of cycles",
+          "level": "9",
+          "initiative": 37,
+          "file": "characters/cc-TWI/cc-convergence-of-cycles.jpeg"
+        }
+      ]
+    },
+    "cc-VP": {
+      "name": "veilpiercer",
+      "game": "cc",
+      "mat": "character-mat-veilpiercer.jpeg",
+      "matBack": "character-mat-veilpiercer-back.jpeg",
+      "cards": [
+        {
+          "name": "plane of biting cold",
+          "level": "0.25",
+          "initiative": 0,
+          "file": "characters/cc-VP/cc-plane-of-biting-cold.jpeg"
+        },
+        {
+          "name": "plane of devastation",
+          "level": "0.25",
+          "initiative": 0,
+          "file": "characters/cc-VP/cc-plane-of-devastation.jpeg"
+        },
+        {
+          "name": "plane of light",
+          "level": "0.25",
+          "initiative": 0,
+          "file": "characters/cc-VP/cc-plane-of-light.jpeg"
+        },
+        {
+          "name": "plane of night",
+          "level": "0.25",
+          "initiative": 0,
+          "file": "characters/cc-VP/cc-plane-of-night.jpeg"
+        },
+        {
+          "name": "plane of storms",
+          "level": "0.25",
+          "initiative": 0,
+          "file": "characters/cc-VP/cc-plane-of-storms.jpeg"
+        },
+        {
+          "name": "plane of wild beasts",
+          "level": "0.25",
+          "initiative": 0,
+          "file": "characters/cc-VP/cc-plane-of-wild-beasts.jpeg"
+        },
+        {
+          "name": "the astral plane",
+          "level": "0.25",
+          "initiative": 1,
+          "file": "characters/cc-VP/cc-the-astral-plane.jpeg"
+        },
+        {
+          "name": "blurred frenzy",
+          "level": "1",
+          "initiative": 16,
+          "file": "characters/cc-VP/cc-blurred-frenzy.jpeg"
+        },
+        {
+          "name": "ethereal ambush",
+          "level": "1",
+          "initiative": 40,
+          "file": "characters/cc-VP/cc-ethereal-ambush.jpeg"
+        },
+        {
+          "name": "galactic exposure",
+          "level": "1",
+          "initiative": 37,
+          "file": "characters/cc-VP/cc-galactic-exposure.jpeg"
+        },
+        {
+          "name": "otherworldly presence",
+          "level": "1",
+          "initiative": 73,
+          "file": "characters/cc-VP/cc-otherworldly-presence.jpeg"
+        },
+        {
+          "name": "planar expansion",
+          "level": "1",
+          "initiative": 21,
+          "file": "characters/cc-VP/cc-planar-expansion.jpeg"
+        },
+        {
+          "name": "slice and tear",
+          "level": "1",
+          "initiative": 33,
+          "file": "characters/cc-VP/cc-slice-and-tear.jpeg"
+        },
+        {
+          "name": "spatial surge",
+          "level": "1",
+          "initiative": 18,
+          "file": "characters/cc-VP/cc-spatial-surge.jpeg"
+        },
+        {
+          "name": "temporal curtain",
+          "level": "1",
+          "initiative": 61,
+          "file": "characters/cc-VP/cc-temporal-curtain.jpeg"
+        },
+        {
+          "name": "unveil",
+          "level": "1",
+          "initiative": 24,
+          "file": "characters/cc-VP/cc-unveil.jpeg"
+        },
+        {
+          "name": "dissimilate",
+          "level": "X",
+          "initiative": 58,
+          "file": "characters/cc-VP/cc-dissimilate.jpeg"
+        },
+        {
+          "name": "seize the moment",
+          "level": "X",
+          "initiative": 45,
+          "file": "characters/cc-VP/cc-seize-the-moment.jpeg"
+        },
+        {
+          "name": "stellar flare",
+          "level": "X",
+          "initiative": 83,
+          "file": "characters/cc-VP/cc-stellar-flare.jpeg"
+        },
+        {
+          "name": "arcane thievery",
+          "level": "2",
+          "initiative": 23,
+          "file": "characters/cc-VP/cc-arcane-thievery.jpeg"
+        },
+        {
+          "name": "flicker strike",
+          "level": "2",
+          "initiative": 35,
+          "file": "characters/cc-VP/cc-flicker-strike.jpeg"
+        },
+        {
+          "name": "celestial reach",
+          "level": "3",
+          "initiative": 29,
+          "file": "characters/cc-VP/cc-celestial-reach.jpeg"
+        },
+        {
+          "name": "nether displacement",
+          "level": "3",
+          "initiative": 53,
+          "file": "characters/cc-VP/cc-nether-displacement.jpeg"
+        },
+        {
+          "name": "aether remnant",
+          "level": "4",
+          "initiative": 67,
+          "file": "characters/cc-VP/cc-aether-remnant.jpeg"
+        },
+        {
+          "name": "mirage blade",
+          "level": "4",
+          "initiative": 26,
+          "file": "characters/cc-VP/cc-mirage-blade.jpeg"
+        },
+        {
+          "name": "continuum split",
+          "level": "5",
+          "initiative": 43,
+          "file": "characters/cc-VP/cc-continuum-split.jpeg"
+        },
+        {
+          "name": "plane shift",
+          "level": "5",
+          "initiative": 77,
+          "file": "characters/cc-VP/cc-plane-shift.jpeg"
+        },
+        {
+          "name": "astral form",
+          "level": "6",
+          "initiative": 50,
+          "file": "characters/cc-VP/cc-astral-form.jpeg"
+        },
+        {
+          "name": "phantasmal force",
+          "level": "6",
+          "initiative": 20,
+          "file": "characters/cc-VP/cc-phantasmal-force.jpeg"
+        },
+        {
+          "name": "cosmic assault",
+          "level": "7",
+          "initiative": 31,
+          "file": "characters/cc-VP/cc-cosmic-assault.jpeg"
+        },
+        {
+          "name": "reality rift",
+          "level": "7",
+          "initiative": 14,
+          "file": "characters/cc-VP/cc-reality-rift.jpeg"
+        },
+        {
+          "name": "echo of memory",
+          "level": "8",
+          "initiative": 27,
+          "file": "characters/cc-VP/cc-echo-of-memory.jpeg"
+        },
+        {
+          "name": "phase slash",
+          "level": "8",
+          "initiative": 48,
+          "file": "characters/cc-VP/cc-phase-slash.jpeg"
+        },
+        {
+          "name": "dark matter barrage",
+          "level": "9",
+          "initiative": 10,
+          "file": "characters/cc-VP/cc-dark-matter-barrage.jpeg"
+        },
+        {
+          "name": "into the void",
+          "level": "9",
+          "initiative": 89,
+          "file": "characters/cc-VP/cc-into-the-void.jpeg"
+        }
+      ]
+    },
+    "cc-VT": {
+      "name": "vimthreader",
+      "game": "cc",
+      "mat": "character-mat-vimthreader.jpeg",
+      "matBack": "character-mat-vimthreader-back.jpeg",
+      "cards": [
+        {
+          "name": "balance of humors",
+          "level": "1",
+          "initiative": 50,
+          "file": "characters/cc-VT/cc-balance-of-humors.jpeg"
+        },
+        {
+          "name": "blood reinfusion",
+          "level": "1",
+          "initiative": 42,
+          "file": "characters/cc-VT/cc-blood-reinfusion.jpeg"
+        },
+        {
+          "name": "callous injection",
+          "level": "1",
+          "initiative": 89,
+          "file": "characters/cc-VT/cc-callous-injection.jpeg"
+        },
+        {
+          "name": "crimson chrysalis",
+          "level": "1",
+          "initiative": 11,
+          "file": "characters/cc-VT/cc-crimson-chrysalis.jpeg"
+        },
+        {
+          "name": "endocrinal expression",
+          "level": "1",
+          "initiative": 24,
+          "file": "characters/cc-VT/cc-endocrinal-expression.jpeg"
+        },
+        {
+          "name": "life leech",
+          "level": "1",
+          "initiative": 34,
+          "file": "characters/cc-VT/cc-life-leech.jpeg"
+        },
+        {
+          "name": "oxygen saturation",
+          "level": "1",
+          "initiative": 28,
+          "file": "characters/cc-VT/cc-oxygen-saturation.jpeg"
+        },
+        {
+          "name": "plasmatic permeation",
+          "level": "1",
+          "initiative": 91,
+          "file": "characters/cc-VT/cc-plasmatic-permeation.jpeg"
+        },
+        {
+          "name": "pulse quickening",
+          "level": "1",
+          "initiative": 8,
+          "file": "characters/cc-VT/cc-pulse-quickening.jpeg"
+        },
+        {
+          "name": "spreading stingers",
+          "level": "1",
+          "initiative": 44,
+          "file": "characters/cc-VT/cc-spreading-stingers.jpeg"
+        },
+        {
+          "name": "vital transfusion",
+          "level": "1",
+          "initiative": 35,
+          "file": "characters/cc-VT/cc-vital-transfusion.jpeg"
+        },
+        {
+          "name": "gnashing galeae",
+          "level": "X",
+          "initiative": 12,
+          "file": "characters/cc-VT/cc-gnashing-galeae.jpeg"
+        },
+        {
+          "name": "gorging gnats",
+          "level": "X",
+          "initiative": 77,
+          "file": "characters/cc-VT/cc-gorging-gnats.jpeg"
+        },
+        {
+          "name": "hostile incision",
+          "level": "X",
+          "initiative": 58,
+          "file": "characters/cc-VT/cc-hostile-incision.jpeg"
+        },
+        {
+          "name": "puncturing proboscis",
+          "level": "2",
+          "initiative": 33,
+          "file": "characters/cc-VT/cc-puncturing-proboscis.jpeg"
+        },
+        {
+          "name": "septic fluids",
+          "level": "2",
+          "initiative": 20,
+          "file": "characters/cc-VT/cc-septic-fluids.jpeg"
+        },
+        {
+          "name": "adrenaline spike",
+          "level": "3",
+          "initiative": 14,
+          "file": "characters/cc-VT/cc-adrenaline-spike.jpeg"
+        },
+        {
+          "name": "writhing weaves",
+          "level": "3",
+          "initiative": 67,
+          "file": "characters/cc-VT/cc-writhing-weaves.jpeg"
+        },
+        {
+          "name": "efficient reconstruction",
+          "level": "4",
+          "initiative": 30,
+          "file": "characters/cc-VT/cc-efficient-reconstruction.jpeg"
+        },
+        {
+          "name": "mauling mandibles",
+          "level": "4",
+          "initiative": 49,
+          "file": "characters/cc-VT/cc-mauling-mandibles.jpeg"
+        },
+        {
+          "name": "imbrued biosynthesis",
+          "level": "5",
+          "initiative": 15,
+          "file": "characters/cc-VT/cc-imbrued-biosynthesis.jpeg"
+        },
+        {
+          "name": "vim and vigor",
+          "level": "5",
+          "initiative": 87,
+          "file": "characters/cc-VT/cc-vim-and-vigor.jpeg"
+        },
+        {
+          "name": "chemical charging",
+          "level": "6",
+          "initiative": 10,
+          "file": "characters/cc-VT/cc-chemical-charging.jpeg"
+        },
+        {
+          "name": "sanguine scourge",
+          "level": "6",
+          "initiative": 13,
+          "file": "characters/cc-VT/cc-sanguine-scourge.jpeg"
+        },
+        {
+          "name": "rekindled musculature",
+          "level": "7",
+          "initiative": 90,
+          "file": "characters/cc-VT/cc-rekindled-musculature.jpeg"
+        },
+        {
+          "name": "synchronized siphoning",
+          "level": "7",
+          "initiative": 49,
+          "file": "characters/cc-VT/cc-synchronized-siphoning.jpeg"
+        },
+        {
+          "name": "maroon metamorphosis",
+          "level": "8",
+          "initiative": 17,
+          "file": "characters/cc-VT/cc-maroon-metamorphosis.jpeg"
+        },
+        {
+          "name": "unveiled nidus",
+          "level": "8",
+          "initiative": 80,
+          "file": "characters/cc-VT/cc-unveiled-nidus.jpeg"
+        },
+        {
+          "name": "epithelial xenograft",
+          "level": "9",
+          "initiative": 25,
+          "file": "characters/cc-VT/cc-epithelial-xenograft.jpeg"
+        },
+        {
+          "name": "organic episemology",
+          "level": "9",
+          "initiative": 22,
+          "file": "characters/cc-VT/cc-organic-episemology.jpeg"
+        }
+      ]
+    },
+    "cc-VI": {
+      "name": "vitalist",
+      "game": "cc",
+      "mat": "character-mat-vitalist.jpeg",
+      "matBack": "character-mat-vitalist-back.jpeg",
+      "cards": [
+        {
+          "name": "bloodsport",
+          "level": "1",
+          "initiative": 74,
+          "file": "characters/cc-VI/cc-bloodsport.jpeg"
+        },
+        {
+          "name": "controlled vitality",
+          "level": "1",
+          "initiative": 18,
+          "file": "characters/cc-VI/cc-controlled-vitality.jpeg"
+        },
+        {
+          "name": "finetuning",
+          "level": "1",
+          "initiative": 19,
+          "file": "characters/cc-VI/cc-finetuning.jpeg"
+        },
+        {
+          "name": "forked energy",
+          "level": "1",
+          "initiative": 25,
+          "file": "characters/cc-VI/cc-forked-energy.jpeg"
+        },
+        {
+          "name": "go with the flow",
+          "level": "1",
+          "initiative": 29,
+          "file": "characters/cc-VI/cc-go-with-the-flow.jpeg"
+        },
+        {
+          "name": "interwined essence",
+          "level": "1",
+          "initiative": 83,
+          "file": "characters/cc-VI/cc-interwined-essence.jpeg"
+        },
+        {
+          "name": "leap of faith",
+          "level": "1",
+          "initiative": 31,
+          "file": "characters/cc-VI/cc-leap-of-faith.jpeg"
+        },
+        {
+          "name": "released power",
+          "level": "1",
+          "initiative": 22,
+          "file": "characters/cc-VI/cc-released-power.jpeg"
+        },
+        {
+          "name": "tranquility",
+          "level": "1",
+          "initiative": 49,
+          "file": "characters/cc-VI/cc-tranquility.jpeg"
+        },
+        {
+          "name": "adrenal surge",
+          "level": "X",
+          "initiative": 15,
+          "file": "characters/cc-VI/cc-adrenal-surge.jpeg"
+        },
+        {
+          "name": "cold-blooded",
+          "level": "X",
+          "initiative": 30,
+          "file": "characters/cc-VI/cc-cold-blooded.jpeg"
+        },
+        {
+          "name": "spirit bolt",
+          "level": "X",
+          "initiative": 34,
+          "file": "characters/cc-VI/cc-spirit-bolt.jpeg"
+        },
+        {
+          "name": "protective aura",
+          "level": "2",
+          "initiative": 21,
+          "file": "characters/cc-VI/cc-protective-aura.jpeg"
+        },
+        {
+          "name": "vital flow",
+          "level": "2",
+          "initiative": 71,
+          "file": "characters/cc-VI/cc-vital-flow.jpeg"
+        },
+        {
+          "name": "arcane blast",
+          "level": "3",
+          "initiative": 24,
+          "file": "characters/cc-VI/cc-arcane-blast.jpeg"
+        },
+        {
+          "name": "embrace life",
+          "level": "3",
+          "initiative": 42,
+          "file": "characters/cc-VI/cc-embrace-life.jpeg"
+        },
+        {
+          "name": "fight or flight",
+          "level": "4",
+          "initiative": 27,
+          "file": "characters/cc-VI/cc-fight-or-flight.jpeg"
+        },
+        {
+          "name": "ignition",
+          "level": "4",
+          "initiative": 68,
+          "file": "characters/cc-VI/cc-ignition.jpeg"
+        },
+        {
+          "name": "eternal craft",
+          "level": "5",
+          "initiative": 17,
+          "file": "characters/cc-VI/cc-eternal-craft.jpeg"
+        },
+        {
+          "name": "forgotten arts",
+          "level": "5",
+          "initiative": 86,
+          "file": "characters/cc-VI/cc-forgotten-arts.jpeg"
+        },
+        {
+          "name": "delicately attuned",
+          "level": "6",
+          "initiative": 44,
+          "file": "characters/cc-VI/cc-delicately-attuned.jpeg"
+        },
+        {
+          "name": "trusty springknife",
+          "level": "6",
+          "initiative": 20,
+          "file": "characters/cc-VI/cc-trusty-springknife.jpeg"
+        },
+        {
+          "name": "duality of man",
+          "level": "7",
+          "initiative": 50,
+          "file": "characters/cc-VI/cc-duality-of-man.jpeg"
+        },
+        {
+          "name": "pulse check",
+          "level": "7",
+          "initiative": 9,
+          "file": "characters/cc-VI/cc-pulse-check.jpeg"
+        },
+        {
+          "name": "brilliant bolt",
+          "level": "8",
+          "initiative": 11,
+          "file": "characters/cc-VI/cc-brilliant-bolt.jpeg"
+        },
+        {
+          "name": "march to the beat",
+          "level": "8",
+          "initiative": 89,
+          "file": "characters/cc-VI/cc-march-to-the-beat.jpeg"
+        },
+        {
+          "name": "perfectly attuned",
+          "level": "9",
+          "initiative": 28,
+          "file": "characters/cc-VI/cc-perfectly-attuned.jpeg"
+        },
+        {
+          "name": "plasmatic bulwark",
+          "level": "9",
+          "initiative": 10,
+          "file": "characters/cc-VI/cc-plasmatic-bulwark.jpeg"
+        }
+      ]
+    },
+    "cc-WI": {
+      "name": "wildborn",
+      "game": "cc",
+      "mat": "character-mat-wildborn.jpeg",
+      "matBack": "character-mat-wildborn-back.jpeg",
+      "cards": [
+        {
+          "name": "wildborn reference",
+          "level": "0",
+          "initiative": 0,
+          "file": "characters/cc-WI/cc-wildborn-reference.jpeg"
+        },
+        {
+          "name": "accelerate",
+          "level": "1",
+          "initiative": 37,
+          "file": "characters/cc-WI/cc-accelerate.jpeg"
+        },
+        {
+          "name": "cooling radiance",
+          "level": "1",
+          "initiative": 13,
+          "file": "characters/cc-WI/cc-cooling-radiance.jpeg"
+        },
+        {
+          "name": "dissipate",
+          "level": "1",
+          "initiative": 63,
+          "file": "characters/cc-WI/cc-dissipate.jpeg"
+        },
+        {
+          "name": "echoes of chaos",
+          "level": "1",
+          "initiative": 73,
+          "file": "characters/cc-WI/cc-echoes-of-chaos.jpeg"
+        },
+        {
+          "name": "energy swell",
+          "level": "1",
+          "initiative": 20,
+          "file": "characters/cc-WI/cc-energy-swell.jpeg"
+        },
+        {
+          "name": "explosive crystals",
+          "level": "1",
+          "initiative": 87,
+          "file": "characters/cc-WI/cc-explosive-crystals.jpeg"
+        },
+        {
+          "name": "force of will",
+          "level": "1",
+          "initiative": 51,
+          "file": "characters/cc-WI/cc-force-of-will.jpeg"
+        },
+        {
+          "name": "frozen embrace",
+          "level": "1",
+          "initiative": 18,
+          "file": "characters/cc-WI/cc-frozen-embrace.jpeg"
+        },
+        {
+          "name": "pillars of flame",
+          "level": "1",
+          "initiative": 54,
+          "file": "characters/cc-WI/cc-pillars-of-flame.jpeg"
+        },
+        {
+          "name": "radiant touch",
+          "level": "1",
+          "initiative": 23,
+          "file": "characters/cc-WI/cc-radiant-touch.jpeg"
+        },
+        {
+          "name": "focused release",
+          "level": "X",
+          "initiative": 31,
+          "file": "characters/cc-WI/cc-focused-release.jpeg"
+        },
+        {
+          "name": "prismatic ripple",
+          "level": "X",
+          "initiative": 59,
+          "file": "characters/cc-WI/cc-prismatic-ripple.jpeg"
+        },
+        {
+          "name": "total recall",
+          "level": "X",
+          "initiative": 29,
+          "file": "characters/cc-WI/cc-total-recall.jpeg"
+        },
+        {
+          "name": "push the limit",
+          "level": "2",
+          "initiative": 12,
+          "file": "characters/cc-WI/cc-push-the-limit.jpeg"
+        },
+        {
+          "name": "transform energy",
+          "level": "2",
+          "initiative": 81,
+          "file": "characters/cc-WI/cc-transform-energy.jpeg"
+        },
+        {
+          "name": "gaze into the sun",
+          "level": "3",
+          "initiative": 44,
+          "file": "characters/cc-WI/cc-gaze-into-the-sun.jpeg"
+        },
+        {
+          "name": "magnetic flare",
+          "level": "3",
+          "initiative": 26,
+          "file": "characters/cc-WI/cc-magnetic-flare.jpeg"
+        },
+        {
+          "name": "endow with power",
+          "level": "4",
+          "initiative": 36,
+          "file": "characters/cc-WI/cc-endow-with-power.jpeg"
+        },
+        {
+          "name": "energetic overflow",
+          "level": "4",
+          "initiative": 60,
+          "file": "characters/cc-WI/cc-energetic-overflow.jpeg"
+        },
+        {
+          "name": "deep meditation",
+          "level": "5",
+          "initiative": 98,
+          "file": "characters/cc-WI/cc-deep-meditation.jpeg"
+        },
+        {
+          "name": "resonating blast",
+          "level": "5",
+          "initiative": 21,
+          "file": "characters/cc-WI/cc-resonating-blast.jpeg"
+        },
+        {
+          "name": "echo resonance",
+          "level": "6",
+          "initiative": 11,
+          "file": "characters/cc-WI/cc-echo-resonance.jpeg"
+        },
+        {
+          "name": "permafrost overload",
+          "level": "6",
+          "initiative": 58,
+          "file": "characters/cc-WI/cc-permafrost-overload.jpeg"
+        },
+        {
+          "name": "cryoshock",
+          "level": "7",
+          "initiative": 63,
+          "file": "characters/cc-WI/cc-cryoshock.jpeg"
+        },
+        {
+          "name": "wildsight infusion",
+          "level": "7",
+          "initiative": 33,
+          "file": "characters/cc-WI/cc-wildsight-infusion.jpeg"
+        },
+        {
+          "name": "desolation",
+          "level": "8",
+          "initiative": 22,
+          "file": "characters/cc-WI/cc-desolation.jpeg"
+        },
+        {
+          "name": "one with chaos",
+          "level": "8",
+          "initiative": 71,
+          "file": "characters/cc-WI/cc-one-with-chaos.jpeg"
+        },
+        {
+          "name": "arcane fury",
+          "level": "9",
+          "initiative": 91,
+          "file": "characters/cc-WI/cc-arcane-fury.jpeg"
+        },
+        {
+          "name": "manifest true power",
+          "level": "9",
+          "initiative": 27,
+          "file": "characters/cc-WI/cc-manifest-true-power.jpeg"
+        }
+      ]
+    },
+    "cc-WO": {
+      "name": "woebound",
+      "game": "cc",
+      "mat": "character-mat-woebound.jpeg",
+      "matBack": "character-mat-woebound-back.jpeg",
+      "cards": [
+        {
+          "name": "black ice",
+          "level": "1",
+          "initiative": 22,
+          "file": "characters/cc-WO/cc-black-ice.jpeg"
+        },
+        {
+          "name": "desert breeze",
+          "level": "1",
+          "initiative": 43,
+          "file": "characters/cc-WO/cc-desert-breeze.jpeg"
+        },
+        {
+          "name": "explosive sandslide",
+          "level": "1",
+          "initiative": 87,
+          "file": "characters/cc-WO/cc-explosive-sandslide.jpeg"
+        },
+        {
+          "name": "leaping fires",
+          "level": "1",
+          "initiative": 30,
+          "file": "characters/cc-WO/cc-leaping-fires.jpeg"
+        },
+        {
+          "name": "magma shell",
+          "level": "1",
+          "initiative": 27,
+          "file": "characters/cc-WO/cc-magma-shell.jpeg"
+        },
+        {
+          "name": "nightfall",
+          "level": "1",
+          "initiative": 90,
+          "file": "characters/cc-WO/cc-nightfall.jpeg"
+        },
+        {
+          "name": "radiant glow",
+          "level": "1",
+          "initiative": 57,
+          "file": "characters/cc-WO/cc-radiant-glow.jpeg"
+        },
+        {
+          "name": "split from the pack",
+          "level": "1",
+          "initiative": 7,
+          "file": "characters/cc-WO/cc-split-from-the-pack.jpeg"
+        },
+        {
+          "name": "survivor",
+          "level": "1",
+          "initiative": 65,
+          "file": "characters/cc-WO/cc-survivor.jpeg"
+        },
+        {
+          "name": "unhallowed strike",
+          "level": "1",
+          "initiative": 85,
+          "file": "characters/cc-WO/cc-unhallowed-strike.jpeg"
+        },
+        {
+          "name": "apricity",
+          "level": "X",
+          "initiative": 31,
+          "file": "characters/cc-WO/cc-apricity.jpeg"
+        },
+        {
+          "name": "eye of the storm",
+          "level": "X",
+          "initiative": 19,
+          "file": "characters/cc-WO/cc-eye-of-the-storm.jpeg"
+        },
+        {
+          "name": "the first trick",
+          "level": "X",
+          "initiative": 15,
+          "file": "characters/cc-WO/cc-the-first-trick.jpeg"
+        },
+        {
+          "name": "kiss of the red desert",
+          "level": "2",
+          "initiative": 23,
+          "file": "characters/cc-WO/cc-kiss-of-the-red-desert.jpeg"
+        },
+        {
+          "name": "tectonic impact",
+          "level": "2",
+          "initiative": 67,
+          "file": "characters/cc-WO/cc-tectonic-impact.jpeg"
+        },
+        {
+          "name": "midnight winds",
+          "level": "3",
+          "initiative": 81,
+          "file": "characters/cc-WO/cc-midnight-winds.jpeg"
+        },
+        {
+          "name": "winter's touch",
+          "level": "3",
+          "initiative": 33,
+          "file": "characters/cc-WO/cc-winters-touch.jpeg"
+        },
+        {
+          "name": "raging storm",
+          "level": "4",
+          "initiative": 20,
+          "file": "characters/cc-WO/cc-raging-storm.jpeg"
+        },
+        {
+          "name": "scorched earth",
+          "level": "4",
+          "initiative": 46,
+          "file": "characters/cc-WO/cc-scorched-earth.jpeg"
+        },
+        {
+          "name": "incandescent blade",
+          "level": "5",
+          "initiative": 42,
+          "file": "characters/cc-WO/cc-incandescent-blade.jpeg"
+        },
+        {
+          "name": "the second trick",
+          "level": "5",
+          "initiative": 13,
+          "file": "characters/cc-WO/cc-the-second-trick.jpeg"
+        },
+        {
+          "name": "coldfire supernova",
+          "level": "6",
+          "initiative": 95,
+          "file": "characters/cc-WO/cc-coldfire-supernova.jpeg"
+        },
+        {
+          "name": "molten growth",
+          "level": "6",
+          "initiative": 40,
+          "file": "characters/cc-WO/cc-molten-growth.jpeg"
+        },
+        {
+          "name": "silent gale",
+          "level": "7",
+          "initiative": 21,
+          "file": "characters/cc-WO/cc-silent-gale.jpeg"
+        },
+        {
+          "name": "solar eclipse",
+          "level": "7",
+          "initiative": 70,
+          "file": "characters/cc-WO/cc-solar-eclipse.jpeg"
+        },
+        {
+          "name": "engulfing firestorm",
+          "level": "8",
+          "initiative": 86,
+          "file": "characters/cc-WO/cc-engulfing-firestorm.jpeg"
+        },
+        {
+          "name": "obsidian blade",
+          "level": "8",
+          "initiative": 18,
+          "file": "characters/cc-WO/cc-obsidian-blade.jpeg"
+        },
+        {
+          "name": "demonic descension",
+          "level": "9",
+          "initiative": 87,
+          "file": "characters/cc-WO/cc-demonic-descension.jpeg"
+        },
+        {
+          "name": "the greatest trick",
+          "level": "9",
+          "initiative": 77,
+          "file": "characters/cc-WO/cc-the-greatest-trick.jpeg"
+        }
+      ]
+    }
   }
 }
