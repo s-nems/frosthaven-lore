@@ -8116,6 +8116,201 @@
           "file": "characters/cc-WO/cc-the-greatest-trick.jpeg"
         }
       ]
+    },
+    "cc-OT": {
+      "name": "thornreaper",
+      "game": "cc",
+      "manual": true,
+      "mat": "character-mat-thornreaper.jpeg",
+      "matBack": "character-mat-thornreaper-back.jpeg",
+      "cards": [
+        {
+          "name": "enhancement reference",
+          "level": "0",
+          "initiative": 0,
+          "file": "characters/cc-OT/cc-enhancement-reference.jpeg"
+        },
+        {
+          "name": "black rose",
+          "level": "X",
+          "initiative": 12,
+          "file": "characters/cc-OT/cc-black-rose.jpeg"
+        },
+        {
+          "name": "spiked embrace",
+          "level": "X",
+          "initiative": 31,
+          "file": "characters/cc-OT/cc-spiked-embrace.jpeg"
+        },
+        {
+          "name": "thornstride",
+          "level": "X",
+          "initiative": 24,
+          "file": "characters/cc-OT/cc-thornstride.jpeg"
+        },
+        {
+          "name": "cover of green",
+          "level": "1",
+          "initiative": 34,
+          "file": "characters/cc-OT/cc-cover-of-green.jpeg"
+        },
+        {
+          "name": "dawn's gift",
+          "level": "1",
+          "initiative": 56,
+          "file": "characters/cc-OT/cc-dawns-gift.jpeg"
+        },
+        {
+          "name": "encased in thorns",
+          "level": "1",
+          "initiative": 22,
+          "file": "characters/cc-OT/cc-encased-in-thorns.jpeg"
+        },
+        {
+          "name": "extended branch",
+          "level": "1",
+          "initiative": 61,
+          "file": "characters/cc-OT/cc-extended-branch.jpeg"
+        },
+        {
+          "name": "jagged clutch",
+          "level": "1",
+          "initiative": 32,
+          "file": "characters/cc-OT/cc-jagged-clutch.jpeg"
+        },
+        {
+          "name": "lashing thorns",
+          "level": "1",
+          "initiative": 39,
+          "file": "characters/cc-OT/cc-lashing-thorns.jpeg"
+        },
+        {
+          "name": "midsummer",
+          "level": "1",
+          "initiative": 50,
+          "file": "characters/cc-OT/cc-midsummer.jpeg"
+        },
+        {
+          "name": "photosynthesis",
+          "level": "1",
+          "initiative": 35,
+          "file": "characters/cc-OT/cc-photosynthesis.jpeg"
+        },
+        {
+          "name": "shrewd overgrowth",
+          "level": "1",
+          "initiative": 92,
+          "file": "characters/cc-OT/cc-shrewd-overgrowth.jpeg"
+        },
+        {
+          "name": "superradiance",
+          "level": "1",
+          "initiative": 48,
+          "file": "characters/cc-OT/cc-superradiance.jpeg"
+        },
+        {
+          "name": "violent sprout",
+          "level": "1",
+          "initiative": 63,
+          "file": "characters/cc-OT/cc-violent-sprout.jpeg"
+        },
+        {
+          "name": "outward spurs",
+          "level": "2",
+          "initiative": 43,
+          "file": "characters/cc-OT/cc-outward-spurs.jpeg"
+        },
+        {
+          "name": "floral burst",
+          "level": "2",
+          "initiative": 30,
+          "file": "characters/cc-OT/cc-floral-burst.jpeg"
+        },
+        {
+          "name": "bright skies",
+          "level": "3",
+          "initiative": 29,
+          "file": "characters/cc-OT/cc-bright-skies.jpeg"
+        },
+        {
+          "name": "welcome to the jungle",
+          "level": "3",
+          "initiative": 41,
+          "file": "characters/cc-OT/cc-welcome-to-the-jungle.jpeg"
+        },
+        {
+          "name": "prickly situation",
+          "level": "4",
+          "initiative": 20,
+          "file": "characters/cc-OT/cc-prickly-situation.jpeg"
+        },
+        {
+          "name": "twisted thistle",
+          "level": "4",
+          "initiative": 26,
+          "file": "characters/cc-OT/cc-twisted-thistle.jpeg"
+        },
+        {
+          "name": "barbed onslaught",
+          "level": "5",
+          "initiative": 58,
+          "file": "characters/cc-OT/cc-barbed-onslaught.jpeg"
+        },
+        {
+          "name": "branched slam",
+          "level": "5",
+          "initiative": 45,
+          "file": "characters/cc-OT/cc-branched-slam.jpeg"
+        },
+        {
+          "name": "devoured by thorns",
+          "level": "6",
+          "initiative": 72,
+          "file": "characters/cc-OT/cc-devoured-by-thorns.jpeg"
+        },
+        {
+          "name": "solar flare",
+          "level": "6",
+          "initiative": 36,
+          "file": "characters/cc-OT/cc-solar-flare.jpeg"
+        },
+        {
+          "name": "nature's fury",
+          "level": "7",
+          "initiative": 37,
+          "file": "characters/cc-OT/cc-natures-fury.jpeg"
+        },
+        {
+          "name": "rabid undergrowth",
+          "level": "7",
+          "initiative": 27,
+          "file": "characters/cc-OT/cc-rabid-undergrowth.jpeg"
+        },
+        {
+          "name": "fissive eruption",
+          "level": "8",
+          "initiative": 40,
+          "file": "characters/cc-OT/cc-fissive-eruption.jpeg"
+        },
+        {
+          "name": "impaling command",
+          "level": "8",
+          "initiative": 19,
+          "file": "characters/cc-OT/cc-impaling-command.jpeg"
+        },
+        {
+          "name": "bed of roses",
+          "level": "9",
+          "initiative": 10,
+          "file": "characters/cc-OT/cc-bed-of-roses.jpeg"
+        },
+        {
+          "name": "ravaged earth",
+          "level": "9",
+          "initiative": 86,
+          "file": "characters/cc-OT/cc-ravaged-earth.jpeg"
+        }
+      ]
     }
   }
 }
